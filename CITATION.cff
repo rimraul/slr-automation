@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "slr-automation: code, notebooks and exercises for automating systematic literature reviews"
+type: software
+version: 0.1.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/rimraul/slr-automation"
+authors:
+  - family-names: Rauleckas
+    given-names: Rimantas
+    affiliation: "Kaunas University of Technology"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # add if desired
+# doi: 10.5281/zenodo.XXXXXXX   # add after the first Zenodo-archived release

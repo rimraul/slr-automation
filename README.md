@@ -41,3 +41,9 @@ environment variables (Colab: Secrets). Never commit keys.
 
 Code MIT (`LICENSE`); fixtures and exercise text CC BY 4.0 (`LICENSE-CONTENT`).
 Third-party notes: PyMuPDF (via FULL_TEXT_SCREENING) is AGPL-3.0.
+
+## Maintenance
+
+Provided as-is for readers of the accompanying chapter. Issues and pull
+requests may go unanswered; forking is encouraged. See `CONTRIBUTING.md` and
+`SECURITY.md`. If you use this software, see `CITATION.cff`.
