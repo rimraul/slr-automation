@@ -11,4 +11,4 @@ authors:
     given-names: Rimantas
     affiliation: "Kaunas University of Technology"
     # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # add if desired
-# doi: 10.5281/zenodo.XXXXXXX   # add after the first Zenodo-archived release
+doi: 10.5281/zenodo.23942740   # concept DOI: always resolves to the latest version

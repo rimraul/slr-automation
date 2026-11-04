@@ -1,5 +1,7 @@
 # slr-automation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23942740.svg)](https://doi.org/10.5281/zenodo.23942740)
+
 Code, notebooks and exercises accompanying the chapter on automating
 systematic literature reviews (searching, deduplication, LLM-assisted
 screening, full-text retrieval and eligibility, quality appraisal, data
