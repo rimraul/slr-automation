@@ -1,0 +1,3 @@
+# Full-text eligibility screening companion repo (imported as `ft_screening`).
+# Pin to a tag/commit of FULL_TEXT_SCREENING deliberately; bump on release.
+ft-screening @ git+https://github.com/rimraul/FULL_TEXT_SCREENING.git@v0.1.0

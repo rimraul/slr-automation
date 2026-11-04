@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message": {
+    "total-results": 4,
+    "items": [
+      {
+        "DOI": "10.2000/s5.001",
+        "title": ["Screening automation with transformer models: a multi-review evaluation"],
+        "abstract": "<jats:p>Transformer-based classifiers were evaluated as title and abstract screeners across six completed reviews, with recall above 0.95 in five of them.</jats:p>",
+        "published": {"date-parts": [[2023, 6]]},
+        "author": [
+          {"given": "Elena", "family": "Kaz"},
+          {"given": "Mark", "family": "Turner"}
+        ]
+      },
+      {
+        "DOI": "10.2000/s5.002",
+        "title": ["A crowd-plus-model pipeline for review screening"],
+        "abstract": "<jats:p>Non-expert crowd judgements were combined with a machine-learning ranker; the hybrid matched expert recall at a third of the cost.</jats:p>",
+        "published": {"date-parts": [[2022]]},
+        "author": [
+          {"given": "Petra", "family": "Novak"}
+        ]
+      },
+      {
+        "DOI": "10.2000/s5.003",
+        "title": ["Query expansion for biomedical search using large language models"],
+        "abstract": "<jats:p>A large language model proposed synonyms and related concepts for a seed query, improving reference-set recall by twelve points.</jats:p>",
+        "published": {"date-parts": [[2024, 2]]},
+        "author": [
+          {"given": "Wei", "family": "Deng"},
+          {"given": "Anni", "family": "Salo"}
+        ]
+      },
+      {
+        "DOI": "10.2000/s5.004",
+        "title": ["Automated risk-of-bias assessment: a validation study"],
+        "abstract": "<jats:p>A model answered RoB2 signalling questions from trial full texts with moderate agreement against human consensus.</jats:p>",
+        "published": {"date-parts": [[2023, 11]]},
+        "author": [
+          {"given": "Marco", "family": "Ricci"}
+        ]
+      },
+      {
+        "title": ["A workshop report on reproducible search strategies"],
+        "abstract": "<jats:p>Notes from a methods workshop; no DOI was assigned by the publisher.</jats:p>",
+        "published": {"date-parts": [[2021]]},
+        "author": [
+          {"given": "Lena", "family": "Frei"}
+        ]
+      }
+    ]
+  }
+}

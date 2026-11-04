@@ -1,0 +1,45 @@
+[
+  {
+    "abstract": "Duplicate listing of fx-0012, indexed by this database in title case.",
+    "authors": [
+      "N. Kowalski"
+    ],
+    "cited_by": 8,
+    "doi": null,
+    "id": "fx-0028",
+    "journal": "Transportation Systems Simulation",
+    "native_key": "NK-fx-0028",
+    "title": "A Discrete-Event Simulation Of Airport Security Queuing During Holiday Travel Peaks",
+    "url": "https://example-fixture.invalid/fx-0028",
+    "year": 2019
+  },
+  {
+    "abstract": "A business-strategy analysis of supply-chain resilience practices adopted by multinational retail corporations following global shipping disruptions, unrelated to rural healthcare or disaster response planning.",
+    "authors": [
+      "AF. Lindberg"
+    ],
+    "cited_by": 5,
+    "doi": null,
+    "id": "fx-0029",
+    "journal": "Retail Supply Chain Strategy",
+    "native_key": "NK-fx-0029",
+    "title": "Supply chain resilience strategies for multinational retail corporations",
+    "url": "https://example-fixture.invalid/fx-0029",
+    "year": 2020
+  },
+  {
+    "abstract": "Duplicate listing of fx-0006, indexed by this database in lower case with a double space.",
+    "authors": [
+      "G. Novak",
+      "H. Petrov"
+    ],
+    "cited_by": 9,
+    "doi": null,
+    "id": "fx-0030",
+    "journal": "Journal of Remote Health Economics",
+    "native_key": "NK-fx-0030",
+    "title": "cost-effectiveness of telemedicine triage in remote  mining communities",
+    "url": "https://example-fixture.invalid/fx-0030",
+    "year": 2018
+  }
+]

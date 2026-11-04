@@ -1,0 +1,57 @@
+MIT License
+
+Copyright (c) 2026 Rimantas Rauleckas and contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+
+Scope of this license
+---------------------
+The complete standard MIT notice above is the authoritative licence text (it
+is the "MIT notice body" reproduced once in the manuscript's S1 code-licence
+box, per the Phase E manuscript-drafting plan). This section only records
+which files it covers; it is not part of the notice.
+
+This MIT license covers the teaching *code* of the Track 1 chapter, namely:
+
+  * every `*.py` file under `examples/chapter/`;
+  * `examples/__init__.py` and `examples/legacy/__init__.py`;
+  * `scripts/extract_listings.py`, `scripts/gen_topic_embeddings.py`,
+    `scripts/lint_manuscript.py`, and `scripts/build_manuscript.py`;
+  * `tests/chapter_examples/test_extract_listings.py` and
+    `tests/chapter_examples/test_manuscript_lint.py`; and
+  * the eight golden-fixture files under
+    `tests/chapter_examples/fixtures/manuscript_expand/`
+    (`listing_in.md`, `listing.expected.md`, `assignment_in.md`,
+    `assignment.expected.md`, `figure_in.md`, `figure.expected.md`,
+    `refs_in.md`, `refs.expected.md`).
+
+It does NOT cover:
+  * `examples/legacy/*.py` (pre-existing charting/chunking code, out of the
+    scope of Phase E.2b and licensed separately by the wider project);
+  * `*.md` files **under `examples/chapter/`** and everything under
+    `examples/chapter/data/` -- those are covered by
+    `examples/chapter/LICENSE-CONTENT` (CC BY 4.0). (This exclusion is scoped
+    to `examples/chapter/`; the eight `*.md` golden-fixture files listed above,
+    which live under `tests/`, ARE covered by this MIT licence.)
+  * everything under `manuscript/` -- see `manuscript/LICENSE-NOTES.md`.
+  * `.gitattributes` (repo root) -- repo configuration that enforces this
+    material's LF line-ending requirement; it is recorded in
+    `manuscript/LICENSE-NOTES.md` and is not itself licensed as code.

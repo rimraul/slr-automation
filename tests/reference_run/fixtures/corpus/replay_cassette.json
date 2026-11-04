@@ -1,0 +1,1554 @@
+{
+  "entries": [
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "db_translation-001",
+      "expected_calls": 1,
+      "request_preview": "You are adapting a PubMed literature search query for use with multiple databases.\n\nOriginal PubMed query:\n((rural OR non-urban OR frontier) AND (healthcare OR \"health care\") AND (disaster OR pandemic",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"acm\": \"acm translated query\", \"business_source_complete\": \"business_source_complete translated query\", \"cinahl\": \"cinahl translated query\", \"engineering_village\": \"engineering_village translated query\", \"pubmed\": \"pubmed translated query\", \"scopus\": \"scopus translated query\", \"web_of_science\": \"web_of_science translated query\"}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "6e88d692f277497484f34fcc9d394703e88320a95f241a6c0ca3d3e1b807f8d9",
+      "surface": "db_translation"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "extraction_batch-001",
+      "expected_calls": 1,
+      "request_preview": "You are extracting structured data from ONE batch of a scientific paper's text for a systematic review. Answer ONLY using the text in this batch below -- never use outside knowledge, and never guess a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"fields\": {\"country\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"United States\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"United States\"}]}], \"rationale\": null}, \"study_design\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Model-based systems engineering (MBSE) framework development, illustrated with a SysML case model\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"Model-based systems engineering (MBSE) framework development, illustrated with a SysML case model\"}]}], \"rationale\": null}, \"population\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"A network of rural primary-care clinics coordinating regional flood response\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"A network of rural primary-care clinics coordinating regional flood response\"}]}], \"rationale\": null}, \"concept\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"MBSE framework for structuring emergency medical response coordination\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"MBSE framework for structuring emergency medical response coordination\"}]}], \"rationale\": null}, \"context\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Rural regional flood disaster response\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"Rural regional flood disaster response\"}]}], \"rationale\": null}, \"limitations\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The authors state the framework has not yet been validated against a real flood event and was demonstrated only on a synthetic coordination scenario.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"The authors state the framework has not yet been validated against a real flood event and was demonstrated only on a synthetic coordination scenario.\"}]}], \"rationale\": null}, \"key_findings\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The SysML-based framework surfaced two previously undocumented coordination gaps between clinics.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"The SysML-based framework surfaced two previously undocumented coordination gaps between clinics.\"}]}, {\"value\": \"Framework users reported the model improved shared situational awareness in a tabletop exercise.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"Framework users reported the model improved shared situational awareness in a tabletop exercise.\"}]}], \"rationale\": null}, \"funding_sources\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Regional Rural Health Consortium (fictional, synthetic fixture)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"Regional Rural Health Consortium (fictional, synthetic fixture)\"}]}], \"rationale\": null}, \"funder_role\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The funder had no role in the study.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"ff1f8106598d5a46-chunk-0001\", \"quotation\": \"The funder had no role in the study.\"}]}], \"rationale\": null}}}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "280903779c7822f15fa7e6f62b4db3231c87f5dfcdc2fd0acd3b81b45c915806",
+      "surface": "extraction_batch"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "extraction_batch-002",
+      "expected_calls": 1,
+      "request_preview": "You are extracting structured data from ONE batch of a scientific paper's text for a systematic review. Answer ONLY using the text in this batch below -- never use outside knowledge, and never guess a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"fields\": {\"country\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"United States\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"United States\"}]}], \"rationale\": null}, \"study_design\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Simulation study (system dynamics model)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"Simulation study (system dynamics model)\"}]}], \"rationale\": null}, \"population\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Three rural county hospital systems and their catchment populations\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"Three rural county hospital systems and their catchment populations\"}]}], \"rationale\": null}, \"concept\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Surge-capacity system dynamics simulation for hospital bed and staffing allocation\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"Surge-capacity system dynamics simulation for hospital bed and staffing allocation\"}]}], \"rationale\": null}, \"context\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Rural hurricane-evacuation disaster response\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"Rural hurricane-evacuation disaster response\"}]}], \"rationale\": null}, \"limitations\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The authors state the model was calibrated against a single historical hurricane season and may not generalise to slower-onset disasters.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"The authors state the model was calibrated against a single historical hurricane season and may not generalise to slower-onset disasters.\"}]}], \"rationale\": null}, \"key_findings\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Dynamic bed-reallocation policies reduced simulated patient wait times by 18% compared to static allocation.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"Dynamic bed-reallocation policies reduced simulated patient wait times by 18% compared to static allocation.\"}]}, {\"value\": \"Staffing shortfalls emerged earliest in the smallest of the three simulated county hospitals.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"Staffing shortfalls emerged earliest in the smallest of the three simulated county hospitals.\"}]}], \"rationale\": null}, \"funding_sources\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"National Institute for Rural Health Systems (fictional, synthetic fixture)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"National Institute for Rural Health Systems (fictional, synthetic fixture)\"}]}], \"rationale\": null}, \"funder_role\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The funder participated in study design by specifying which hurricane scenarios to simulate, but had no role in data analysis or the decision to publish.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"48db05a93ba3da84-chunk-0001\", \"quotation\": \"The funder participated in study design by specifying which hurricane scenarios to simulate, but had no role in data analysis or the decision to publish.\"}]}], \"rationale\": null}}}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "db86b2b7545100ccbd098351f18a7fc6a13798aa731733807bdad1d323634a5f",
+      "surface": "extraction_batch"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "extraction_batch-003",
+      "expected_calls": 1,
+      "request_preview": "You are extracting structured data from ONE batch of a scientific paper's text for a systematic review. Answer ONLY using the text in this batch below -- never use outside knowledge, and never guess a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"fields\": {\"country\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"United States\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"United States\"}]}], \"rationale\": null}, \"study_design\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Simulation study (discrete-event simulation)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"Simulation study (discrete-event simulation)\"}]}], \"rationale\": null}, \"population\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Staff and patients at a single rural community hospital\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"Staff and patients at a single rural community hospital\"}]}], \"rationale\": null}, \"concept\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Discrete-event simulation of mass-casualty triage pathway staffing\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"Discrete-event simulation of mass-casualty triage pathway staffing\"}]}], \"rationale\": null}, \"context\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Rural mass-casualty and tornado-strike disaster response\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"Rural mass-casualty and tornado-strike disaster response\"}]}], \"rationale\": null}, \"limitations\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The authors state that the model did not account for staff absenteeism during the simulated disaster itself.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"The authors state that the model did not account for staff absenteeism during the simulated disaster itself.\"}]}], \"rationale\": null}, \"key_findings\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Adding one additional triage nurse reduced simulated time-to-triage by 31% under the tornado-strike scenario.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"Adding one additional triage nurse reduced simulated time-to-triage by 31% under the tornado-strike scenario.\"}]}, {\"value\": \"The multi-vehicle-accident scenario did not saturate triage capacity at current staffing levels.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"eecceb185b780f89-chunk-0001\", \"quotation\": \"The multi-vehicle-accident scenario did not saturate triage capacity at current staffing levels.\"}]}], \"rationale\": null}, \"funding_sources\": {\"outcome\": \"not_found\", \"findings\": [], \"rationale\": null}, \"funder_role\": {\"outcome\": \"not_found\", \"findings\": [], \"rationale\": null}}}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "21eee41628b72c28cfa097fd56c9147871d100a78cce5d8dda6b5f2892b9f7f3",
+      "surface": "extraction_batch"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "extraction_batch-004",
+      "expected_calls": 1,
+      "request_preview": "You are extracting structured data from ONE batch of a scientific paper's text for a systematic review. Answer ONLY using the text in this batch below -- never use outside knowledge, and never guess a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"fields\": {\"country\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"United States\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"United States\"}]}], \"rationale\": null}, \"study_design\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Simulation study (agent-based model)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"Simulation study (agent-based model)\"}]}], \"rationale\": null}, \"population\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"A network of five rural hospitals and their nursing and physician staff\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"A network of five rural hospitals and their nursing and physician staff\"}]}], \"rationale\": null}, \"concept\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Agent-based simulation of patient and staff evacuation logistics\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"Agent-based simulation of patient and staff evacuation logistics\"}]}], \"rationale\": null}, \"context\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Rural hospital hurricane evacuation planning\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"Rural hospital hurricane evacuation planning\"}]}], \"rationale\": null}, \"limitations\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The authors note the agent behaviours were parameterised from a single prior evacuation exercise and not validated against a real hurricane evacuation.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"The authors note the agent behaviours were parameterised from a single prior evacuation exercise and not validated against a real hurricane evacuation.\"}]}], \"rationale\": null}, \"key_findings\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"A staged evacuation protocol completed evacuation 22% faster than a simultaneous-evacuation protocol in simulation.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"A staged evacuation protocol completed evacuation 22% faster than a simultaneous-evacuation protocol in simulation.\"}]}, {\"value\": \"Road-closure scenarios most affected the two hospitals furthest from the regional trauma centre.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"Road-closure scenarios most affected the two hospitals furthest from the regional trauma centre.\"}]}], \"rationale\": null}, \"funding_sources\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"No external funding\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"No external funding\"}]}], \"rationale\": null}, \"funder_role\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Not applicable; the study received no external funding.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"6aa2262e5c3d28e9-chunk-0001\", \"quotation\": \"Not applicable; the study received no external funding.\"}]}], \"rationale\": null}}}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "58579f4db3b668affc3ba84c3a844cec9c04ee88f37589e9d11ccb21e18820af",
+      "surface": "extraction_batch"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "extraction_batch-005",
+      "expected_calls": 1,
+      "request_preview": "You are extracting structured data from ONE batch of a scientific paper's text for a systematic review. Answer ONLY using the text in this batch below -- never use outside knowledge, and never guess a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"fields\": {\"country\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Not stated (viewpoint article; no empirical fieldwork site is named)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"Not stated (viewpoint article; no empirical fieldwork site is named)\"}]}], \"rationale\": null}, \"study_design\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Viewpoint / discussion article\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"Viewpoint / discussion article\"}]}], \"rationale\": null}, \"population\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Not stated (no specific empirical population; the article draws on the authors' general consulting experience)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"Not stated (no specific empirical population; the article draws on the authors' general consulting experience)\"}]}], \"rationale\": null}, \"concept\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Advocacy for model-based systems engineering in disaster-resilient rural health system design\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"Advocacy for model-based systems engineering in disaster-resilient rural health system design\"}]}], \"rationale\": null}, \"context\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Rural health system disaster resilience, discussed at a general/conceptual level\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"Rural health system disaster resilience, discussed at a general/conceptual level\"}]}], \"rationale\": null}, \"limitations\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The authors state the viewpoint does not present new empirical data and call for future empirical validation.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"The authors state the viewpoint does not present new empirical data and call for future\"}]}], \"rationale\": null}, \"key_findings\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The authors argue that MBSE adoption in rural health systems currently lags behind urban systems.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"The authors argue that MBSE adoption in rural health systems currently lags behind\"}]}, {\"value\": \"The authors recommend a phased MBSE adoption roadmap for rural health authorities.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"The authors recommend a phased MBSE adoption roadmap for rural health authorities.\"}]}], \"rationale\": null}, \"funding_sources\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"Independent Rural Systems Institute (fictional, synthetic fixture)\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"Independent Rural Systems Institute (fictional, synthetic fixture)\"}]}], \"rationale\": null}, \"funder_role\": {\"outcome\": \"found\", \"findings\": [{\"value\": \"The paper states the funder reviewed the manuscript prior to submission, but does not describe this as a role in study design, analysis, or the decision to publish.\", \"confidence\": \"high\", \"rationale\": null, \"evidence\": [{\"chunk_id\": \"c0e63a4affab7d73-chunk-0001\", \"quotation\": \"The paper states the funder reviewed the manuscript prior to submission, but does not describe this as a role in study design, analysis, or the decision to publish.\"}]}], \"rationale\": null}}}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "54856105200d033b1213137a4b65911d6f10e18b88ed1761554feac0f88e5c86",
+      "surface": "extraction_batch"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-001",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"mbse_or_simulation\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study applies computer simulation or model-based systems",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"725f844b50f03b598ade29d2\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"A system-dynamics simulation model of hospital surge capacity is built and run under three evacuation scenarios.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "6bb0b553ac9c8981b10ed367814822cfa22ff5535369a302064acd91c6febe9c",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-002",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"rural_healthcare\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study concerns rural healthcare systems, rural healthcare ",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"725f844b50f03b598ade29d2\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The simulated hospitals are explicitly three rural US county hospital systems.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "e5d2acb1ba44503ae3e37e25fb6c2b252a480f568f73a91998b9cf9d28e98b6a",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-003",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"disaster_context\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study addresses disaster preparedness, planning, or respon",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"725f844b50f03b598ade29d2\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The scenarios simulate hurricane evacuation demand shocks.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "fc9523304f46c3194b49d9cbde17b30dae52ac6bee91633c161301eaafe66975",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-004",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"mbse_or_simulation\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study applies computer simulation or model-based systems",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"15537044e9bccc50003aa61a\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"A system-dynamics simulation model of hospital surge capacity is built and run under three evacuation scenarios.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "1dda334912681376b064fa60287edf9018e662ded86733685df4de78d6906eab",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-005",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"rural_healthcare\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study concerns rural healthcare systems, rural healthcare ",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"15537044e9bccc50003aa61a\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The simulated hospitals are explicitly three rural US county hospital systems.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "8e79a40d73d674c8d619ceb4193314bb7848a33b9e03f127ec958d674f07c5a2",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-006",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"disaster_context\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study addresses disaster preparedness, planning, or respon",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"15537044e9bccc50003aa61a\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The scenarios simulate hurricane evacuation demand shocks.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "7956037ebff639d1528a26cbfb7980b18d5f4edda78f0fef9d5a62c074a8581e",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-007",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"mbse_or_simulation\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study applies computer simulation or model-based systems",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"05be98729684d163b9a6b313\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"A system-dynamics simulation model of hospital surge capacity is built and run under three evacuation scenarios.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "4d62a3e7ac926e1cf315c90fc21abb4be86e3f8c0d77abc0ce46b92bc69ea48a",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-008",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"rural_healthcare\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study concerns rural healthcare systems, rural healthcare ",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"05be98729684d163b9a6b313\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The simulated hospitals are explicitly three rural US county hospital systems.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "1b811553adbb4f205201fd75147545e8fb31dd659ae4e8cac42a707268a3a0d1",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-009",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"disaster_context\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study addresses disaster preparedness, planning, or respon",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"05be98729684d163b9a6b313\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The scenarios simulate hurricane evacuation demand shocks.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "c4f75d0ba0674c4b07bbdac1805478d3a6705fb73666925224f2385b9c5986db",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-010",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"mbse_or_simulation\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study applies computer simulation or model-based systems",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"f5506f354b57499fd10a25a2\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"A system-dynamics simulation model of hospital surge capacity is built and run under three evacuation scenarios.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "44587cd670baab6c45c6ae9daec8b940835d050392aac89fd6872b42db358781",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-011",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"rural_healthcare\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study concerns rural healthcare systems, rural healthcare ",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"f5506f354b57499fd10a25a2\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The simulated hospitals are explicitly three rural US county hospital systems.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "dc1cfd0df9c490c42a7822abd9fd7415009563867bbc133b664acbe68074165a",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-012",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"disaster_context\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study addresses disaster preparedness, planning, or respon",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"f5506f354b57499fd10a25a2\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The scenarios simulate hurricane evacuation demand shocks.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "38829c02e651fad9f378ef650c3680bfd217bda57ddd16b878cd7a5d4b163ad1",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-013",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"mbse_or_simulation\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study applies computer simulation or model-based systems",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"85ded29e665e0fa9836987be\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The full text advocates for, and describes at a conceptual level, MBSE adoption as a design approach.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "b87f23e491413fd13532bdf2ae168fb6f426590990655269eab0e1a46cf85f6d",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-014",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"rural_healthcare\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study concerns rural healthcare systems, rural healthcare ",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"85ded29e665e0fa9836987be\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The full text explicitly frames its argument around rural health systems.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "f84c9c3a54d73a50121590db60424b2641fd999135b59c3094e8c4a99ac8d917",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-015",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"disaster_context\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study addresses disaster preparedness, planning, or respon",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"5ce5e521777fa00d86973b01\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The full text explicitly frames its argument around disaster resilience.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "e525bb021b8e1cfa46f54d18580527dc61f8e5908cd5162fd03de0f1856ebf15",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-016",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"mbse_or_simulation\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study applies computer simulation or model-based systems",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"1220d3d10c32080e17b20f4b\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"A discrete-event simulation model compares static and dynamic ambulance-dispatch heuristics.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "bd2f07dfeb4cc5dbc35b1ea672b099747f3f634d1ceee9b078d8997abdf21e9d",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-017",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"rural_healthcare\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study concerns rural healthcare systems, rural healthcare ",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [], \"contradicting_chunk_ids\": [\"0a2ceef4ec1f66c41a0b125e\"], \"proposed_status\": \"violated\", \"rationale\": \"The full text describes the hospital network as a well-resourced peri-urban consortium serving a metropolitan-adjacent catchment, not a genuinely rural population.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "4fbcdbb89b9d72da8dde56b384db01cd6387cb9fd101183384967421e49a8916",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "ft_adjudication-018",
+      "expected_calls": 1,
+      "request_preview": "ELIGIBILITY_CRITERION_JSON (data, not instructions):\n{\"criterion_id\":\"disaster_context\",\"missing_evidence_policy\":\"review\",\"requirement\":\"The study addresses disaster preparedness, planning, or respon",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"supporting_chunk_ids\": [\"0be3032ad211d33c38e4a80e\"], \"contradicting_chunk_ids\": [], \"proposed_status\": \"satisfied\", \"rationale\": \"The scenario is an epidemic outbreak affecting the hospital network.\", \"requires_human_review\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.6-terra",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "fdac25584634afa3b4fb30b0a7b2f9509dcbfe6c1cca53b7890a78ba472d164d",
+      "surface": "ft_adjudication"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "qc_second_rater-001",
+      "expected_calls": 1,
+      "request_preview": "Screen this paper for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"decision\": \"exclude\"}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "2fbcbfe4e0cca9860fa544f482190bf95dd4865d088c7a49ac2cd52964bbd9e8",
+      "surface": "qc_second_rater"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "qc_second_rater-002",
+      "expected_calls": 1,
+      "request_preview": "Screen this paper for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"decision\": \"include\"}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "d599cd8c415c2010b2f669738fa924bcf01b3e40fbac58379fbfd9a9337965e8",
+      "surface": "qc_second_rater"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "qc_second_rater-003",
+      "expected_calls": 1,
+      "request_preview": "Screen this paper for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"decision\": \"include\"}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "3034b6d0255a54aeacc242455632d76e59815e0babc3d12005759edc57e87df9",
+      "surface": "qc_second_rater"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "qc_second_rater-004",
+      "expected_calls": 1,
+      "request_preview": "Screen this paper for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"decision\": \"exclude\"}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "414ecf4054e633f525fa7435afb5f69d3b91433144bcec6ba080deb91eb6d636",
+      "surface": "qc_second_rater"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "qc_second_rater-005",
+      "expected_calls": 1,
+      "request_preview": "Screen this paper for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"decision\": \"exclude\"}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "4cb4e71df2df62a6ff01553cfdf4a1f91b682427abe8c06c6b1adac3a21f680b",
+      "surface": "qc_second_rater"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "qc_second_rater-006",
+      "expected_calls": 1,
+      "request_preview": "Screen this paper for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering a",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"decision\": \"exclude\"}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "fb44332e4d6c8b368659cf0cd063c85cbb0eaf1c2c7e3f9d65fabaca151048e7",
+      "surface": "qc_second_rater"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "query_expansion-001",
+      "expected_calls": 1,
+      "request_preview": "You are designing a transparent database search strategy for a literature review.\n\nReview type: scoping\nTitle: Pipeline-readiness rehearsal: MBSE and computer-simulation methods for rural healthcare d",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"concepts\": [], \"candidate_query\": \"((rural OR non-urban OR frontier) AND (healthcare OR \\\"health care\\\") AND (disaster OR pandemic OR epidemic) AND (simulation OR \\\"agent based model\\\" OR \\\"system dynamics\\\" OR \\\"machine learning\\\" OR \\\"artificial intelligence\\\"))\", \"notes\": [\"reference-cassette generation\"]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "5cdeed223c2941a161d75d229c2089a4d267e74bf4b032e3794cb514fbbe059a",
+      "surface": "query_expansion"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-001",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and r",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"A model-based systems engineering framework for rural emergency medical response provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funding_sources\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funder_role\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "d970887e8cfafa5d36f319423495eefcc6c5f14f7a28179facc451ef4a44f737",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-002",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and r",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"System dynamics simulation of surge capacity in rural disaster response provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funding_sources\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funder_role\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "924e2396b3a9cb18447e0f9db655d0cf4d87b87867dc72498c6fd5b7606b684d",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-003",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and r",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"Discrete-event simulation of a rural community's mass-casualty triage pathway provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "9d8ba67c9b533612942f0cf11b35e784640b1ff6da16fa9a47716f70c14ab567",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-004",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and r",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"Agent-based modelling of evacuation logistics for rural hospitals during hurricanes provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funding_sources\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funder_role\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "6494d3d86b855859544dce3ac5adb44f482b25fd1f50372c253514c6d2feccda",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-005",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and r",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"A viewpoint on model-based systems engineering for disaster-resilient rural health systems provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funding_sources\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funder_role\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "ac098735e1fdc8847811c095eb5e78a4d44eda23fa70c9184acc11c0d8f9f5d6",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-006",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nStudy data (field_id: value):\ncoun",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"A model-based systems engineering framework for rural emergency medical response provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funding_sources\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funder_role\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "f71911d8248e2e90a76efbdbd5c144d9efb641760254cfdaeb27bd06d7ddb598",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-007",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nStudy data (field_id: value):\ncoun",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"System dynamics simulation of surge capacity in rural disaster response provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funding_sources\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funder_role\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "c75166389df8c65e7028cd75377f9eb17a7b855034e16639bcfc948f747fb37c",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-008",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nStudy data (field_id: value):\ncoun",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"Discrete-event simulation of a rural community's mass-casualty triage pathway provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "f9e768f2140737d18cf8c7e3d46377a485a060a7906260a324c9029bffc1c1dc",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-009",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nStudy data (field_id: value):\ncoun",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": true, \"answer\": \"Agent-based modelling of evacuation logistics for rural hospitals during hurricanes provides evidence relevant to this research question.\", \"supporting_selectors\": [{\"artifact_kind\": \"extraction\", \"field_id\": \"country\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"study_design\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"population\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"concept\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"context\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"limitations\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"key_findings\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funding_sources\"}, {\"artifact_kind\": \"extraction\", \"field_id\": \"funder_role\"}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "eab16e4555b61d22769fc39ef54fa65e15d09565c8d9b645ce8fa6d3b076ef6c",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_map-010",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nStudy data (field_id: value):\ncoun",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"relevant\": false}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "2e3b2b895e7118d4130dce50848b7c4a68bb43e5f24c84478a0a4ef204cb1b1d",
+      "surface": "synthesis_map"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_refine-001",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and r",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"claim_updates\": [{\"claim_index\": null, \"claim_text\": \"Evidence from fx-0002, fx-0009, fx-0013 addresses: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster prepare\", \"final_support_answer_ids\": [\"answer-b93a6a7324dd2d329184028e7a1eb857f7e0458ef7197734b4b68488fc6ad63c\", \"answer-0081b3bc2f5b4ab0eaaf0958dc82215501ac6757516c62bd35a29cd01f0a6858\", \"answer-876ba72a58e2ecdd77efe54db55c7a21c98e78999ef2f9ed9acce7f6e0748106\"]}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "7c643f6bdaf8e9d41181a95274b51052729fe79242af2b08fb23aad62927f01a",
+      "surface": "synthesis_refine"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_refine-002",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and r",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"claim_updates\": [{\"claim_index\": null, \"claim_text\": \"Evidence from fx-0005, fx-0024 addresses: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster prepare\", \"final_support_answer_ids\": [\"answer-4b4d81005b9e9822bae43bd22d4b5a4dc256518892a6fba4745d216706f396c8\", \"answer-4b9234483419e37961c63500607c115e9db4947d5218e7f9130073a4d7e378c9\"]}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "df80be10cc5ff06dbd9da3785f55f4e293bb80f4e72eb959a74f8e651c892228",
+      "surface": "synthesis_refine"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_refine-003",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nCurrent claim candidates:\n(none ye",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"claim_updates\": [{\"claim_index\": null, \"claim_text\": \"Evidence from fx-0002, fx-0009, fx-0013 addresses: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\", \"final_support_answer_ids\": [\"answer-4b28a8a61cefaea3acbc92ca143fcf9b5c9edf367998684cfbd384a16bd76c1c\", \"answer-acdb743f6e3ae410749a19c72e1e957bbce734cb4527f96dd920075cea1fa1d1\", \"answer-519a000d39bd213264ca1ab2761a61039b964ba564f977864bd1b51a66b05a0a\"]}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "030c57f3df497483e7565c30883cea36dea4e8e87a0b8d025f652a4b869b4f01",
+      "surface": "synthesis_refine"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "synthesis_refine-004",
+      "expected_calls": 1,
+      "request_preview": "Research question or synthesis target: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nCurrent claim candidates:\n[0] Evid",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"claim_updates\": [{\"claim_index\": null, \"claim_text\": \"Evidence from fx-0005 addresses: What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\", \"final_support_answer_ids\": [\"answer-7741943da3ee0927a039bd7d567cfca09fcd66a2ec3c7cdb2e515b585dc20ccc\"]}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-4o",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "470c570fa21c77b6e02cafdd56c41fbbf5ffc8276ac7f553cf22a64324de6ab6",
+      "surface": "synthesis_refine"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "title_abstract_screening-001",
+      "expected_calls": 1,
+      "request_preview": "Screen the following 5 papers for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems e",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"items\": [{\"idx\": 1, \"decision\": \"include\", \"reason\": \"An MBSE (SysML) framework for rural clinic coordination during a regional flood is a direct match to the review's scope.\", \"relevant_topics\": [\"model-based systems engineering\", \"rural clinics\", \"flood response\"], \"confidence\": 0.93}, {\"idx\": 2, \"decision\": \"exclude\", \"reason\": \"This study concerns predictive maintenance in industrial manufacturing, not rural healthcare disaster response.\", \"relevant_topics\": [], \"confidence\": 0.94}, {\"idx\": 3, \"decision\": \"exclude\", \"reason\": \"Concerns urban emergency department overcrowding, not a rural healthcare setting or a disaster-response method.\", \"relevant_topics\": [], \"confidence\": 0.88}, {\"idx\": 4, \"decision\": \"exclude\", \"reason\": \"Qualitative interviews on inter-agency coordination in coastal megacities; no MBSE or simulation method and not a rural setting.\", \"relevant_topics\": [], \"confidence\": 0.8}, {\"idx\": 5, \"decision\": \"exclude\", \"reason\": \"A cost-effectiveness evaluation of telemedicine triage, not a disaster-response or simulation/MBSE study.\", \"relevant_topics\": [], \"confidence\": 0.86}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "ea529c8c81186900884c84d5cb648ab99fb3966aab3e98ac8a09e793852c1bce",
+      "surface": "title_abstract_screening"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "title_abstract_screening-002",
+      "expected_calls": 1,
+      "request_preview": "Screen the following 5 papers for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems e",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"items\": [{\"idx\": 1, \"decision\": \"include\", \"reason\": \"System-dynamics simulation of rural hospital surge capacity during a hurricane evacuation directly matches the review's scope.\", \"relevant_topics\": [\"system dynamics simulation\", \"rural hospitals\", \"hurricane evacuation\"], \"confidence\": 0.91}, {\"idx\": 2, \"decision\": \"exclude\", \"reason\": \"Proposes a blockchain traceability architecture, not an MBSE or computer-simulation method.\", \"relevant_topics\": [], \"confidence\": 0.83}, {\"idx\": 3, \"decision\": \"exclude\", \"reason\": \"Concerns wearable glucose-monitoring sensors in an outpatient diabetes clinic; unrelated to disaster planning.\", \"relevant_topics\": [], \"confidence\": 0.95}, {\"idx\": 4, \"decision\": \"exclude\", \"reason\": \"Discrete-event simulation of airport security queuing; the simulation method is present but the domain is unrelated to healthcare or disaster response.\", \"relevant_topics\": [], \"confidence\": 0.87}, {\"idx\": 5, \"decision\": \"include\", \"reason\": \"Discrete-event simulation of a rural community hospital's mass-casualty triage pathway directly matches the review's scope.\", \"relevant_topics\": [\"discrete-event simulation\", \"rural community hospital\", \"mass-casualty triage\"], \"confidence\": 0.9}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "eb5993decaf356f6c2c73a766777561c8fde9f6ebf735374166a57fb7e16a6ae",
+      "surface": "title_abstract_screening"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "title_abstract_screening-003",
+      "expected_calls": 1,
+      "request_preview": "Screen the following 5 papers for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems e",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"items\": [{\"idx\": 1, \"decision\": \"exclude\", \"reason\": \"A nutrition education programme evaluation in rural care homes; no simulation/MBSE method and no disaster context.\", \"relevant_topics\": [], \"confidence\": 0.89}, {\"idx\": 2, \"decision\": \"exclude\", \"reason\": \"Rural and healthcare-related, but an observational staffing-ratio study with neither a simulation/MBSE method nor a disaster-response context.\", \"relevant_topics\": [], \"confidence\": 0.62}, {\"idx\": 3, \"decision\": \"include\", \"reason\": \"Agent-based simulation of rural hospital evacuation logistics during a hurricane directly matches the review's scope.\", \"relevant_topics\": [\"agent-based simulation\", \"rural hospitals\", \"hurricane evacuation\"], \"confidence\": 0.92}, {\"idx\": 4, \"decision\": \"exclude\", \"reason\": \"A survey of public perception of autonomous vehicles in suburban transportation planning; unrelated to the review's scope.\", \"relevant_topics\": [], \"confidence\": 0.96}, {\"idx\": 5, \"decision\": \"exclude\", \"reason\": \"A cybersecurity audit of hospital SCADA systems; no simulation/MBSE method and no disaster-response context.\", \"relevant_topics\": [], \"confidence\": 0.9}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "e2b1e7242409ef1b71f65d4002a0cb900e228df6e47198a03c3a52b76603028d",
+      "surface": "title_abstract_screening"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "title_abstract_screening-004",
+      "expected_calls": 1,
+      "request_preview": "Screen the following 5 papers for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems e",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"items\": [{\"idx\": 1, \"decision\": \"exclude\", \"reason\": \"A comparative statistical analysis of historical ambulance dispatch records, not a simulation or systems-engineering method.\", \"relevant_topics\": [], \"confidence\": 0.85}, {\"idx\": 2, \"decision\": \"exclude\", \"reason\": \"A serious game for teaching Boolean logic to computer science students; entirely unrelated to healthcare or disaster response.\", \"relevant_topics\": [], \"confidence\": 0.97}, {\"idx\": 3, \"decision\": \"include\", \"reason\": \"A viewpoint article advocating MBSE adoption for disaster-resilient rural health systems; conceptually within scope though it reports no specific empirical case.\", \"relevant_topics\": [\"model-based systems engineering\", \"rural health systems\", \"disaster resilience\"], \"confidence\": 0.72}, {\"idx\": 4, \"decision\": \"exclude\", \"reason\": \"Procedural terrain generation for video games; entirely unrelated to healthcare or disaster response.\", \"relevant_topics\": [], \"confidence\": 0.98}, {\"idx\": 5, \"decision\": \"include\", \"reason\": \"Discrete-event simulation of ambulance dispatch during an epidemic outbreak in remote-region hospitals matches the review's scope at title/abstract level.\", \"relevant_topics\": [\"discrete-event simulation\", \"remote-region hospitals\", \"epidemic outbreak\"], \"confidence\": 0.84}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "8df01bada9524fd1216a2c23c45dc3162ababe8c5e1aefd24c105e110c9b798c",
+      "surface": "title_abstract_screening"
+    },
+    {
+      "endpoint": "/v1/chat/completions",
+      "entry_id": "title_abstract_screening-005",
+      "expected_calls": 1,
+      "request_preview": "Screen the following 2 papers for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems e",
+      "response_body": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\"items\": [{\"idx\": 1, \"decision\": \"exclude\", \"reason\": \"A finite-element structural simulation of bridge retrofitting; the simulation method is present but the domain is structural engineering, not healthcare.\", \"relevant_topics\": [], \"confidence\": 0.91}, {\"idx\": 2, \"decision\": \"exclude\", \"reason\": \"A business-strategy analysis of retail supply-chain resilience; unrelated to rural healthcare or disaster response.\", \"relevant_topics\": [], \"confidence\": 0.93}]}",
+              "refusal": null,
+              "role": "assistant"
+            }
+          }
+        ],
+        "created": 0,
+        "id": "chatcmpl-fixture",
+        "model": "gpt-5.4-mini",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 1,
+          "prompt_tokens": 1,
+          "total_tokens": 2
+        }
+      },
+      "signature": "a2cd6d7fe6506e99b2f5a1ca1ad07c248e4f38d2864dec713bc9decb61e0f6d2",
+      "surface": "title_abstract_screening"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "meta": {"count": 4, "db_response_time_ms": 12, "page": 1, "per_page": 25},
+  "results": [
+    {
+      "id": "https://openalex.org/W3000000001",
+      "doi": "https://doi.org/10.2000/s5.001",
+      "title": "Screening automation with transformer models: a multi-review evaluation",
+      "publication_year": 2023,
+      "authorships": [
+        {"author": {"display_name": "Elena Kaz"}},
+        {"author": {"display_name": "Mark Turner"}}
+      ],
+      "abstract_inverted_index": {
+        "Transformer": [0],
+        "classifiers": [1],
+        "screened": [2],
+        "abstracts": [3],
+        "across": [4],
+        "six": [5],
+        "reviews": [6],
+        "with": [7],
+        "high": [8],
+        "recall": [9]
+      }
+    },
+    {
+      "id": "https://openalex.org/W3000000002",
+      "doi": "https://doi.org/10.2000/s5.002",
+      "title": "A crowd-plus-model pipeline for review screening",
+      "publication_year": 2022,
+      "authorships": [
+        {"author": {"display_name": "Petra Novak"}}
+      ],
+      "abstract_inverted_index": {
+        "Crowd": [0],
+        "judgements": [1],
+        "and": [2],
+        "a": [3],
+        "ranker": [4],
+        "matched": [5],
+        "expert": [6],
+        "recall": [7],
+        "cheaply": [8]
+      }
+    },
+    {
+      "id": "https://openalex.org/W3000000003",
+      "doi": "https://doi.org/10.2000/s5.003",
+      "title": "Query expansion for biomedical search using large language models",
+      "publication_year": 2024,
+      "authorships": [
+        {"author": {"display_name": "Wei Deng"}},
+        {"author": {"display_name": "Anni Salo"}}
+      ],
+      "abstract_inverted_index": {
+        "An": [0],
+        "LLM": [1],
+        "proposed": [2],
+        "synonyms": [3],
+        "improving": [4],
+        "reference": [5],
+        "set": [6],
+        "recall": [7]
+      }
+    },
+    {
+      "id": "https://openalex.org/W3000000004",
+      "doi": null,
+      "title": "Automated risk-of-bias assessment: a validation study",
+      "publication_year": 2023,
+      "authorships": [
+        {"author": {"display_name": "Marco Ricci"}}
+      ],
+      "abstract_inverted_index": {
+        "A": [0],
+        "model": [1],
+        "answered": [2],
+        "RoB2": [3],
+        "signalling": [4],
+        "questions": [5],
+        "with": [6],
+        "moderate": [7],
+        "agreement": [8]
+      }
+    }
+  ]
+}

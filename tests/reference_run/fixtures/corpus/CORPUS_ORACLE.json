@@ -1,0 +1,112 @@
+{
+  "_dedup_note": "Every fixture record has doi=None, so all 8 duplicates are removed by the exact normalised-title match (casefold + NFKC + collapse-whitespace + strip). The DOI-exact path is unit-tested separately with in-memory synthetic Record objects, not in this corpus.",
+  "all_fixture_records_doi_less": true,
+  "corpus_oracle_version": "2",
+  "duplicate_mappings": [
+    {
+      "basis": "title",
+      "canonical_id": "fx-0003",
+      "dup_id": "fx-0007"
+    },
+    {
+      "basis": "title",
+      "canonical_id": "fx-0004",
+      "dup_id": "fx-0011"
+    },
+    {
+      "basis": "title",
+      "canonical_id": "fx-0009",
+      "dup_id": "fx-0016"
+    },
+    {
+      "basis": "title",
+      "canonical_id": "fx-0014",
+      "dup_id": "fx-0021"
+    },
+    {
+      "basis": "title",
+      "canonical_id": "fx-0008",
+      "dup_id": "fx-0023"
+    },
+    {
+      "basis": "title",
+      "canonical_id": "fx-0019",
+      "dup_id": "fx-0026"
+    },
+    {
+      "basis": "title",
+      "canonical_id": "fx-0012",
+      "dup_id": "fx-0028"
+    },
+    {
+      "basis": "title",
+      "canonical_id": "fx-0006",
+      "dup_id": "fx-0030"
+    }
+  ],
+  "duplicates_removed": 8,
+  "extraction_batch_calls": 5,
+  "ft_adjudication_calls": 18,
+  "full_text_eligible": [
+    "fx-0002",
+    "fx-0005",
+    "fx-0009",
+    "fx-0013",
+    "fx-0024"
+  ],
+  "full_text_exclusions": [
+    "fx-0018"
+  ],
+  "full_text_review_queue_entries": 0,
+  "full_text_sought": 6,
+  "local_pdfs_present": 6,
+  "map_relevant_by_rq": {
+    "rq_0": [
+      "fx-0002",
+      "fx-0005",
+      "fx-0009",
+      "fx-0013",
+      "fx-0024"
+    ],
+    "rq_1": [
+      "fx-0002",
+      "fx-0005",
+      "fx-0009",
+      "fx-0013"
+    ]
+  },
+  "oracle_kind": "software_conformance",
+  "pdf_sha256": {
+    "fx-0002": "48db05a93ba3da8447da83109ac198d93650f03e2f12fbc2c129aa2cdeeb0086",
+    "fx-0005": "6aa2262e5c3d28e9a07ced88ed57e63cac67d134943204355a2ffb1f9083b198",
+    "fx-0009": "ff1f8106598d5a46dfc49b3bcb685be7908784d431ef59e15bbbc4581511be23",
+    "fx-0013": "eecceb185b780f895958a150cb00fd65e50502a2e2ea44741c3a94852ed0ba8a",
+    "fx-0018": "bf2723ff415fc30c3bd68c2b960599bda9b84d875741ded1ee815902c0bc2875",
+    "fx-0024": "c0e63a4affab7d734fc135d268a498150e1b068c799bef069995679044dc85c6"
+  },
+  "qc_sample_size": 6,
+  "raw_records": 30,
+  "records_per_fixture_db": {
+    "fx_acm": 4,
+    "fx_business_source_complete": 3,
+    "fx_cinahl": 4,
+    "fx_engineering_village": 3,
+    "fx_pubmed": 6,
+    "fx_scopus": 5,
+    "fx_web_of_science": 5
+  },
+  "research_questions": 2,
+  "screening_batches": 5,
+  "synthesis_map_calls": 10,
+  "synthesis_refine_calls": 4,
+  "title_abstract_inclusions": [
+    "fx-0002",
+    "fx-0005",
+    "fx-0009",
+    "fx-0013",
+    "fx-0018",
+    "fx-0024"
+  ],
+  "total_replay_calls": 50,
+  "unique_after_dedup": 22
+}

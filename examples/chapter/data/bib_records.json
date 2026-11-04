@@ -1,0 +1,182 @@
+[
+  {
+    "id": "rec-01",
+    "source": "openalex",
+    "source_id": "W2000000001",
+    "doi": "https://doi.org/10.1000/rev.001",
+    "title": "Large language models for title and abstract screening in systematic reviews",
+    "abstract": "We evaluate GPT-class models as first-pass screeners on four completed systematic reviews. Against the published inclusion decisions the model reached 0.94 recall at a workload reduction of 61 percent. We describe the prompt design, the batching scheme, and a human adjudication step for borderline records.",
+    "year": 2023,
+    "authors": ["A. Petrauskas", "L. Nguyen"]
+  },
+  {
+    "id": "rec-02",
+    "source": "crossref",
+    "source_id": "10.1000/rev.001",
+    "doi": "10.1000/rev.001",
+    "title": "LLMs for title/abstract screening in systematic reviews: a benchmarking study",
+    "abstract": "This benchmarking study compares several large language models on the abstract screening task using four reference reviews. Recall of 0.94 is reported together with a 61 percent reduction in manual screening effort. Prompt design and a borderline adjudication workflow are documented.",
+    "year": 2023,
+    "authors": ["A. Petrauskas", "L. Nguyen"]
+  },
+  {
+    "id": "rec-03",
+    "source": "pubmed",
+    "source_id": "37012345",
+    "doi": "10.1000/screen.014",
+    "title": "Automated data extraction from clinical trial reports using GPT-4",
+    "abstract": "A structured extraction pipeline reads randomized-trial reports and returns population, intervention, and outcome fields with a verbatim evidence span for each. On a held-out set the field-level accuracy was 0.88, with the remaining fields routed to a human review queue rather than accepted silently.",
+    "year": 2024,
+    "authors": ["M. Halonen", "R. Costa"]
+  },
+  {
+    "id": "rec-04",
+    "source": "scopus",
+    "source_id": "2-s2.0-85099999999",
+    "doi": "https://doi.org/10.1000/screen.014",
+    "title": "Data extraction from trial reports with GPT-4: accuracy and error analysis",
+    "abstract": "We analyse the errors of an automated data-extraction pipeline applied to randomized-trial reports. Field-level accuracy reached 0.88; a taxonomy of the residual errors is presented, and every unverifiable value is queued for a human rather than accepted.",
+    "year": 2024,
+    "authors": ["M. Halonen", "R. Costa"]
+  },
+  {
+    "id": "rec-05",
+    "source": "arxiv",
+    "source_id": "2211.00005",
+    "doi": null,
+    "title": "Automated Screening of Abstracts Using Large Language Models",
+    "abstract": "This preprint reports an abstract-screening system built on an instruction-tuned language model. We measure recall, workload savings, and calibration of the model's own confidence scores across three review topics.",
+    "year": 2022,
+    "authors": ["S. Ivanauskaite"]
+  },
+  {
+    "id": "rec-06",
+    "source": "openalex",
+    "source_id": "W2000000006",
+    "doi": null,
+    "title": "Automated screening of abstracts using large language models (extended)",
+    "abstract": "This extended version of an earlier preprint reports an abstract-screening system built on an instruction-tuned language model, adding a fourth review topic and an analysis of confidence-score calibration and of workload savings.",
+    "year": 2023,
+    "authors": ["S. Ivanauskaite"]
+  },
+  {
+    "id": "rec-07",
+    "source": "openalex",
+    "source_id": "W2000000007",
+    "doi": "10.1000/dedup.021",
+    "title": "Deduplication of bibliographic records with embedding similarity",
+    "abstract": "Exact identifier matching misses a large share of duplicate records that arise when the same study is indexed by several databases with divergent metadata. We show that sentence-embedding similarity over title and abstract recovers most of these near-duplicates while keeping false merges below one percent.",
+    "year": 2022,
+    "authors": ["D. Kavaliauskas", "P. Meier"]
+  },
+  {
+    "id": "rec-08",
+    "source": "pubmed",
+    "source_id": "36011111",
+    "doi": "10.1000/rapid.033",
+    "title": "A rapid review workflow combining machine learning and human screening",
+    "abstract": "We describe a rapid-review workflow in which a machine-learning classifier ranks records by predicted relevance and reviewers screen from the top until a stopping criterion is met. The approach cut calendar time by half on two commissioned reviews without missing any included study.",
+    "year": 2024,
+    "authors": ["J. O'Brien", "T. Yamada"]
+  },
+  {
+    "id": "rec-09",
+    "source": "crossref",
+    "source_id": "10.1000/topic.045",
+    "doi": "10.1000/topic.045",
+    "title": "Topic modelling of nursing research abstracts with BERTopic",
+    "abstract": "BERTopic is applied to twelve thousand nursing-research abstracts to describe the thematic structure of the field over a decade. The paper is a substantive application rather than a methods contribution, though it discusses parameter choices in some detail.",
+    "year": 2023,
+    "authors": ["K. Sabaliauskiene"]
+  },
+  {
+    "id": "rec-10",
+    "source": "openalex",
+    "source_id": "W2000000010",
+    "doi": "10.1000/rag.052",
+    "title": "Evaluating retrieval-augmented generation for evidence synthesis",
+    "abstract": "We test whether retrieval-augmented generation can draft accurate evidence summaries from a set of included studies. Grounding every sentence in a retrieved passage reduced unsupported claims sharply, but roughly one summary in six still required substantive correction by a methodologist.",
+    "year": 2024,
+    "authors": ["F. Adeyemi", "G. Rossi"]
+  },
+  {
+    "id": "rec-11",
+    "source": "pubmed",
+    "source_id": "38022222",
+    "doi": "10.1000/report.061",
+    "title": "Reporting guidance for AI-assisted systematic reviews",
+    "abstract": "This article proposes an extension to existing reporting guidelines covering how automated and AI-assisted steps of a review should be documented, including model identifiers, prompt versions, and the human oversight applied at each stage.",
+    "year": 2024,
+    "authors": ["H. Lindqvist", "N. Farooq"]
+  },
+  {
+    "id": "rec-12",
+    "source": "scopus",
+    "source_id": "2-s2.0-85088888888",
+    "doi": "10.1000/citchase.070",
+    "title": "Citation chasing tools: a comparative study",
+    "abstract": "Four backward- and forward-citation tools are compared on their ability to surface studies missed by a database search. Yield varied widely by discipline; the tools are positioned as a supplement to, not a replacement for, a structured search.",
+    "year": 2021,
+    "authors": ["V. Antanaviciute"]
+  },
+  {
+    "id": "rec-13",
+    "source": "pubmed",
+    "source_id": "35033333",
+    "doi": "10.1000/onc.081",
+    "title": "Patient perspectives on shared decision making in oncology",
+    "abstract": "A qualitative interview study of thirty patients receiving cancer treatment, exploring how they experience shared decision making with their care team. No computational or review-automation component is involved.",
+    "year": 2020,
+    "authors": ["R. Bagdonaite"]
+  },
+  {
+    "id": "rec-14",
+    "source": "crossref",
+    "source_id": "10.1000/rct.092",
+    "doi": "10.1000/rct.092",
+    "title": "A randomized trial of a mobile app for smoking cessation",
+    "abstract": "Eight hundred adult smokers were randomized to a smartphone application or usual care. Biochemically verified abstinence at six months was the primary outcome. This is a primary intervention study.",
+    "year": 2022,
+    "authors": ["C. Mockus", "E. Schmidt"]
+  },
+  {
+    "id": "rec-15",
+    "source": "openalex",
+    "source_id": "W2000000015",
+    "doi": "10.1000/edit.101",
+    "title": "Editorial: why we still need human reviewers",
+    "abstract": "A first-person editorial arguing that enthusiasm for automating systematic reviews has outrun the evidence. It offers opinion and anecdote; it presents no method and no data.",
+    "year": 2023,
+    "authors": ["P. Zolynas"]
+  },
+  {
+    "id": "rec-16",
+    "source": "arxiv",
+    "source_id": "2306.00016",
+    "doi": null,
+    "title": "Machine translation quality for low-resource languages",
+    "abstract": "A benchmark of neural machine-translation systems on eight low-resource language pairs. The work concerns translation quality in general and is not about literature reviews or their automation.",
+    "year": 2023,
+    "authors": ["Y. Bakran"]
+  },
+  {
+    "id": "rec-17",
+    "source": "pubmed",
+    "source_id": "34044444",
+    "doi": "10.1000/registry.112",
+    "title": "Trial registry data mining for outcome reporting bias",
+    "abstract": "An automated pipeline compares registered and published outcomes across twelve thousand trials to quantify outcome reporting bias. The automation targets primary trial records, not the literature-review process.",
+    "year": 2021,
+    "authors": ["I. Grigalyte"]
+  },
+  {
+    "id": "rec-18",
+    "source": "crossref",
+    "source_id": "10.1000/chain.123",
+    "doi": "10.1000/chain.123",
+    "title": "Blockchain for supply chain provenance",
+    "abstract": "A design study of a distributed ledger for tracking goods through a manufacturing supply chain. Entirely unrelated to evidence synthesis or review automation; included here only as a clear-exclude control.",
+    "year": 2019,
+    "authors": ["W. Petrenko"]
+  }
+]

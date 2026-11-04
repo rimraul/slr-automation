@@ -1,0 +1,7 @@
+{
+  "large language models for systematic review screening": "{\"concepts\": [{\"label\": \"large language models\", \"terms\": [\"large language model\", \"LLM\", \"GPT\", \"generative AI\"]}, {\"label\": \"systematic review\", \"terms\": [\"systematic review\", \"evidence synthesis\", \"scoping review\"]}, {\"label\": \"screening\", \"terms\": [\"title and abstract screening\", \"study selection\", \"citation screening\"]}], \"boolean_query\": \"(\\\"large language model\\\" OR LLM OR GPT OR \\\"generative AI\\\") AND (\\\"systematic review\\\" OR \\\"evidence synthesis\\\" OR \\\"scoping review\\\") AND (\\\"title and abstract screening\\\" OR \\\"study selection\\\" OR \\\"citation screening\\\")\"}",
+  "_bad": {
+    "malformed_json": "{\"concepts\": [{\"label\": \"broken\"",
+    "empty_concepts": "{\"concepts\": [], \"boolean_query\": \"\"}"
+  }
+}

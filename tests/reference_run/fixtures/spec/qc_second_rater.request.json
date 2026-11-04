@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "content": "You are a second, independent screening reviewer. Return only valid JSON.",
+      "role": "system"
+    },
+    {
+      "content": "Screen this paper for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and response for rural healthcare systems?\n- What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nInclusion criteria:\n- Studies addressing computer simulation or MBSE approaches applied to disaster preparedness or response\n- Studies focused on rural healthcare systems or rural healthcare settings\n- Studies relevant to disaster planning, preparedness, or response\n\nExclusion criteria:\n- Studies not involving rural healthcare systems\n- Studies not using MBSE or computer simulation approaches\n- Studies not related to disaster preparedness or response\n\nTitle: <<RECORD-DEPENDENT>>\nAbstract: This study applies gradient-boosted machine learning models to sensor data from manufacturing equipment to predict mechanical failures before they occur, reducing unplanned downtime in urban factories.\n\nRespond with JSON: {\"decision\": \"include\"|\"borderline\"|\"exclude\"}",
+      "role": "user"
+    }
+  ],
+  "model": "gpt-5.4-mini",
+  "response_format": {
+    "type": "json_object"
+  },
+  "temperature": 0.0
+}

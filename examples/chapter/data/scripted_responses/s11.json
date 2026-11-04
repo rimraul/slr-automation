@@ -1,0 +1,17 @@
+{
+  "map": {
+    "study-A": "{\"answer_text\": \"In a retrospective evaluation the tool matched human recall, missing fewer than one included study in twenty.\", \"cited_fields\": [\"main_finding\", \"study_design\"]}",
+    "study-B": "{\"answer_text\": \"In a prospective validation with dual human screening as the reference, the tool missed roughly one in five relevant records.\", \"cited_fields\": [\"main_finding\", \"sample_size\"]}",
+    "study-C": "{\"answer_text\": \"A retrospective evaluation reported recall above 0.95, consistent with use as a reliable second screener.\", \"cited_fields\": [\"main_finding\"]}"
+  },
+  "refine": {
+    "study-A,study-B": "{\"narrative\": \"An early retrospective evaluation (study-A) found that automated screening matched human recall, while a prospective validation (study-B) found the tool missed about one in five relevant records against dual human screening.\", \"cited_study_ids\": [\"study-A\", \"study-B\"], \"contradictions\": [\"study-A and study-B disagree on whether automated screening reaches human-level recall\"]}",
+    "study-A,study-B,study-C": "{\"narrative\": \"Two retrospective evaluations (study-A, study-C) found that automated screening reproduced human inclusion decisions with high recall, supporting its use as a second screener. A prospective validation (study-B) reached the opposite conclusion, missing about one in five relevant records against dual human screening. The disagreement tracks study design: the more conservative prospective comparison was less favourable.\", \"cited_study_ids\": [\"study-A\", \"study-B\", \"study-C\"], \"contradictions\": [\"study-A and study-C report high recall while study-B reports a substantial miss rate for the same task\"]}"
+  },
+  "_bad": {
+    "premature_citation": "{\"narrative\": \"All three studies agree.\", \"cited_study_ids\": [\"study-A\", \"study-B\", \"study-C\"], \"contradictions\": []}",
+    "dropped_citation": "{\"narrative\": \"Automated screening reproduced human decisions well.\", \"cited_study_ids\": [\"study-A\", \"study-B\"], \"contradictions\": []}",
+    "invented_citation": "{\"narrative\": \"Automated screening reproduced human decisions well, with one dissenting report.\", \"cited_study_ids\": [\"study-A\", \"study-B\", \"study-C\", \"study-Z\"], \"contradictions\": []}",
+    "unknown_cited_field": "{\"answer_text\": \"The tool matched human recall according to the funding statement.\", \"cited_fields\": [\"main_finding\", \"funding\"]}"
+  }
+}

@@ -1,0 +1,25 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Rimantas Rauleckas and contributors
+
+Scope of this license
+---------------------
+This CC BY 4.0 license covers the teaching *content* of the Track 1 chapter,
+namely:
+
+  * every `*.md` file under `examples/chapter/`, and
+  * everything under `examples/chapter/data/` (fixture datasets, the synthetic
+    papers, the scripted-response files, the embedding manifest, and this
+    directory's own `LICENSE_NOTES.md`).
+
+The teaching *code* (see `examples/chapter/LICENSE-CODE`) is licensed
+separately under the MIT License.
+
+One derived artifact under `data/` -- `topic_corpus_embeddings.npy` -- is a
+numeric derivation of this project's own synthetic `topic_corpus.json` through
+the third-party `sentence-transformers/all-MiniLM-L6-v2` model (Apache-2.0).
+See `data/LICENSE_NOTES.md` and `data/topic_corpus_embeddings.manifest.json`
+for the full provenance.
+
+You are free to share and adapt this material for any purpose, provided you
+give appropriate credit. Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

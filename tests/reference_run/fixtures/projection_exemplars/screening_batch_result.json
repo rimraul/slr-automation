@@ -1,0 +1,31 @@
+{
+  "artifact_id": "screenbatch-31f59e2e686aa1ec238301b84f8ae369c0b16b14a4535d6850f8de459fe5bcb7",
+  "batch_fingerprint": "batchfp-0001",
+  "call_status": "success",
+  "content_hash": "83c285f9c70400895fd8f8344f466040b1190a590ccab8979c7a878b1ef98b51",
+  "producing_event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+  "record_ids": [
+    "rec-0001",
+    "rec-0002"
+  ],
+  "responses": [
+    {
+      "confidence": 0.9,
+      "decision": "include",
+      "reason": "on-topic",
+      "relevant_topics": [
+        "scoping review"
+      ]
+    },
+    {
+      "confidence": 0.8,
+      "decision": "exclude",
+      "reason": "off-topic",
+      "relevant_topics": []
+    }
+  ],
+  "review_run_id": "review-run-exemplar-a",
+  "schema_version": "screening_batch_result_v1",
+  "stage": "title_abstract_screening",
+  "work_item_id": "title_abstract_screening:batchfp-0001"
+}

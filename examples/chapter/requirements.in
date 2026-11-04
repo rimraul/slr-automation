@@ -1,0 +1,57 @@
+# Direct dependencies for this chapter's reader-facing teaching examples ONLY.
+# Deliberately much smaller than slr_pipeline's own dependency surface (no
+# langgraph, no docling, no full slr_pipeline import) -- these examples are
+# self-contained, simplified teaching code, not thin wrappers around the
+# production pipeline.
+#
+# SUPPORTED PLATFORM: Windows x86-64 only (matching this project's own
+# actual, stated environment throughout CLAUDE.md -- PowerShell/Git-Bash on
+# Windows are the only two shells this project documents). requirements.txt
+# is a platform-specific lock for that platform, not a universal one --
+# `uv pip compile --universal` was considered (round-3 review finding 3) and
+# rejected: with bertopic/sentence-transformers/torch's own wide transitive
+# graph, a genuinely universal resolution would weaken the version pins this
+# lock is supposed to guarantee, for a project that has never targeted any
+# platform other than Windows x86-64. If this teaching material is ever
+# ported to another platform, generate and ship a second, clearly-named
+# lock file for it rather than trying to make one file cover both.
+#
+# Tested against Python 3.12.12 (the lamai conda env already used throughout
+# this project).
+#
+# This is the SOURCE list of direct dependencies -- resolve it into the real,
+# hashed, transitive dependency lock (requirements.txt in this same
+# directory) with the EXACT command below (verified: this is the actual
+# command that produced the current requirements.txt, re-run from this
+# directory so relative input/output paths resolve correctly):
+#   uv pip compile requirements.in --generate-hashes --python-version 3.12 --native-tls -o requirements.txt
+# (--native-tls works around this machine's Avast-intercepted TLS chain, per
+# this project's own documented environment quirk; drop it on a machine
+# without that interception -- the resulting package/version/hash set is
+# unaffected either way, since it only changes how uv itself makes its own
+# HTTPS requests during resolution, not what gets resolved.) Do not
+# hand-edit requirements.txt.
+#
+# Mocking uses the standard-library unittest.mock -- no pytest-mock
+# dependency (not installed in lamai, and unnecessary for this scope).
+# pytest-socket (round-3 review finding 2) provides comprehensive network
+# denial for the offline test contract (tests/chapter_examples/conftest.py)
+# -- a real runtime dependency of running the documented default test
+# command successfully, not just a repo-authoring-time tool.
+
+openai==2.7.2
+pydantic==2.12.4
+bertopic==0.17.4
+sentence-transformers==5.2.0
+pytest==9.1.1
+pytest-socket==0.8.1
+
+# Promoted to explicit direct dependencies in Phase E.2b -- imported directly
+# by the S7/S11 solutions and toolkit.load_fixture (they were already in the
+# resolved graph transitively via bertopic, so this changes only their
+# declared status, not the resolved set). `requests` was removed: no shipped
+# exercise imports it.
+numpy==2.3.5
+scikit-learn==1.8.0
+umap-learn==0.5.9.post2
+hdbscan==0.8.41

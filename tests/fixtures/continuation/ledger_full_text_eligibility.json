@@ -1,0 +1,47 @@
+[
+  {
+    "content_hash": "bb5962551e7c74664237395b686abc0bcea5766eb1e82d101f09e2506ca9707c",
+    "decision": "exclude",
+    "decision_id": "2a0adc1a-ae11-4c8c-a17c-c8eed692143f",
+    "decision_maker": "ai",
+    "producer_artifact_id": "ftrun-3d5bb8449f6c931505910f0d0572e833:pubmed-246e529a0b53acb7d012:1",
+    "reason": "wrong_population",
+    "record_id": "pubmed-246e529a0b53acb7d012",
+    "review_run_id": "track3-live-mvp-20260913T135518Z",
+    "semantic_hash": "0f30f515b17e6d26124e4c675d1987bdb36bd9c0124e58418c8a1f93681901de",
+    "source_event_id": "src-b4454c78b93923491066937a121a2dcd43d3d6b1fcf489a0609fc3319411b5dd",
+    "stage": "full_text_eligibility",
+    "supersedes_decision_id": null,
+    "timestamp": "2026-09-13T14:08:37Z"
+  },
+  {
+    "content_hash": "9b645290268ac3180012aee6eb0806211ff9d6f0ee8a03c307e5af38b020062d",
+    "decision": "exclude",
+    "decision_id": "52e090d0-a919-42b6-8617-805b698cbf82",
+    "decision_maker": "ai",
+    "producer_artifact_id": "ftrun-3d5bb8449f6c931505910f0d0572e833:pubmed-1f9c75fc79c4e6ad2f85:1",
+    "reason": "wrong_population",
+    "record_id": "pubmed-1f9c75fc79c4e6ad2f85",
+    "review_run_id": "track3-live-mvp-20260913T135518Z",
+    "semantic_hash": "fea34fe9fd0d7ad2f2a8e90d22cc741bfea243927b3582e3e7f1733327eeeb5c",
+    "source_event_id": "src-8eefe47547efac3481615a63fb16085527507b83c0332dd14f1bd45d5d99bf9d",
+    "stage": "full_text_eligibility",
+    "supersedes_decision_id": null,
+    "timestamp": "2026-09-13T14:08:37Z"
+  },
+  {
+    "content_hash": "14126af8f79c2b79b9cf0b3d4fe2b5a0ff55dc658502e550e6be2de919114a80",
+    "decision": "exclude",
+    "decision_id": "2f1c1950-4211-431c-b588-e1527e27ec0c",
+    "decision_maker": "ai",
+    "producer_artifact_id": "ftrun-3d5bb8449f6c931505910f0d0572e833:pubmed-4c6c9f513cf62a9a5fb7:1",
+    "reason": "wrong_population",
+    "record_id": "pubmed-4c6c9f513cf62a9a5fb7",
+    "review_run_id": "track3-live-mvp-20260913T135518Z",
+    "semantic_hash": "905d20908a8c6746d18cc2706e23e19d7eff8fb6140417c27b192ca88365af1d",
+    "source_event_id": "src-178d8812a6f80619514274a8f3019722ac55d5e1fd3ae84d01592b2a9901f5de",
+    "stage": "full_text_eligibility",
+    "supersedes_decision_id": null,
+    "timestamp": "2026-09-13T14:08:37Z"
+  }
+]

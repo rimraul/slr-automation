@@ -1,0 +1,46 @@
+[
+  {
+    "abstract": "We simulate ambulance dispatch and routing policies during a simulated epidemic outbreak affecting a network of remote-region hospitals, comparing static and dynamic dispatch heuristics under a discrete-event model.",
+    "authors": [
+      "AC. Nilsen",
+      "AD. Bello"
+    ],
+    "cited_by": 6,
+    "doi": null,
+    "id": "fx-0018",
+    "journal": "Computer Simulation in Emergency Logistics",
+    "native_key": "NK-fx-0018",
+    "title": "Computer simulation of ambulance dispatch during epidemic outbreaks in remote regions",
+    "url": "https://example-fixture.invalid/fx-0018",
+    "year": 2022
+  },
+  {
+    "abstract": "Duplicate listing of fx-0019, indexed by this database in lower case.",
+    "authors": [
+      "W. Bakker",
+      "X. Papadopoulos"
+    ],
+    "cited_by": 12,
+    "doi": null,
+    "id": "fx-0026",
+    "journal": "Healthcare Cybersecurity Review",
+    "native_key": "NK-fx-0026",
+    "title": "cybersecurity vulnerabilities in hospital scada systems",
+    "url": "https://example-fixture.invalid/fx-0026",
+    "year": 2021
+  },
+  {
+    "abstract": "A finite-element structural analysis of seismic retrofitting techniques for reinforced-concrete highway bridges, an engineering-simulation application unrelated to healthcare systems or emergency medical response.",
+    "authors": [
+      "AE. Tanaka"
+    ],
+    "cited_by": 15,
+    "doi": null,
+    "id": "fx-0027",
+    "journal": "Structural Simulation Engineering",
+    "native_key": "NK-fx-0027",
+    "title": "Finite element analysis of seismic retrofitting for reinforced-concrete bridges",
+    "url": "https://example-fixture.invalid/fx-0027",
+    "year": 2019
+  }
+]

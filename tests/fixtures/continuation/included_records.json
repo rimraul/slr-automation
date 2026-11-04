@@ -1,0 +1,114 @@
+[
+  {
+    "doi": "10.3389/fpubh.2026.1871225",
+    "id": "pubmed-246e529a0b53acb7d012",
+    "source": "pubmed",
+    "source_id": "42707542",
+    "title": "Drone-delivered automated external defibrillators in prehospital emergency care: implementation evidence, bottlenecks, and conceptual integration with artificial intelligence and next-generation communications.",
+    "year": 2026
+  },
+  {
+    "doi": "10.1038/s44401-025-00044-1",
+    "id": "pubmed-1f9c75fc79c4e6ad2f85",
+    "source": "pubmed",
+    "source_id": "42527458",
+    "title": "Conceptualising the impact of telehealth on rural workforce sustainability using system dynamics and the Gartner Hype Cycle.",
+    "year": 2025
+  },
+  {
+    "doi": "10.3390/healthcare14121762",
+    "id": "pubmed-f5039a585c618968170c",
+    "source": "pubmed",
+    "source_id": "42354620",
+    "title": "Optimizing Regional Access to Extracorporeal Cardiopulmonary Resuscitation: A Geographic-Information-System-Based Comparison of Hospital- and Prehospital-Initiated Strategies in Nara Prefecture, Japan.",
+    "year": 2026
+  },
+  {
+    "doi": "10.1002/hsr2.72564",
+    "id": "pubmed-301cd19a3025f47bdee3",
+    "source": "pubmed",
+    "source_id": "42255086",
+    "title": "Assessing the Impact of Rotavirus Vaccination in Iranian Children Under Five: An Agent-Based Modelling Approach.",
+    "year": 2026
+  },
+  {
+    "doi": "10.3389/fdgth.2025.1695377",
+    "id": "pubmed-4c6c9f513cf62a9a5fb7",
+    "source": "pubmed",
+    "source_id": "41586209",
+    "title": "Timing is survival: modeling how earlier calls improve cardiac arrest outcomes.",
+    "year": 2025
+  },
+  {
+    "doi": "10.1016/j.isci.2025.112997",
+    "id": "pubmed-ab7b4c0c418e30270f9f",
+    "source": "pubmed",
+    "source_id": "40687800",
+    "title": "Evaluating the disaster response capacity of the Korean citizen corps in rural areas: A System Dynamics-GIS approach.",
+    "year": 2025
+  },
+  {
+    "doi": "10.1136/emermed-2024-213947",
+    "id": "pubmed-58b83969c699b2c363e1",
+    "source": "pubmed",
+    "source_id": "39580229",
+    "title": "Emerging technology solutions to support national emergency workforce capacity-building initiatives: lessons from Ugandan policy and practice.",
+    "year": 2024
+  },
+  {
+    "doi": "10.3233/SHTI240782",
+    "id": "pubmed-30d903da979d5c6e9d8f",
+    "source": "pubmed",
+    "source_id": "39176842",
+    "title": "Remote Monitoring, AI, Machine Learning and Mobile Ultrasound Integration upon 5G Internet in the Prehospital Care to Support the Golden Hour Principle and Optimize Outcomes in Severe Trauma and Emergency Surgery.",
+    "year": 2024
+  },
+  {
+    "doi": "10.1038/s41597-024-03219-x",
+    "id": "pubmed-7a55984d7db6e72b6056",
+    "source": "pubmed",
+    "source_id": "38755153",
+    "title": "A baseline structure inventory with critical attribution for the US and its territories.",
+    "year": 2024
+  },
+  {
+    "doi": "10.1371/journal.pgph.0002197",
+    "id": "pubmed-302399f007e2749d4f3b",
+    "source": "pubmed",
+    "source_id": "38306342",
+    "title": "Health systems impacts of the COVID-19 pandemic on malaria control program implementation and malaria burden in Benin: A mixed-method qualitative and mathematical modelling and study.",
+    "year": 2024
+  },
+  {
+    "doi": "10.1016/j.heliyon.2023.e21304",
+    "id": "pubmed-f32025b9fa041b1b2632",
+    "source": "pubmed",
+    "source_id": "38027925",
+    "title": "A qualitative system model to describe the causes and drivers of frequent potentially avoidable presentations to the emergency department.",
+    "year": 2023
+  },
+  {
+    "doi": "10.1097/NNA.0000000000001760",
+    "id": "scopus-fb08897e9d4f238ce11c",
+    "source": "scopus",
+    "source_id": "2-s2.0-105048908640",
+    "title": "Innovative Staffing Models: A Policy Analysis in Rethinking Legislated Nurse-to-Patient Ratios in the Era of Technology and Remote Care",
+    "year": 2026
+  },
+  {
+    "doi": "10.1016/j.array.2026.100980",
+    "id": "scopus-e0d813d53e4dab2aeed2",
+    "source": "scopus",
+    "source_id": "2-s2.0-105041626511",
+    "title": "Enhancing packet delivery in opportunistic networks using supervised learning techniques",
+    "year": 2026
+  },
+  {
+    "doi": "10.1111/vox.70207",
+    "id": "scopus-b78db0a5ec55fd5034c0",
+    "source": "scopus",
+    "source_id": "2-s2.0-105030129439",
+    "title": "Using unmanned aerial vehicles (drones) to improve access to blood in low- and middle-income countries: Current challenges and opportunities",
+    "year": 2026
+  }
+]

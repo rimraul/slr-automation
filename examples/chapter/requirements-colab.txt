@@ -1,0 +1,17 @@
+# Lengvesnis, NEUZRAKTINTAS (be hash) priklausomybiu sarasas skaitytojams,
+# kurie kodo pratimus leidzia Google Colab (Linux) arba kitoje ne Windows
+# aplinkoje. Pilnas uzrakintas sarasas (requirements.txt) skirtas tik
+# Windows x86-64. Apatines ribos nustatytos pagal versijas, su kuriomis
+# pratimai buvo patikrinti (zr. requirements.in).
+#
+# Colab jau turi numpy, scikit-learn, pandas ir torch; pip tik papildys trukstamus.
+openai>=2.7,<3
+pydantic>=2.12,<3
+pytest>=9.0,<10
+pytest-socket>=0.7
+numpy>=2.0,<3
+scikit-learn>=1.5,<2
+# Tik S11 (temu modeliavimas, naudoja iš anksto apskaičiuotus įterpinius):
+bertopic>=0.17
+umap-learn>=0.5.9
+hdbscan>=0.8.40

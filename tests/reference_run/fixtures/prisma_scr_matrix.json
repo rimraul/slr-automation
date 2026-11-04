@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "anchor": "title",
+      "item_id": 1,
+      "run_state_inputs": "spec.review_title",
+      "section": "TITLE",
+      "short_title": "Identify as a scoping review",
+      "status_rule": "non-empty, contains \"scoping review\"",
+      "tier": "ess"
+    },
+    {
+      "anchor": "abstract",
+      "item_id": 2,
+      "run_state_inputs": "prisma_counts; synthesis.rq_synthesis; RQs",
+      "section": "ABSTRACT",
+      "short_title": "Structured summary",
+      "status_rule": "all six sub-parts render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "rationale",
+      "item_id": 3,
+      "run_state_inputs": "spec.review_rationale",
+      "section": "INTRO",
+      "short_title": "Rationale",
+      "status_rule": "non-empty",
+      "tier": "ess"
+    },
+    {
+      "anchor": "objectives",
+      "item_id": 4,
+      "run_state_inputs": "RQs; PCC",
+      "section": "INTRO",
+      "short_title": "Objectives",
+      "status_rule": "RQs + PCC render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.protocol",
+      "item_id": 5,
+      "run_state_inputs": "protocol_uri/protocol_sha256; ai_use_prespecified; protocol_registration_id; protocol_deviations",
+      "section": "METHODS",
+      "short_title": "Protocol and registration",
+      "status_rule": "ref + prespec + registration id + \"no deviations\" render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.eligibility",
+      "item_id": 6,
+      "run_state_inputs": "inclusion/exclusion; date_from/date_to None -> \"no date limit\"; language None -> \"no language restriction\"",
+      "section": "METHODS",
+      "short_title": "Eligibility criteria",
+      "status_rule": "all six criteria + both \"no limit\" statements render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.sources",
+      "item_id": 7,
+      "run_state_inputs": "the seven canonical databases; as_of_date",
+      "section": "METHODS",
+      "short_title": "Information sources",
+      "status_rule": "the seven names + the date render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.search",
+      "item_id": 8,
+      "run_state_inputs": "seed_query; search_strategy.db_queries",
+      "section": "METHODS",
+      "short_title": "Search",
+      "status_rule": "seed query + >=1 full per-DB translation render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.selection",
+      "item_id": 9,
+      "run_state_inputs": "screening + full-text decisions; uncertain_threshold=0.0; \"single automated reviewer, replayed model calls, no second human\"",
+      "section": "METHODS",
+      "short_title": "Selection of sources of evidence",
+      "status_rule": "the two-stage process + the automation statement render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.charting",
+      "item_id": 10,
+      "run_state_inputs": "reference-charting-v1 schema id/version; gpt-5.6-terra / reasoning_effort=medium; verification + review-queue policy",
+      "section": "METHODS",
+      "short_title": "Data charting process",
+      "status_rule": "schema ref + model + policy render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.data_items",
+      "item_id": 11,
+      "run_state_inputs": "the nine reference_extraction_schema() field ids + questions",
+      "section": "METHODS",
+      "short_title": "Data items",
+      "status_rule": "every field id + question renders",
+      "tier": "ess"
+    },
+    {
+      "anchor": "methods.appraisal",
+      "item_id": 12,
+      "run_state_inputs": "\u2014",
+      "section": "METHODS",
+      "short_title": "Critical appraisal of individual sources",
+      "status_rule": "optional_not_conducted; rationale: \"Critical appraisal of individual sources is optional for scoping reviews (PRISMA-ScR items 12 and 16) and was not performed in this pipeline-readiness run.\"",
+      "tier": "opt"
+    },
+    {
+      "anchor": "methods.synthesis",
+      "item_id": 13,
+      "run_state_inputs": "generate_evidence_map=True; generate_claim_backed_results=False (map/refine over the 2 RQs is unconditional; this flag would add a third, optional \"imrad:results\" target -- off here, matching the frozen 10/4/50 call topology); refine_batch_size=3; run_bertopic=False",
+      "section": "METHODS",
+      "short_title": "Synthesis of results",
+      "status_rule": "evidence-map + claim-backed map/refine method + \"no BERTopic topic modelling\" render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "results.selection",
+      "item_id": 14,
+      "run_state_inputs": "prisma_counts (full S12 flow); ref to prisma_flow.png",
+      "section": "RESULTS",
+      "short_title": "Selection of sources of evidence",
+      "status_rule": "every S12 flow count renders and prisma_flow raises no PrismaInconsistencyError and the counts are consistent with full_text_review_queue == []",
+      "tier": "ess"
+    },
+    {
+      "anchor": "results.characteristics",
+      "item_id": 15,
+      "run_state_inputs": "synthesis.evidence_map; charted_data",
+      "section": "RESULTS",
+      "short_title": "Characteristics of sources",
+      "status_rule": "one characteristics row per eligible source (5)",
+      "tier": "ess"
+    },
+    {
+      "anchor": "results.appraisal",
+      "item_id": 16,
+      "run_state_inputs": "\u2014",
+      "section": "RESULTS",
+      "short_title": "Critical appraisal within sources",
+      "status_rule": "optional_not_conducted; same rationale as 12",
+      "tier": "opt"
+    },
+    {
+      "anchor": "results.individual",
+      "item_id": 17,
+      "run_state_inputs": "per-study charted fields; per-study map_answers",
+      "section": "RESULTS",
+      "short_title": "Results of individual sources",
+      "status_rule": "one per-study block per eligible source (5)",
+      "tier": "ess"
+    },
+    {
+      "anchor": "results.synthesis",
+      "item_id": 18,
+      "run_state_inputs": "synthesis.rq_synthesis; cited study ids per RQ",
+      "section": "RESULTS",
+      "short_title": "Synthesis of results",
+      "status_rule": "a narrative per RQ with its per-study citations",
+      "tier": "ess"
+    },
+    {
+      "anchor": "discussion.summary",
+      "item_id": 19,
+      "run_state_inputs": "synthesis; evidence_map; RQs",
+      "section": "DISCUSSION",
+      "short_title": "Summary of evidence",
+      "status_rule": "a summary paragraph per RQ",
+      "tier": "ess"
+    },
+    {
+      "anchor": "discussion.limitations",
+      "item_id": 20,
+      "run_state_inputs": "non-instrumented stages (extraction, quality_appraisal, synthesis_bertopic -- from ai_traceability.json, instrumentation_status=\"not_instrumented\"); the full_text_eligibility provenance note (instrumentation_status=\"instrumented\", event_count=0, evidenced by its own ft_native_provenance block, not an AIUseEvent); \"BERTopic not run\"; the synthetic-corpus caveat; dedup_mode=\"exact\"; \"replayed model calls, not a live run\"",
+      "section": "DISCUSSION",
+      "short_title": "Limitations",
+      "status_rule": "all named limitations render",
+      "tier": "ess"
+    },
+    {
+      "anchor": "discussion.conclusions",
+      "item_id": 21,
+      "run_state_inputs": "synthesis; objectives; \"this run demonstrates pipeline readiness; the audited scientific run is Track 3\"",
+      "section": "DISCUSSION",
+      "short_title": "Conclusions",
+      "status_rule": "a conclusions paragraph renders",
+      "tier": "ess"
+    },
+    {
+      "anchor": "funding",
+      "item_id": 22,
+      "run_state_inputs": "ReviewConfig.funding_statement; charted funding_sources + funder_role per eligible source (5)",
+      "section": "FUNDING",
+      "short_title": "Funding",
+      "status_rule": "the review-level statement renders and a funding + funder-role line per eligible source",
+      "tier": "ess"
+    }
+  ],
+  "prisma_scr_matrix_version": "1",
+  "prisma_scr_version": "2018"
+}

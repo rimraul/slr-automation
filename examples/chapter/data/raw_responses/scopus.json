@@ -1,0 +1,43 @@
+{
+  "search-results": {
+    "opensearch:totalResults": "4",
+    "entry": [
+      {
+        "dc:identifier": "SCOPUS_ID:85200000001",
+        "eid": "2-s2.0-85200000001",
+        "dc:title": "Screening automation with transformer models: a multi-review evaluation",
+        "prism:doi": "10.2000/s5.001",
+        "dc:description": "Transformer-based classifiers were evaluated as title and abstract screeners across six completed reviews, reaching recall above 0.95 in five.",
+        "prism:coverDate": "2023-06-01",
+        "dc:creator": "Kaz E."
+      },
+      {
+        "dc:identifier": "SCOPUS_ID:85200000002",
+        "eid": "2-s2.0-85200000002",
+        "dc:title": "A crowd-plus-model pipeline for review screening",
+        "prism:doi": "10.2000/s5.002",
+        "dc:description": "Non-expert crowd judgements combined with a machine-learning ranker matched expert recall at a third of the cost on two case-study reviews.",
+        "prism:coverDate": "2022-01-01",
+        "dc:creator": "Novak P."
+      },
+      {
+        "dc:identifier": "SCOPUS_ID:85200000003",
+        "eid": "2-s2.0-85200000003",
+        "dc:title": "Query expansion for biomedical search using large language models",
+        "prism:doi": "10.2000/s5.003",
+        "dc:description": "A large language model proposed synonyms and related concepts for a seed query, improving reference-set recall by twelve points at a modest precision cost.",
+        "prism:coverDate": "2024-02-01",
+        "dc:creator": "Deng W."
+      },
+      {
+        "dc:identifier": "SCOPUS_ID:85200000004",
+        "eid": "2-s2.0-85200000004",
+        "dc:title": "Automated risk-of-bias assessment: a validation study",
+        "prism:doi": "10.2000/s5.004",
+        "dc:description": "A model answered RoB2 signalling questions from trial full texts with moderate agreement against human consensus judgements.",
+        "prism:coverDate": "2023-11-01",
+        "dc:creator": "Ricci M."
+      }
+    ]
+  }
+}

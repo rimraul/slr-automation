@@ -1,0 +1,1422 @@
+{
+  "known_included": [
+    {
+      "title": "The role of universities in SDGs solution co-creation and implementation: a human-centered design and shared-action learning process",
+      "journal": "SUSTAINABILITY SCIENCE",
+      "idx": 1,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "The university-led SDG co-creation case provides empirical detail on stakeholder engagement, but its public-administration orientation is not established in the abstract."
+    },
+    {
+      "title": "Value conflicts in co-production: governing public values in multi-actor settings",
+      "journal": "International Journal of Public Sector Management",
+      "idx": 2,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This public-management-oriented study empirically examines co-production configurations and strategies used by managers, citizens, and third parties to address public-value tensions."
+    },
+    {
+      "title": "Co-Designing a Citizen Science Program for Malaria Control in Rwanda",
+      "journal": "SUSTAINABILITY",
+      "idx": 3,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Although it reports participatory citizen-science mechanisms, the paper is primarily situated in malaria surveillance and public health service delivery."
+    },
+    {
+      "title": "Brand Innovation and Value-Creating Practices of the City of Johannesburg’s Twitter Community",
+      "journal": "Communicatio",
+      "idx": 4,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The empirical study concerns social-media brand-community innovation and collective value creation, which is a marketing and branding orientation rather than public administration."
+    },
+    {
+      "title": "Partnerships and the Good-Governance Agenda: Improving Service Delivery Through State-NGO Collaborations",
+      "journal": "VOLUNTAS",
+      "idx": 5,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The paper empirically compares state-NGO partnership arrangements and examines how their configurations affect public-service delivery and government working practices."
+    },
+    {
+      "title": "Strengthening public service production, administrative problem solving, and political leadership through co-creation of innovative public value outcomes?",
+      "journal": "Innovation Journal",
+      "idx": 6,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This comparative study of Scandinavian municipalities examines how co-creation is used across service production, policy innovation, political leadership, and local democracy."
+    },
+    {
+      "title": "Stakeholder salience in public sector value co-creation",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 7,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "It empirically analyzes stakeholder interactions and value co-creation in a public-service consortium, but the abstract does not clearly establish a public-administration rather than service-management orientation."
+    },
+    {
+      "title": "Better public sector governance through partnership with the private sector and civil society: the case of Guatemala's forest administration",
+      "journal": "INTERNATIONAL REVIEW OF ADMINISTRATIVE SCIENCES",
+      "idx": 8,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "Using Guatemala's forest administration as a case, the article analyzes a jointly managed public-private-civil-society agency and the governance effects of delegation and partnership."
+    },
+    {
+      "title": "Mobilizing Change in Public Services: Insights from a Systems Leadership Development Intervention",
+      "journal": "International Journal of Public Administration",
+      "idx": 9,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The paper analyzes a place-based systems-leadership intervention in which independent enablers support cross-sector partners in navigating priorities and developing joint approaches."
+    },
+    {
+      "title": "New Community Spaces: Regional Governance in the Public Interest in the Greater Toronto Area",
+      "journal": "URBAN AFFAIRS REVIEW",
+      "idx": 10,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Despite examining a concrete regional alliance, the paper is principally framed around urban policy and regional development rather than public administration or public management."
+    },
+    {
+      "title": "Revitalizing the Global Alliances for Sustainable Development: Analyzing the Viability of Sustainable Development Goal 17-A Multi-Actor Governance Approach",
+      "journal": "SUSTAINABILITY",
+      "idx": 11,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "The Valencia stakeholder case empirically identifies conflicts among actors pursuing SDG partnerships, but its public-administration analytic orientation is unclear from the abstract."
+    },
+    {
+      "title": "How does digital technology impact on the co-production of local services? Evidence from a childcare experience",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 12,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The paper combines public-management and HCI perspectives with two participatory cases to examine digital-platform requirements for co-producing childcare and public value."
+    },
+    {
+      "title": "Public Values and Public Participation: A Case of Collaborative Governance of a Planning Process",
+      "journal": "AMERICAN REVIEW OF PUBLIC ADMINISTRATION",
+      "idx": 13,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This empirical collaborative-policy-making case examines how public and private organizations jointly designed participation processes and negotiated public-value frames through power-sharing."
+    },
+    {
+      "title": "Boundary-spanning in public value co-creation through the lens of multilevel governance",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 14,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "Using Canada's Innovation Superclusters Initiative, the paper examines how public managers and policy entrepreneurs span horizontal and vertical jurisdictional boundaries to pursue joint action."
+    },
+    {
+      "title": "Having it all: can collaborative governance be both legitimate and accountable?",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 15,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The qualitative comparative analysis of collaborative-governance cases empirically identifies configurations under which legitimacy and accountability coexist."
+    },
+    {
+      "title": "Coproduction in the U.S. Department of Defense: Examining how the evolution of geographic information systems (GIS) expands non-traditional partner engagement",
+      "journal": "Policy and Internet",
+      "idx": 16,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The study examines the Department of Defense's relationships with external technology and GIS partners, including its use of informational power in a polycentric public-value co-production regime."
+    },
+    {
+      "title": "The role of soft skills to leverage co-creation in living labs: Insights from Spain",
+      "journal": "Innovation Journal",
+      "idx": 17,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The abstract presents a general conceptual discussion of employee skills, relational leadership, and living-lab co-creation without reporting a specific empirical case or collaboration mechanism in action."
+    },
+    {
+      "title": "Living Labs as an Innovation Tool for Public Value Creation: Possibilities and Pitfalls",
+      "journal": "Innovation Journal",
+      "idx": 18,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "Based on two Danish local-government living-lab cases, the paper examines citizen involvement and democratic practices through which collaborative innovation can create public value."
+    },
+    {
+      "title": "Public Value Co-Creation in Living Labs-Results from Three Case Studies",
+      "journal": "ADMINISTRATIVE SCIENCES",
+      "idx": 19,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This qualitative study of three German and Austrian public-sector living labs identifies organizational conditions and outcomes of public-value co-creation."
+    },
+    {
+      "title": "Crowdfunding public projects: Collaborative governance for achieving citizen co-funding of public goods",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 20,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The study empirically compares crowdfunding projects with and without government involvement to assess how public-private collaboration affects funding for public projects."
+    },
+    {
+      "title": "Realizing public values: enhancement or obstruction? Exploring value tensions and coping strategies in the co-production of social care",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 1,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Although it empirically examines co-production and value tensions, the setting is social-care service delivery, which falls outside the review's public-administration field scope."
+    },
+    {
+      "title": "Does Co-Production Lead to the Creation of Public Value? Balancing the Dimensions of Public Value Creation in Urban Mobility Planning",
+      "journal": "ADMINISTRATION & SOCIETY",
+      "idx": 2,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The paper provides empirical detail on co-production in urban mobility planning, but its primary orientation is planning rather than public administration/public management."
+    },
+    {
+      "title": "The governance games of citizens and stakeholders' engagement: longitudinal narratives",
+      "journal": "LOCAL GOVERNMENT STUDIES",
+      "idx": 3,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "unclear",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "It empirically studies a local-authority-led multi-actor governance process, but the abstract does not clearly establish how the described governance games contribute to public value creation."
+    },
+    {
+      "title": "Knowledge Co-production in Contested Spaces: An Evaluation of the North Slope Borough-Shell Baseline Studies Program",
+      "journal": "ARCTIC",
+      "idx": 4,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "This is an empirical evaluation of a government-industry research agreement, but its orientation is environmental/science management rather than public administration."
+    },
+    {
+      "title": "The collaborative realization of public values and business goals: Governance and infrastructure of public-private information platforms",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 5,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "unclear",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "borderline",
+      "reason": "The abstract frames public-private ICT platforms as governmental transformation, but does not clearly report a specific empirical case or collaboration mechanism in action."
+    },
+    {
+      "title": "Creating value through data collaboratives: Balancing innovation and control",
+      "journal": "Information Polity",
+      "idx": 6,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The article empirically examines a longitudinal public-governance case of a cross-sector data collaborative and the tensions through which it generates public value."
+    },
+    {
+      "title": "Citizen Science in the Field: Co-experimentation at Pilot Scale for Sustainable Use of Natural Resources",
+      "journal": "SUSTAINABILITY",
+      "idx": 7,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Although it describes citizen co-experimentation in a concrete setting, the study is primarily environmental restoration and agricultural land rehabilitation rather than public administration."
+    },
+    {
+      "title": "Institutional design of public agencies and coproduction: A study of irrigation associations in Taiwan",
+      "journal": "WORLD DEVELOPMENT",
+      "idx": 8,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The paper empirically analyzes irrigation governance in Taiwan and identifies institutional arrangements enabling sustained joint production by officials and farmer-users."
+    },
+    {
+      "title": "How does open government data driven co-creation occur? Six factors and a 'perfect storm'; insights from Chicago's food inspection forecasting model",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 9,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This public-governance case study specifies how Chicago used open government data and cross-group co-creation to produce a food-safety inspection service with public value."
+    },
+    {
+      "title": "Catalyzing Transformational Partnerships for the SDGs: Effectiveness and Impact of the Multi-Stakeholder InitiativeEl dia despues",
+      "journal": "SUSTAINABILITY",
+      "idx": 10,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "The abstract reports a case study of a multi-stakeholder SDG partnership, but its disciplinary orientation toward public administration rather than sustainability or partnership studies is unclear."
+    },
+    {
+      "title": "Feedback Loops and Facilitation: Catalyzing Transformational Multi-Stakeholder Refugee Response Partnerships",
+      "journal": "SUSTAINABILITY",
+      "idx": 11,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "exclude",
+      "reason": "The abstract is oriented to humanitarian refugee response and discusses partnership models generally without reporting a concrete empirical collaboration configuration."
+    },
+    {
+      "title": "Integrative public leadership: Catalyzing collaboration to create public value",
+      "journal": "LEADERSHIP QUARTERLY",
+      "idx": 12,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The paper examines three empirical public-leadership cases and identifies structures, processes, people, and boundary objects that enable multi-sector partnerships to create public value."
+    },
+    {
+      "title": "Behavioral effects of public service motivation among citizens: testing the case of digital co-production",
+      "journal": "INTERNATIONAL PUBLIC MANAGEMENT JOURNAL",
+      "idx": 13,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The study empirically analyzes citizen participation in a named digital co-production platform supporting public-service provision."
+    },
+    {
+      "title": "Leading the way: the integral role of local government within a multisector partnership delivering a large infrastructure project in an Australian growth region",
+      "journal": "LOCAL GOVERNMENT STUDIES",
+      "idx": 14,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This empirical study examines local government's role and relationship-building practices in a concrete public-private partnership for a community business accelerator."
+    },
+    {
+      "title": "Strategic management as an enabler of co-creation in public services",
+      "journal": "POLICY AND POLITICS",
+      "idx": 15,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The article advances a theoretical strategic-management argument and uses the Welsh Water project only to illustrate propositions rather than provide empirical evidence."
+    },
+    {
+      "title": "Sustaining Public-Private Partnerships for Public Service Provision Through Democratically Accountable Practices",
+      "journal": "ADMINISTRATION & SOCIETY",
+      "idx": 16,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The article uses an in-depth Uganda PPP case to identify stakeholder-accountability practices that sustain partnership operations and public-service provision."
+    },
+    {
+      "title": "Leading for public value in multi-agency collaboration",
+      "journal": "PUBLIC POLICY AND ADMINISTRATION",
+      "idx": 17,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The paper empirically investigates leadership practices in a multi-agency service hub and their role in navigating competing interests to pursue public value."
+    },
+    {
+      "title": "Local responses to global sustainability agendas: learning from experimenting with the urban sustainable development goal in Cape Town",
+      "journal": "SUSTAINABILITY SCIENCE",
+      "idx": 18,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The Cape Town urban experiment empirically examines multi-level governance and partnership arrangements needed to address SDG data and urban-governance challenges."
+    },
+    {
+      "title": "Innovative Co-Creative Participatory Methodologies for a Dreamt-of Quality Education in Europe",
+      "journal": "SUSTAINABILITY",
+      "idx": 19,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The reported participatory co-creation event is situated in a non-formal academic environment and is not framed as public-administration collaboration for public value."
+    },
+    {
+      "title": "Applying Elinor Ostrom's Design Principles to Guide Co-Design in Health(care) Improvement: A Case Study with Citizens Returning to the Community from Jail in Los Angeles County",
+      "journal": "INTERNATIONAL JOURNAL OF INTEGRATED CARE",
+      "idx": 20,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "exclude",
+      "reason": "The article is primarily a healthcare-improvement co-design reflection, a substantive public-health service-delivery domain outside the review's field scope."
+    },
+    {
+      "title": "Co-production in digital transformation of public administration and public value creation: The case of Denmark",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 1,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The Denmark case empirically examines stakeholder co-production in digital strategy formulation and implementation and its public-value outcomes."
+    },
+    {
+      "title": "Public services management and co-production in multi-level governance settings",
+      "journal": "INTERNATIONAL REVIEW OF ADMINISTRATIVE SCIENCES",
+      "idx": 2,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This public-service case study identifies inter-organizational arrangements and trust-building as mechanisms enabling co-production in multi-level governance."
+    },
+    {
+      "title": "Co-creating ambitious climate change mitigation goals: The Copenhagen experience",
+      "journal": "REGULATION & GOVERNANCE",
+      "idx": 3,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The article empirically analyzes city-level climate governance co-creation processes, participants, barriers, institutional design, and public-value outcomes."
+    },
+    {
+      "title": "Establishing and implementing data collaborations for public good: A critical factor analysis to scale up the practice",
+      "journal": "Information Polity",
+      "idx": 4,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The abstract proposes a general critical-success-factor framework for data collaboratives without reporting an empirical collaboration case or observed mechanism in action."
+    },
+    {
+      "title": "Neoliberal governing through social enterprise: Exploring the neglected roles of deviance and ignorance in public value creation",
+      "journal": "PUBLIC ADMINISTRATION",
+      "idx": 5,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "A five-year qualitative study examines how informal government–civil-society relationships and official tolerance or collaboration enable public value creation around social-enterprise policy."
+    },
+    {
+      "title": "Constructing a Joint University‒Municipality Platform for Networked Co-creation of Innovative Urban Solutions: A Norwegian Experience",
+      "journal": "Innovation Journal",
+      "idx": 6,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "Using documents, interviews, and observation, the paper studies the formation and operation of a government–knowledge-institution co-creation platform."
+    },
+    {
+      "title": "Cross-Sector Partnerships for Sustainability: How Mission-Driven Conveners Drive Change in National Coffee Platforms",
+      "journal": "SUSTAINABILITY",
+      "idx": 7,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Although it empirically studies cross-sector coffee platforms, its primary orientation is nonprofit-led sustainable sourcing and business sustainability rather than public administration."
+    },
+    {
+      "title": "The co-production of public value in community development: can street-level professionals make a difference?",
+      "journal": "INTERNATIONAL REVIEW OF ADMINISTRATIVE SCIENCES",
+      "idx": 8,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The qualitative community-development case specifies how street-level professionals combine roles to shape co-production and generate public value."
+    },
+    {
+      "title": "Paradoxes of collaborative governance: investigating the real-life dynamics of multi-agency collaborations using a quasi-experimental action-research approach",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 9,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The quasi-experimental action-research study of eight multi-agency crime collaborations identifies concrete ways collaborators manage substantive, process, and accountability challenges."
+    },
+    {
+      "title": "Co-production, governance and practice: The dynamics and effects of User Voice Prison Councils",
+      "journal": "SOCIAL POLICY & ADMINISTRATION",
+      "idx": 10,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "Interviews with prison-council participants and staff examine participatory governance arrangements, trust-building interactions, and their effects on prison governance."
+    },
+    {
+      "title": "Neighbourhood governance during the COVID-19 lockdown in Hangzhou: coproduction based on digital technologies",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 11,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The Hangzhou neighbourhood-governance case empirically shows stakeholders using digital technologies to undertake co-production that protected health and created public value."
+    },
+    {
+      "title": "A Decision Theory Perspective on Wicked Problems, SDGs and Stakeholders: The Case of Deforestation",
+      "journal": "Journal of Business Ethics",
+      "idx": 12,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The abstract is framed as organizational and decision-theory work on SDGs and does not describe a specific public-administration collaboration mechanism creating public value."
+    },
+    {
+      "title": "Organizational maturity for co-creation: Towards a multi-attribute decision support model for public organizations",
+      "journal": "Government Information Quarterly",
+      "idx": 13,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "unclear",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "The paper uses literature and two public-organization cases to build a co-creation maturity model, but the abstract does not specify an observed collaboration mechanism or public-value process in those cases."
+    },
+    {
+      "title": "Achieving Sustainable Development Goals Through Collaborative Innovation: Evidence from Four European Initiatives",
+      "journal": "Journal of Business Ethics",
+      "idx": 14,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Despite empirical analysis of multi-stakeholder sustainability initiatives, the paper is primarily oriented toward nonprofit organizations and sustainability innovation rather than public administration."
+    },
+    {
+      "title": "Paradox and collaboration in network management",
+      "journal": "Administration and Society",
+      "idx": 15,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "Qualitative evidence from two urban immigration coalitions identifies leadership practices for managing core paradoxes in interorganizational network collaboration."
+    },
+    {
+      "title": "Ambidexterity in Cross-Sector Collaborations Involving Public Organizations",
+      "journal": "Public Performance and Management Review",
+      "idx": 16,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The transportation case investigates how a large cross-sector collaboration develops knowledge exploration and exploitation capabilities to address complex public problems."
+    },
+    {
+      "title": "Coping with Value Conflicts in Interorganizational Collaborations",
+      "journal": "Perspectives on Public Management and Governance",
+      "idx": 17,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The seven-year transportation collaboration case empirically analyzes value conflicts and the coping mechanisms used across collaboration phases."
+    },
+    {
+      "title": "Community Foundations as Network Conveners: Structuring Collective Agency for Child Education and Development System Impact",
+      "journal": "Journal of Public Administration Research and Theory",
+      "idx": 18,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The longitudinal mixed-methods action-research project documents how a community foundation convened a purpose-oriented network to build collective agency around community issues."
+    },
+    {
+      "title": "Co-initiation of Collaborative Innovation in Urban Spaces",
+      "journal": "Urban Affairs Review",
+      "idx": 19,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The comparative analysis of three Danish urban cases examines conditions, phases, and impacts of local-government and civic-actor co-initiation of public innovation."
+    }
+  ],
+  "known_excluded": [
+    {
+      "title": "Building Cross-Sector Collaboration to Improve Community Health",
+      "journal": "Journal of Health and Human Services Administration",
+      "idx": 1,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Although it empirically documents a cross-sector sanitation project, its primary focus is sanitation and health service delivery rather than public-administration collaboration."
+    },
+    {
+      "title": "Citizen participation and the redistribution of public goods",
+      "journal": "PUBLIC ADMINISTRATION",
+      "idx": 2,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The study empirically compares citizen participatory budgeting with bureaucratic budgeting and assesses resulting equity and public-service outcomes."
+    },
+    {
+      "title": "COLLABORATIVE CITIZEN PARTICIPATION AND THE VALUES OF PUBLIC ADMINISTRATION",
+      "journal": "REVISTA DE GESTION PUBLICA",
+      "idx": 3,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "It is a primarily conceptual discussion of collaborative participation and illustrative civic-app examples rather than an empirical study."
+    },
+    {
+      "title": "The Research of Tripartite Collaborative Governance on Disorderly Parking of Shared Bicycles Based on the Theory of Planned Behavior and Motivation Theories-A Case of Beijing, China",
+      "journal": "SUSTAINABILITY",
+      "idx": 4,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The abstract proposes a collaborative management system for shared bicycles but is oriented to urban transport management and does not report empirical evidence."
+    },
+    {
+      "title": "Co-creating public value in e-government: A case study of Korean municipal government websites",
+      "journal": "International Journal of Electronic Government Research",
+      "idx": 5,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "unclear",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "It uses mixed methods on e-government and public value, but the abstract does not identify a concrete co-creation setting or collaboration configuration."
+    },
+    {
+      "title": "Co-commissioning of public services and outcomes in the UK: Bringing co-production into the strategic commissioning cycle",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 6,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The paper maps and discusses how commissioning could support co-commissioning with citizens, but does not report empirical evidence."
+    },
+    {
+      "title": "From marketing to public value: towards a theory of public service ecosystems",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 7,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "This is a conceptual effort to develop a public-service ecosystems theory rather than an empirical account of a collaboration mechanism."
+    },
+    {
+      "title": "Harnessing Local and Transnational Communities in the Global Protection of Underwater Cultural Heritage",
+      "journal": "TRANSNATIONAL ENVIRONMENTAL LAW",
+      "idx": 8,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The article provides a theoretical argument about community governance of underwater cultural heritage rather than public-administration empirical evidence."
+    },
+    {
+      "title": "SDG Platforms as Strategic Innovation Through Partnerships",
+      "journal": "JOURNAL OF BUSINESS ETHICS",
+      "idx": 9,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Despite examining organizational participation in SDG platforms, the study is framed around corporate strategy and sustainability partnership literature rather than public administration."
+    },
+    {
+      "title": "Collaborative Governance: Integrating Management, Politics, and Law",
+      "journal": "PUBLIC ADMINISTRATION REVIEW",
+      "idx": 10,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "It offers a legal and theoretical overview of collaborative governance rather than empirical evidence of a specific collaborative mechanism in operation."
+    },
+    {
+      "title": "Concluding discussion: key themes in the (possible) move to co-production and co-creation in public management",
+      "journal": "POLICY AND POLITICS",
+      "idx": 11,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "This special-issue synthesis discusses concepts and future directions for co-creation without reporting an empirical collaboration case."
+    },
+    {
+      "title": "Public Choice Theory and the Reform of Local Government in Britain: From Government to Governance",
+      "journal": "Public Policy and Administration",
+      "idx": 12,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "borderline",
+      "reason": "It analyzes British local-government reforms toward multi-agency provision, but the abstract does not clearly establish that the analysis supplies empirical evidence."
+    },
+    {
+      "title": "Anti-social behaviour and its surveillant interassemblage in New South Wales, Australia",
+      "journal": "Surveillance and Society",
+      "idx": 13,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The paper empirically analyzes a named NSW multi-agency risk-governance pilot in which justice and human-service authorities share intelligence to pursue public safety."
+    },
+    {
+      "title": "The Developer's Role in Coprovision, Cofinancing, and Coproduction of Urban Infrastructure and Services",
+      "journal": "Nonprofit and Voluntary Sector Quarterly",
+      "idx": 14,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "Although it identifies concrete developer-local government coproduction arrangements, the abstract presents a general institutional discussion rather than empirical evidence."
+    },
+    {
+      "title": "Promotion of Social Innovation through Fab Labs. The Case of ProteinLab UTEM in Chile",
+      "journal": "SUSTAINABILITY",
+      "idx": 15,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The empirical Fab Lab case concerns university-led social innovation and education-oriented third-mission activity rather than public-administration collaboration."
+    },
+    {
+      "title": "Public service innovation: a typology",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 16,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The article develops a typology of public-service innovation and only presents a preliminary assessment, without examining a concrete collaboration mechanism."
+    },
+    {
+      "title": "Creating Public Value in a Westminster Context: The Case of the Australian Department of Prime Minister and Cabinet's Indigenous Regional Network, 2013-2018",
+      "journal": "INTERNATIONAL JOURNAL OF PUBLIC ADMINISTRATION",
+      "idx": 17,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "It empirically tracks implementation of an Indigenous community support and development policy to examine how public-administration norms affect stakeholder co-production and policy outcomes."
+    },
+    {
+      "title": "Collaborative governance for the Sustainable Development Goals",
+      "journal": "ASIA & THE PACIFIC POLICY STUDIES",
+      "idx": 18,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "borderline",
+      "reason": "The paper discusses and illustrates cross-sector agricultural partnerships with cases, but its public-administration orientation and the empirical basis of the case material are not clear from the abstract."
+    },
+    {
+      "title": "Enhancing Urban Brownfield Regeneration to Pursue Sustainable Community Outcomes through Dynamic Performance Governance",
+      "journal": "INTERNATIONAL JOURNAL OF PUBLIC ADMINISTRATION",
+      "idx": 19,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "Using the Puerto Madero regeneration case, the study examines a policy network involving substantial private-sector participation and reports governance trade-offs affecting community outcomes."
+    },
+    {
+      "title": "The Usability of Scenario Studies: the Case of the EUruralis from the Users' Perspective",
+      "journal": "POLISH SOCIOLOGICAL REVIEW",
+      "idx": 20,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The case analysis of the EUruralis scenario project empirically examines how a science-policy boundary object supported cooperation, legitimacy, and planning processes."
+    },
+    {
+      "title": "Cultural and Creative Industries as Innovation and Sustainable Transition Brokers in the Baltic Sea Region: A Strong Tribute to Sustainable Macro-Regional Development",
+      "journal": "SUSTAINABILITY",
+      "idx": 1,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The study provides case-based evidence on creative-industry SMEs and regional development, but its orientation is regional innovation and sustainability rather than public administration collaboration mechanisms for public value."
+    },
+    {
+      "title": "Environmental Co-governance, Legitimacy, and the Quest for Compliance: When and Why Is Stakeholder Participation Desirable?",
+      "journal": "JOURNAL OF ENVIRONMENTAL POLICY & PLANNING",
+      "idx": 2,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "This is a conceptual and normative assessment of fisheries co-governance claims rather than an empirical analysis of a collaboration mechanism in action."
+    },
+    {
+      "title": "What is co-creation and how does it create public value?",
+      "journal": "International Review of Public Administration",
+      "idx": 3,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "unclear",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "borderline",
+      "reason": "The paper concerns policy organizations and public value, but the abstract does not clearly state an empirical design or describe concrete co-creation mechanisms used by the compared organizations."
+    },
+    {
+      "title": "The rise of GovTech: Trojan horse or blessing in disguise? A research agenda",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 4,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "exclude",
+      "reason": "Although it addresses public-sector GovTech and public-private relations, the abstract provides no specific empirical collaborative arrangement or public-value creation mechanism."
+    },
+    {
+      "title": "CO-GOVERNING PUBLIC VALUE IN LOCAL AUTHORITIES",
+      "journal": "PUBLIC VALUE MANAGEMENT, MEASUREMENT AND REPORTING",
+      "idx": 5,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The questionnaire study of Italian municipalities empirically examines co-governance and participatory tools through which citizens act as co-producers of public value."
+    },
+    {
+      "title": "Participatory democracy in dynamic contexts: A review of regional transmission organization governance in the United States",
+      "journal": "Energy Research and Social Science",
+      "idx": 6,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The comparative analysis of regional transmission organizations examines concrete participatory governance structures and power arrangements relevant to public-interest accountability."
+    },
+    {
+      "title": "Participatory budgeting: A comparative study of Croatia, Poland and Slovakia",
+      "journal": "Nispacee Journal of Public Administration and Policy",
+      "idx": 7,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The qualitative comparison of municipal participatory-budgeting cases examines a specific citizen-government co-production mechanism intended to improve local governance."
+    },
+    {
+      "title": "Taming the snake in paradise: combining institutional design and leadership to enhance collaborative innovation",
+      "journal": "POLICY AND SOCIETY",
+      "idx": 8,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The abstract presents a general conceptual discussion of collaborative innovation and common-ground formation without an empirical case or observed mechanism."
+    },
+    {
+      "title": "REGULATORY MONITORS: POLICING FIRMS IN THE COMPLIANCE ERA",
+      "journal": "COLUMBIA LAW REVIEW",
+      "idx": 9,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Despite its empirical historical account of regulatory monitors, the article does not examine collaboration among actors as a mechanism for public value creation."
+    },
+    {
+      "title": "Beyond Model UN: Simulating Multi-Level, Multi-Actor Diplomacy Using the Millennium Development Goals",
+      "journal": "INTERNATIONAL STUDIES PERSPECTIVES",
+      "idx": 10,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "exclude",
+      "reason": "This is an education-focused discussion of a classroom simulation rather than a public-administration study of actual collaborative public-value creation."
+    },
+    {
+      "title": "Towards measuring societal impact of research: Insights from an Irish case study",
+      "journal": "Irish Journal of Sociology",
+      "idx": 11,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The case concerns public-engagement seminars and research-impact measurement, but it does not describe a specific collaboration mechanism producing public value in a public-administration setting."
+    },
+    {
+      "title": "Serious gaming for climate adaptation—assessing the potential and challenges of a digital serious game for urban climate adaptation",
+      "journal": "Sustainability Switzerland",
+      "idx": 12,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The empirical study evaluates a climate-adaptation educational game, which is primarily an education and communication intervention rather than a public-administration collaboration mechanism."
+    },
+    {
+      "title": "Dreaming is not enough. Audiovisual methodologies, social inclusion, and new forms of youth biopolitical resistance",
+      "journal": "FRONTIERS IN SOCIOLOGY",
+      "idx": 13,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "This is an arts-based youth intervention in a disadvantaged neighbourhood, not a public-administration or public-management analysis of collaborative value creation."
+    },
+    {
+      "title": "Engagement Motivations in Professional Associations",
+      "journal": "NONPROFIT AND VOLUNTARY SECTOR QUARTERLY",
+      "idx": 14,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The membership-survey study concerns incentives and engagement within professional associations rather than collaboration mechanisms for public value in public administration."
+    },
+    {
+      "title": "The Sedimentation of Public Values: How a Variety of Governance Perspectives Guide the Practical Actions of Civil Servants",
+      "journal": "REVIEW OF PUBLIC PERSONNEL ADMINISTRATION",
+      "idx": 15,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The abstract offers a conceptual discussion of competing values held by civil servants and does not report collaborative mechanisms or empirical evidence."
+    },
+    {
+      "title": "A citizen participation model for co-creation of public value in a smart city",
+      "journal": "JOURNAL OF URBAN AFFAIRS",
+      "idx": 16,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The paper proposes a theoretical model of social-media and IoT participation without reporting an empirical case of collaboration in action."
+    },
+    {
+      "title": "How to Measure Wellbeing in Outcomes-based Commissioning?",
+      "journal": "LEX LOCALIS-JOURNAL OF LOCAL SELF-GOVERNMENT",
+      "idx": 17,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The Tampere procurement case uses documents, interviews, and a workshop to examine outcomes-based commissioning between public officials and providers and its public-value implications."
+    },
+    {
+      "title": "Are partnerships in nonprofit organizations being governed for sustainability? A partnering life cycle assessment",
+      "journal": "PLOS ONE",
+      "idx": 18,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The study empirically analyzes governance practices across 937 NPO partnerships, including concrete partnership life-cycle processes involving multiple sectors."
+    },
+    {
+      "title": "CO-PRODUCTION, INTERDEPENDENCE AND PUBLICNESS Extending public servicedominant logic",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 19,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "This is a conceptual reconceptualization of public service-dominant logic and co-production, without empirical evidence of collaborative mechanisms."
+    },
+    {
+      "title": "Unlocking the Prisoner's Dilemma of Corporate Water Stewardship in South Africa-Exploring Corporate Power and Legitimacy of Engagement in Water Management and Governance",
+      "journal": "SUSTAINABILITY",
+      "idx": 20,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The South African case study examines corporations participating in water-stewardship initiatives and analyzes the governance conditions under which this multi-actor arrangement is legitimate."
+    },
+    {
+      "title": "The social impact of advice during disability welfare reform: from social return on investment to evidencing public value through realism and complexity",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 1,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The qualitative welfare-advice study examines client experiences and service impacts, but does not describe a collaboration mechanism and is primarily oriented to welfare-service experience rather than public administration collaboration."
+    },
+    {
+      "title": "Partnerships for development. Assessing the impact potential of cross-sector partnerships",
+      "journal": "WORLD DEVELOPMENT",
+      "idx": 2,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Although it empirically examines a Business-NGO partnership in Ghana, the abstract explicitly situates its assessment framework in management literature rather than public administration or public policy."
+    },
+    {
+      "title": "Samples Are Precious: Value Formations in the Potentiality and Practices of Biobanking in Singapore",
+      "journal": "SCIENCE TECHNOLOGY & HUMAN VALUES",
+      "idx": 3,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "unclear"
+      },
+      "decision": "exclude",
+      "reason": "This is a science-and-technology-oriented conceptual account of value formations in biobanking, without a specific interorganizational collaboration mechanism for public value creation."
+    },
+    {
+      "title": "The production of scientific and societal value in research evaluation: A review of societal impact assessment methods",
+      "journal": "Research Evaluation",
+      "idx": 4,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "This review article conceptually compares societal-impact evaluation methods rather than reporting empirical evidence on collaborative public-value mechanisms."
+    },
+    {
+      "title": "'SIB': what does it really mean? A theoretical approach to understanding social impact bonds",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 5,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The paper is framed in public management and specifies Social Impact Bond relationships, but presents an analytical model rather than empirical evidence."
+    },
+    {
+      "title": "Public value creation and appropriation mechanisms in public-private partnerships: How does it play a role?",
+      "journal": "PUBLIC ADMINISTRATION",
+      "idx": 6,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The public-management-oriented article identifies PPP mechanisms, but is explicitly conceptual and does not provide empirical evidence."
+    },
+    {
+      "title": "Constituency Groups of Alternative Action Organizations During Hard Times: A Comparison at the Solidarity Orientation and Country Levels",
+      "journal": "AMERICAN BEHAVIORAL SCIENTIST",
+      "idx": 7,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "borderline",
+      "reason": "The study empirically documents alternative action organizations and support networks, but its disciplinary orientation as public administration or public policy is not clear from the abstract."
+    },
+    {
+      "title": "Creating public value in regional policy. Bringing citizens back in",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 8,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "This public-value-management study uses citizen focus groups across European regional-policy settings to examine public values and proposes co-creation and feedback mechanisms."
+    },
+    {
+      "title": "Encouraging Writing on the White Walls: Co-production in Museums and the Influence of Professional Bodies",
+      "journal": "AUSTRALIAN JOURNAL OF PUBLIC ADMINISTRATION",
+      "idx": 9,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "Despite examining co-production with communities, the study is primarily situated in the museum and cultural-institutions domain rather than public administration."
+    },
+    {
+      "title": "Rethinking co-creation: the fluid and relational process of value co-creation in public service organizations",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 10,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The article concerns a health and social-care service redesign and public-service co-creation, but presents a conceptual development based on practical experience rather than reported empirical evidence."
+    },
+    {
+      "title": "Silence and Voice in Nigeria's Hybrid Urban Water Markets: Implications for Local Governance of Public Goods",
+      "journal": "INTERNATIONAL JOURNAL OF URBAN AND REGIONAL RESEARCH",
+      "idx": 11,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The empirical study concerns household strategies and water markets in an urban water-service setting, a substantive WASH/environmental domain rather than a public-administration collaboration study."
+    },
+    {
+      "title": "Open government data (OGD) in six Middle East countries: an evaluation of the national open data portals",
+      "journal": "Digital Policy Regulation and Governance",
+      "idx": 12,
+      "checklist": {
+        "field_fit": "unclear",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The documentary analysis of open-data portals reports empirical findings, but does not examine a specific collaboration mechanism contributing to public value creation."
+    },
+    {
+      "title": "Neither Market nor Sate Domain: Nonprofits From the Ostroms' Theoretical Perspective",
+      "journal": "NONPROFIT AND VOLUNTARY SECTOR QUARTERLY",
+      "idx": 13,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "This is a theoretical discussion of the Ostroms' ideas on nonprofit provision, coproduction, and polycentricity without empirical evidence of a collaboration mechanism in action."
+    },
+    {
+      "title": "Policy Design and Achieving Social Outcomes: A Comparative Analysis of Social Enterprise Policy",
+      "journal": "PUBLIC ADMINISTRATION REVIEW",
+      "idx": 14,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The comparative policy cases analyze how governments shape social enterprises, but do not describe collaboration mechanisms among actors producing public value."
+    },
+    {
+      "title": "Knowledge Translation and Its Interrelation with Usability and Accessibility. Biocultural Diversity Translated by Means of Technology and Language-The Case of Citizen Science Contributing to the Sustainable Development Goals",
+      "journal": "SUSTAINABILITY",
+      "idx": 15,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "no",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "This conceptual application of knowledge-translation theory to citizen science and SDGs does not provide empirical evidence or a concrete public-administration collaboration mechanism."
+    },
+    {
+      "title": "Co-experience, co-production and co-governance: an ecosystem approach to the analysis of value creation",
+      "journal": "POLICY AND POLITICS",
+      "idx": 16,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "Although it discusses participatory processes involving service users and third-sector organizations, the article is explicitly conceptual and uses the Scottish case only illustratively."
+    },
+    {
+      "title": "Practical prescriptions for governing fragmented governments",
+      "journal": "POLICY AND POLITICS",
+      "idx": 17,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "no"
+      },
+      "decision": "exclude",
+      "reason": "The article discusses institutional collective-action arrangements and collaboration barriers, but derives propositions from literature rather than reporting original empirical evidence."
+    },
+    {
+      "title": "Integrating scientific and local knowledge to address conservation conflicts: Towards a practical framework based on lessons learned from a Scottish case study",
+      "journal": "ENVIRONMENTAL SCIENCE & POLICY",
+      "idx": 18,
+      "checklist": {
+        "field_fit": "no",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "exclude",
+      "reason": "The mixed-methods study documents stakeholder knowledge integration and power sharing, but is primarily an environmental conflict and decision-making study rather than a public-administration analysis."
+    },
+    {
+      "title": "Beyond the Shadow State: The Public-Private Food Assistance System as Networked Governance",
+      "journal": "URBAN AFFAIRS REVIEW",
+      "idx": 19,
+      "checklist": {
+        "field_fit": "yes",
+        "mechanism_specificity": "yes",
+        "empirical_evidence": "yes"
+      },
+      "decision": "include",
+      "reason": "The article examines the public-private food-assistance system as a multiactor, multiscalar welfare-governance network in which state, market, and civil-society relationships are negotiated."
+    }
+  ]
+}

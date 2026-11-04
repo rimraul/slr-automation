@@ -1,0 +1,32 @@
+{
+  "review_run_id": "demo-run-01",
+  "review_type": "scoping",
+  "full_text_review_queue": [],
+  "prisma_counts": {
+    "identified": {"openalex": 40, "pubmed": 30, "crossref": 20, "scopus": 10},
+    "duplicates_removed": 18,
+    "after_dedup": 82,
+    "screened_title_abstract": 82,
+    "excluded_title_abstract": 62,
+    "assessed_full_text": 16,
+    "excluded_full_text": 6,
+    "excluded_full_text_reasons": {"wrong_population": 3, "wrong_outcome": 2, "editorial": 1},
+    "fulltext_retrieval": {"parsed": 16, "no_oa_fulltext_found": 3, "rejected_stub": 1},
+    "quality_assessed": null,
+    "excluded_quality": null,
+    "included": 10
+  },
+  "oversight_mode": {
+    "dedup": "automation_unreviewed",
+    "title_abstract_screening": "human_resolved",
+    "full_text_eligibility": "automation_unreviewed"
+  },
+  "automation_origin": {
+    "dedup": "rule_based_automation",
+    "title_abstract_screening": "ai",
+    "full_text_eligibility": "ai"
+  },
+  "screening_review_resolutions": [
+    {"record_id": "rec-31", "resolved_by": "human", "final_decision": "include"}
+  ]
+}

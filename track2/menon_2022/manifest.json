@@ -1,0 +1,168 @@
+{
+  "generated": "2026-09-03",
+  "purpose": "Step 12B.2 no-spend prerequisites: SYNERGY snapshot pin, OSF manual-inspection findings, balanced full-text subset design, per-article licence verification. No PDFs downloaded, no LLM calls made, no spend incurred. See ../../track2_step12b2_prerequisites_2026-09-03.md for narrative.",
+  "synergy_snapshot": {
+    "repo": "asreview/synergy-dataset",
+    "repo_license": "CC0-1.0",
+    "path": "datasets/Menon_2022/Menon_2022_ids.csv",
+    "pinned_commit_sha": "483562ffcf28ea612bdcd60d805c8f2c16672651",
+    "pinned_commit_author_date": "2023-03-31T19:36:37Z",
+    "pinned_commit_message": "Add inclusions if possible via Lens",
+    "raw_url": "https://raw.githubusercontent.com/asreview/synergy-dataset/483562ffcf28ea612bdcd60d805c8f2c16672651/datasets/Menon_2022/Menon_2022_ids.csv",
+    "local_copy": "Menon_2022_ids_pinned.csv",
+    "byte_size": 132468,
+    "sha256": "194016a756f91a010544d8af5cbcedee8ee289323fe7322f3d178d29e78e0385",
+    "total_lines_incl_header": 977,
+    "total_records": 976,
+    "included_records": 75,
+    "excluded_records": 901,
+    "identical_bytes_to_unpinned_live_fetch_used_in_revision_proposal_section_4_5": true
+  },
+  "osf_menon_2022_project": {
+    "root_node": "https://osf.io/j2d5v/",
+    "root_title": "The methodological rigour of systematic reviews in environmental health",
+    "root_license": "CC BY 4.0 (osf.io licenses/563c1cf88c5e4a3877f9e96a)",
+    "components": [
+      {"id": "v9fnh", "title": "Preparation and Protocol", "files": ["SM00 - Quality of SRs - Research Protocol.pdf"]},
+      {"id": "9jzsu", "title": "Searching for and screening SRs", "files": [
+        "SM09 - Selecting web text to anonymise included SR.png",
+        "SM06 - Included Systematic Reviews.xlsx",
+        "SM04 - Included Studies n75.bib",
+        "SM01 - Quality of SRs Search Strategy.docx",
+        "SM13 - Excluded SRs.csv",
+        "SM03 - PubMed Search Results - PubMed Format.nbib",
+        "SM08 - Screenshot of anonymised SR.png"
+      ]},
+      {"id": "yrnws", "title": "Data collection and SR assessment", "files": [
+        "SM07 - Aggregated SR Appraisals using CREST_Basic - Conflicts Resolved.xlsx",
+        "SM05 - Raw Data - Results of Duplicate Appraisal of Included SRs.xlsx",
+        "SM02 - Quality of SRs Data Collection Form - CREST_Basic.pdf"
+      ]},
+      {"id": "9krhz", "title": "Analysis and interpretation of data", "files": [
+        "SM10 - Data Analysis - Charts and Main Findings.xlsx",
+        "SM12 - Contigency Tables for Exploratory Analyses.xlsx",
+        "SM11 - Hypothesis Tests and Normality Tests.xlsx"
+      ]},
+      {"id": "ybnfa", "title": "Preprints and other documentation communication", "files": [
+        "Poster for SOT 2022 - Quality of SRs.pdf",
+        "Quality of SRs in Env Health - Preprint Version.pdf",
+        "Manuscript Figures - Preprint Version.pdf"
+      ]}
+    ],
+    "inspected_files": [
+      {
+        "name": "SM06 - Included Systematic Reviews.xlsx",
+        "download_url": "https://osf.io/download/mgxwj/",
+        "byte_size": 24867,
+        "sha256": "1e58f7bd81420265c3c96d08c1b11b6387c31e61a0942b993b9bb1ee131c068c",
+        "content": "75-row bibliographic table (Project ID, Authors, Year, Title, Date, Journal, DOI name, PubMed ID, Online address) of the 75 included SRs. Bibliographic metadata only -- not extraction or appraisal data."
+      },
+      {
+        "name": "SM04 - Included Studies n75.bib",
+        "download_url": "https://osf.io/download/qtrg6/",
+        "byte_size": 162258,
+        "sha256": "49c0cfeab2624244f4b1491f7e7a8ca8161789e71f80456f60d72f08f6c93940",
+        "content": "75-entry BibTeX bibliography of the same 75 included SRs -- redundant with SM06, not extraction data."
+      },
+      {
+        "name": "SM13 - Excluded SRs.csv",
+        "download_url": "https://osf.io/download/y83tu/",
+        "byte_size": 378031,
+        "sha256": "517de2156f807ba3d0f8c772d884dc7394e23af259b80c8d8e10f46bd8c8136d",
+        "content": "901-row Rayyan export of the excluded SRs (key, title, year, month, day, journal, issn, volume, issue, pages, authors, url, language, publisher, location, abstract, notes, pubmed_id, pmc_id). The `notes` field carries a `RAYYAN-EXCLUSION-REASONS:` tag per record -- the ORIGINAL AUTHORS' OWN full-text-exclusion reason, not an independent re-adjudication. Row count (901) exactly matches SYNERGY's excluded-record count. pubmed_id populated for all 901 rows; pmc_id populated for 281/901.",
+        "exclusion_reason_breakdown": {
+          "Wrong intervention": 812, "protocol": 14, "behavioural risk factor": 14,
+          "Smoking and tobacco": 8, "pathogen": 4, "wrong population": 3,
+          "not an SR": 3, "background article": 2, "psychological risk factor": 1,
+          "no_parseable_reason_tag": 42
+        }
+      }
+    ],
+    "not_downloaded_files": [
+      {"name": "SM00 - Quality of SRs - Research Protocol.pdf", "reason": "Menon_2022's own protocol PDF -- out of scope for this metadata/licence prerequisite pass; not needed to design the subset."},
+      {"name": "SM01 - Quality of SRs Search Strategy.docx", "reason": "search-strategy document, not screening/extraction evidence -- not needed here."},
+      {"name": "SM02 - Quality of SRs Data Collection Form - CREST_Basic.pdf", "reason": "CREST_Basic is a methodological-RIGOUR appraisal instrument for SRs, not a PICO-style extraction schema -- does not map onto this chapter's 9-field extraction schema; large PDF, deferred."},
+      {"name": "SM03 - PubMed Search Results - PubMed Format.nbib", "reason": "22.5 MB raw search-results dump, not needed for subset design."},
+      {"name": "SM05 - Raw Data - Results of Duplicate Appraisal of Included SRs.xlsx", "reason": "CREST_Basic rigour-appraisal scores of the included SRs, not PICO-style extraction data -- same schema mismatch as SM02/SM07."},
+      {"name": "SM07 - Aggregated SR Appraisals using CREST_Basic - Conflicts Resolved.xlsx", "reason": "same as SM05, conflict-resolved aggregate."},
+      {"name": "SM08 - Screenshot of anonymised SR.png", "reason": "illustrative screenshot, not data."},
+      {"name": "SM09 - Selecting web text to anonymise included SR.png", "reason": "illustrative screenshot, not data."},
+      {"name": "SM10 - Data Analysis - Charts and Main Findings.xlsx", "reason": "Menon_2022's own downstream statistical analysis of its rigour scores -- not needed to design 12B.2's subset."},
+      {"name": "SM11 - Hypothesis Tests and Normality Tests.xlsx", "reason": "same as SM10."},
+      {"name": "SM12 - Contigency Tables for Exploratory Analyses.xlsx", "reason": "same as SM10."},
+      {"name": "Poster for SOT 2022 - Quality of SRs.pdf", "reason": "conference poster, not data."},
+      {"name": "Quality of SRs in Env Health - Preprint Version.pdf", "reason": "Menon_2022's own manuscript preprint -- not one of the 75 included/901 excluded studies' full text; not needed for subset design."},
+      {"name": "Manuscript Figures - Preprint Version.pdf", "reason": "figures for the preprint above -- not needed."}
+    ],
+    "upgrade_finding": "SM13's per-record RAYYAN-EXCLUSION-REASONS tags upgrade 12B's excluded-record labelling for Menon_2022 specifically from 'independent dual-human/LLM adjudication' (decision 2's fallback) to 'the original authors' own structured exclusion reason' for all 901 excluded records, 281 of which are additionally PMC-indexed. No equivalent per-record extraction dataset exists for the 75 included SRs beyond SM06's bibliographic fields -- Menon_2022's own 'extraction' (SM05/SM07, CREST_Basic) scores SR methodological rigour, not PICO-style study findings, so it cannot be reused as ground truth for this chapter's 9-field extraction schema; 12B.2 must still independently extract from full text for whatever included subset it selects."
+  },
+  "balanced_subset_design": {
+    "target_size": 12,
+    "note": "6 included + 6 excluded, all licence-verified CC BY 4.0 via Europe PMC (isOpenAccess=Y, license='cc by'), chosen for journal diversity (included) and exclusion-reason diversity (excluded). Full text has not been downloaded for any of the 12 -- licence verification only, per the standing no-spend/no-download gate.",
+    "included": [
+      {"pmid": "32252671", "pmcid": "PMC7137267", "doi": "10.1186/s12885-020-06767-8", "journal": "BMC cancer", "year": 2020, "title": "Dietary factors and risk of mortality among patients with esophageal cancer: a systematic review", "license": "cc by", "is_open_access": "Y"},
+      {"pmid": "31989413", "pmcid": "PMC7182542", "doi": "10.1007/s12550-019-00384-6", "journal": "Mycotoxin research", "year": 2020, "title": "Maternal mycotoxin exposure and adverse pregnancy outcomes: a systematic review", "license": "cc by", "is_open_access": "Y"},
+      {"pmid": "32398147", "pmcid": "PMC7218615", "doi": "10.1186/s13148-020-00845-1", "journal": "Clinical epigenetics", "year": 2020, "title": "Transgenerational epigenetic effects from male exposure to endocrine-disrupting compounds: a systematic review on research in mammals", "license": "cc by", "is_open_access": "Y"},
+      {"pmid": "32365627", "pmcid": "PMC7246722", "doi": "10.3390/ijerph17093105", "journal": "International journal of environmental research and public health", "year": 2020, "title": "Arsenic Exposure and Risk of Urothelial Cancer: Systematic Review and Meta-Analysis", "license": "cc by", "is_open_access": "Y"},
+      {"pmid": "32474653", "pmcid": "PMC7520410", "doi": "10.1007/s10029-020-02236-0", "journal": "Hernia : the journal of hernias and abdominal wall surgery", "year": 2020, "title": "Work-relatedness of inguinal hernia: a systematic review including meta-analysis and GRADE", "license": "cc by", "is_open_access": "Y"},
+      {"pmid": "31899558", "pmcid": "PMC9292730", "doi": "10.1111/phn.12701", "journal": "Public health nursing (Boston, Mass.)", "year": 2020, "title": "Effect of greenness on asthma in children: A systematic review", "license": "cc by", "is_open_access": "Y"}
+    ],
+    "excluded": [
+      {"pmid": "31848865", "pmcid": "PMC7174434", "doi": "10.1007/s11606-019-05364-1", "journal": "Journal of general internal medicine", "year": 2020, "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.", "license": "cc by", "is_open_access": "Y", "original_exclusion_reason": "Wrong intervention"},
+      {"pmid": "32339201", "pmcid": "PMC7205316", "doi": "10.1371/journal.pntd.0008276", "journal": "PLoS neglected tropical diseases", "year": 2020, "title": "Reservoirs and transmission routes of leprosy; A systematic review.", "license": "cc by", "is_open_access": "Y", "original_exclusion_reason": "Wrong intervention"},
+      {"pmid": "32392223", "pmcid": "PMC7252629", "doi": "10.1371/journal.pntd.0008164", "journal": "PLoS neglected tropical diseases", "year": 2020, "title": "Occupational exposure to Brucella spp.: A systematic review and meta-analysis.", "license": "cc by", "is_open_access": "Y", "original_exclusion_reason": "pathogen"},
+      {"pmid": "32145747", "pmcid": "PMC7060985", "doi": "10.1186/s13643-020-01313-w", "journal": "Systematic reviews", "year": 2020, "title": "Precarious employment and migrant workers' mental health: a protocol for a systematic review of observational studies.", "license": "cc by", "is_open_access": "Y", "original_exclusion_reason": "protocol"},
+      {"pmid": "32264899", "pmcid": "PMC7140383", "doi": "10.1186/s12966-020-00942-7", "journal": "The international journal of behavioral nutrition and physical activity", "year": 2020, "title": "Choice architecture interventions to change physical activity and sedentary behavior: a systematic review of effects on intention, behavior and health outcomes during and after intervention.", "license": "cc by", "is_open_access": "Y", "original_exclusion_reason": "behavioural risk factor"},
+      {"pmid": "32183734", "pmcid": "PMC7079385", "doi": "10.1186/s12883-020-01680-w", "journal": "BMC neurology", "year": 2020, "title": "Investigatory pathway and principles of patient selection for epilepsy surgery candidates: a systematic review.", "license": "cc by", "is_open_access": "Y", "original_exclusion_reason": "Wrong intervention,background article"}
+    ]
+  }
+,
+  "llm_budget": {
+    "checked": "2026-09-03",
+    "note": "Estimate only -- no LLM calls made, no spend incurred producing this manifest. Re-verify model availability and pricing immediately before any real spend (this repo's paid-run-incident discipline). Narrative: ../../track2_step12b2_prerequisites_2026-09-03.md section 5.",
+    "scope_1_screening": {
+      "model": "gpt-5.6-luna",
+      "pricing_per_1m_tokens_usd": {
+        "input": 0.2,
+        "cached_input": 0.02,
+        "output": 1.2
+      },
+      "n_records": 976,
+      "batch_size": 5,
+      "n_calls": 196,
+      "est_input_tokens": 450000,
+      "est_output_tokens": 150000,
+      "est_cost_usd": 0.27
+    },
+    "scope_2_full_text": {
+      "n_records": 12,
+      "full_text_adjudication": {
+        "model": "gpt-5.6-sol",
+        "pricing_per_1m_tokens_usd": {
+          "input": 4.0,
+          "cached_input": 0.4,
+          "output": 20.0
+        },
+        "n_calls": 36,
+        "est_input_tokens": 72000,
+        "est_output_tokens": 5400,
+        "est_cost_usd": 0.4
+      },
+      "extraction": {
+        "model": "gpt-5.6-sol",
+        "pricing_per_1m_tokens_usd": {
+          "input": 4.0,
+          "cached_input": 0.4,
+          "output": 20.0
+        },
+        "n_records_extracted": 6,
+        "n_calls": 6,
+        "est_input_tokens": 48000,
+        "est_output_tokens": 4800,
+        "est_cost_usd": 0.29
+      }
+    },
+    "combined_est_cost_usd": 0.96,
+    "combined_est_cost_usd_with_3x_safety_margin": 2.88
+  }
+}

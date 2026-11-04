@@ -1,0 +1,15 @@
+{
+  "content_hash": "45c09dc1247d1b597a5b948e5364937c7a79160dd1cbc604bf12a054b1e18051",
+  "decision": "include",
+  "decision_id": "f6c33beb-678c-4d19-989d-84db647f77db",
+  "decision_maker": "ai",
+  "producer_artifact_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+  "reason": "topically relevant, meets inclusion criteria",
+  "record_id": "rec-0001",
+  "review_run_id": "review-run-exemplar-a",
+  "semantic_hash": "cd02e774267e534c76641f1df95c388db82c02b4062ebc71239fe3878125ae28",
+  "source_event_id": "src-e8b0966ea1f0a6189af3aae4fa198329cf00e2ffbcacb950a8e9850eba833f60",
+  "stage": "title_abstract_screening",
+  "supersedes_decision_id": "427c0a16-69b1-42ec-ba24-eee7b5616118",
+  "timestamp": "2026-01-01T00:00:00Z"
+}

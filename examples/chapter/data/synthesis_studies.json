@@ -1,0 +1,32 @@
+{
+  "rq": "RQ-1: How well do automated screening tools reproduce human inclusion decisions in systematic reviews?",
+  "studies": [
+    {
+      "study_id": "study-A",
+      "charted": {
+        "study_design": "retrospective evaluation against completed reviews",
+        "sample_size": 71,
+        "country": "Lithuania",
+        "main_finding": "the tool matched human recall, missing fewer than one included study in twenty"
+      }
+    },
+    {
+      "study_id": "study-B",
+      "charted": {
+        "study_design": "prospective validation with dual human screening as reference",
+        "sample_size": 240,
+        "country": "Canada",
+        "main_finding": "the tool missed roughly one in five relevant records compared with dual human screening"
+      }
+    },
+    {
+      "study_id": "study-C",
+      "charted": {
+        "study_design": "retrospective evaluation against completed reviews",
+        "sample_size": 120,
+        "country": "Germany",
+        "main_finding": "recall was above 0.95, consistent with the tool serving as a reliable second screener"
+      }
+    }
+  ]
+}

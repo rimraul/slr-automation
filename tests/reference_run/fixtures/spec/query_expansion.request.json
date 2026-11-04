@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "content": "Return only valid JSON.",
+      "role": "system"
+    },
+    {
+      "content": "You are designing a transparent database search strategy for a literature review.\n\nReview type: scoping\nTitle: Pipeline-readiness rehearsal: MBSE and computer-simulation methods for rural healthcare disaster preparedness (scoping review)\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and response for rural healthcare systems?\n- What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nFramework terms:\n- population: Rural healthcare systems and rural communities involved in disaster preparedness and response\n- concept: Application of model-based systems engineering (MBSE), including computer simulation and systems thinking, to rural healthcare disaster planning\n- context: Disaster preparedness and response planning in rural healthcare settings\n\nInclusion criteria:\n- Studies addressing computer simulation or MBSE approaches applied to disaster preparedness or response\n- Studies focused on rural healthcare systems or rural healthcare settings\n- Studies relevant to disaster planning, preparedness, or response\n\nExclusion criteria:\n- Studies not involving rural healthcare systems\n- Studies not using MBSE or computer simulation approaches\n- Studies not related to disaster preparedness or response\n\nCurrent seed query:\n((rural OR non-urban OR frontier) AND (healthcare OR \"health care\") AND (disaster OR pandemic OR epidemic) AND (simulation OR \"agent based model\" OR \"system dynamics\" OR \"machine learning\" OR \"artificial intelligence\"))\n\nInstructions:\n- Build concept groups suitable for OpenAlex, PubMed, Crossref, Semantic Scholar, and Scopus-like Boolean search.\n- Keep each concept focused; avoid irrelevant buzzwords.\n- Suggest at most 5 synonyms per concept.\n- Include controlled vocabulary terms only when plausible (e.g. MeSH).\n- Use TITLE-ABS-KEY style field scoping where appropriate.\n- Return JSON only.\n\nJSON schema:\n{\n  \"concepts\": [\n    {\n      \"label\": \"Population | Concept | Context | Outcome | Other\",\n      \"seed_terms\": [\"...\"],\n      \"synonyms\": [\"...\"],\n      \"controlled_terms\": [\"...\"]\n    }\n  ],\n  \"candidate_query\": \"(term1 OR term2) AND (term3 OR term4)\",\n  \"notes\": [\"brief methodological notes\"]\n}\n",
+      "role": "user"
+    }
+  ],
+  "model": "gpt-5.4-mini",
+  "response_format": {
+    "type": "json_object"
+  },
+  "temperature": 0.2
+}

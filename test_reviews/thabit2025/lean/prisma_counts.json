@@ -1,0 +1,53 @@
+{
+  "identified": {
+    "wos": 642,
+    "scopus": 674
+  },
+  "after_dedup": 871,
+  "journal_filtered": 368,
+  "screened_title_abstract": 0,
+  "excluded_title_abstract": 0,
+  "assessed_full_text": 0,
+  "excluded_full_text": 0,
+  "excluded_full_text_reasons": {},
+  "fulltext_retrieval": {},
+  "quality_assessed": null,
+  "excluded_quality": null,
+  "included": 0,
+  "scope_note": "Identification, deduplication, and journal-filtering ran at full-corpus scale (1316 -> 871 -> 368 records). From title/abstract screening onward, no full-corpus production funnel was executed; instead each downstream stage's classifier/extractor/synthesizer was validated against Thabit et al. 2025's own published gold data (Appendix A/B, Table C1) on a deliberately cost-bounded sample. The PRISMA-style fields above therefore stop at journal-filter by design -- see validation_summary below, NOTES.md, and manuscript S13 for what was actually measured at each downstream stage and why this is presented as a documented scope limitation, not a claim of full reproduction.",
+  "validation_summary": {
+    "title_abstract_screening": {
+      "method": "mini model screens all known records first; only its exclude/borderline decisions escalate to a flagship model for a second look (recall-first cascade, screening_cascade.py), same checklist prompt both passes",
+      "known_included_gold_pool_n": 59,
+      "cascade_recall_strict_include_only": "41/59 (0.695)",
+      "cascade_recall_retained_incl_borderline": "46/59 (0.780)",
+      "known_excluded_proxy_pool_n": 59,
+      "held_out_consistency_check_n": 261,
+      "source": "screening_test_results_cascade_final.json, screening_test_results_excluded_rest_all.json"
+    },
+    "full_text_eligibility": {
+      "method": "FT_SCREENING module pilot run on 20 records (10 known_included + 10 known_excluded); all initial processing failures recovered on retry, 20/20 completed",
+      "retrieval": {"tier1_auto": 4, "tier2_selenium": 10, "tier3_manual_pdf": 5, "tier3_manual_docx": 1},
+      "disposition": {"include": 12, "exclude": 4, "needs_human_review": 4},
+      "exclusion_reasons": {"public_value_failure_focus": 2, "nonempirical": 2},
+      "source": "ft_screening_pilot_run_v2.log, ft_screening_retry.log"
+    },
+    "deductive_extraction": {
+      "method": "single-LLM-pass deductive coding against a 37-concept codebook, scored per-publication and micro-averaged against Table C1 gold, 10 known_included pilot full texts, 4 prompt variants plus a zero-cost post-hoc cutoff sweep",
+      "best_f1": "v4, top-K=28-by-strength cutoff: P=0.465 R=0.842 F1=0.600",
+      "baseline_f1_range": "0.567-0.600 across all variants and sweep points -- a real ceiling, not an undertuned prompt (see NOTES.md)",
+      "source": "NOTES.md 'Deductive data extraction pilot' section, fulltext_pilot/deductive_extracted_v1.jsonl..v4.jsonl"
+    },
+    "theme_synthesis": {
+      "method": "one LLM call per theme (6 themes total), aggregative cross-study synthesis prose built only from the deductive extraction's v2 found/quote evidence, 10 known_included pilot articles",
+      "comparison": "qualitatively compared against Thabit et al.'s own Findings-section prose theme by theme; structural coverage tracks closely, no qualitative failures (no hallucinated pattern, wrong direction, or fabricated quote); two systematic, expected differences present in every theme (smaller evidence pool, citation by article title not author-year key)",
+      "source": "theme_synthesis.json, theme_reference_text.json, NOTES.md"
+    }
+  },
+  "topic_modelling": {
+    "method": "BERTopic",
+    "corpus_n": 866,
+    "n_topics": 12,
+    "source": "bertopic_results.json"
+  }
+}

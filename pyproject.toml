@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools==77.0.3", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slr-pipeline"
+version = "0.1.0.dev0"
+description = "LLM-assisted systematic/scoping review pipeline (search, screening, extraction, synthesis, reporting)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license-files = ["LICENSE-TRACK2", "track2/LICENSE-NOTES.md"]
+# Ranges bracket the versions the test suite was validated against.
+dependencies = [
+    "pydantic>=2.12,<3",
+    "openai>=2.7.2,<2.8",
+    "langgraph>=1.1,<2",
+    "requests>=2.32,<3",
+    "urllib3>=2,<3",
+    "xmltodict>=1.0,<2",
+    "tiktoken>=0.12,<1",
+    "keyring>=25,<26",
+    "numpy>=2.3,<3",
+    "scikit-learn>=1.8,<2",
+    "typing_extensions>=4.15",
+    # Companion repository: full-text eligibility screening (pulls in docling, PyMuPDF).
+    "ft-screening @ git+https://github.com/rimraul/FULL_TEXT_SCREENING.git@v0.1.0",
+]
+
+[project.optional-dependencies]
+# Semantic dedup / topic modelling / curve fitting
+topics = [
+    "sentence-transformers>=5.2,<6",
+    "umap-learn>=0.5.9,<0.6",
+    "hdbscan>=0.8.41,<0.9",
+    "bertopic>=0.17.4,<0.18",
+    "scipy>=1.15",
+]
+# PDF-to-markdown extraction path
+pdf = ["pymupdf4llm>=1.27,<1.28", "docling-core"]
+viz = ["matplotlib>=3.10,<4"]
+dev = ["pytest>=9,<10", "pytest-socket>=0.8,<0.9", "pymupdf>=1.27,<1.28"]
+
+[tool.setuptools.packages.find]
+include = ["slr_pipeline", "slr_pipeline.*"]
+namespaces = false

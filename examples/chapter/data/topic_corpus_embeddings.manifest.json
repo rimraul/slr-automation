@@ -1,0 +1,21 @@
+{
+  "corpus_file": "topic_corpus.json",
+  "corpus_sha256": "0a94459bc9127a559c482eccb90db9a74a424ddeab73ea105dab6961c2153997",
+  "generator": "gen_topic_embeddings.py",
+  "generator_sha256": "88430e44d32b27bee7ec257d5a762c27b288597b3f33ebb69f628ee93062d247",
+  "embedding_model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_model_license": "Apache-2.0",
+  "embedding_model_attribution": "Reimers & Gurevych, Sentence-BERT; model card at https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+  "embeddings_sha256": "f2ca9ab032077361f589c168311d839a6d3bcc05853f192190a1f6df72a70682",
+  "embeddings_shape": [
+    12,
+    384
+  ],
+  "embeddings_dtype": "float32",
+  "sentence_transformers_version": "5.2.0",
+  "torch_version": "2.6.0+cu124",
+  "numpy_version": "2.3.5",
+  "generated_on": "2026-08-30T12:36:02.314008+00:00",
+  "platform": "Windows-10-10.0.19045-SP0"
+}

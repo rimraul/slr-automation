@@ -1,0 +1,10 @@
+{
+  "db_translation": "e35cc59209771de4b7a8caa6f5f8cfea942da03c2fc81c4df56d9fbc1be6dd61",
+  "extraction_batch": "158ddc4f13343ef537a30353b41cc5d47addb7c7db640fee08a7309e4f6dd852",
+  "ft_adjudication": "93d9f2658bd9a7ce297245b7b61d5803d111742ae2bd49441777cde33a174fdf",
+  "qc_second_rater": "2e4e99ee091df5bfac1091f890d95a3bef05c656ec5426f4bc788875dcbbbeb7",
+  "query_expansion": "a2f06ea7ebb1ce2810400d548c57d33d95a316179c018b7e31536c221ae61d06",
+  "synthesis_map": "4a9695d1c32a7e90bd5b80815ed5d46dfc483a6ff19cf73470b03ba74f449b8f",
+  "synthesis_refine": "d0dc58ad61cced5881f3847d4664f8290871d8d1441adc608d4b6270f2ef9296",
+  "title_abstract_screening": "d9e7d6f9ba5c58e0f15445c007438b1fef83b793fabad1a11ae0c0435ce04fc4"
+}

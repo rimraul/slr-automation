@@ -1,0 +1,832 @@
+{
+  "known_included": [
+    {
+      "title": "The role of universities in SDGs solution co-creation and implementation: a human-centered design and shared-action learning process",
+      "journal": "SUSTAINABILITY SCIENCE",
+      "idx": 1,
+      "decision": "include",
+      "reason": "Empirical case study of university-led co-creation using HCD and shared-action learning with multiple stakeholders to develop SDG solutions."
+    },
+    {
+      "title": "Value conflicts in co-production: governing public values in multi-actor settings",
+      "journal": "International Journal of Public Sector Management",
+      "idx": 2,
+      "decision": "include",
+      "reason": "Empirical case studies of co-production with citizens examining public value tensions and coping strategies in collaborative service delivery."
+    },
+    {
+      "title": "Co-Designing a Citizen Science Program for Malaria Control in Rwanda",
+      "journal": "SUSTAINABILITY",
+      "idx": 3,
+      "decision": "include",
+      "reason": "Empirical participatory design study of citizen science for mosquito surveillance, describing community involvement and collaboration mechanisms for public health value creation."
+    },
+    {
+      "title": "Brand Innovation and Value-Creating Practices of the City of Johannesburg’s Twitter Community",
+      "journal": "Communicatio",
+      "idx": 4,
+      "decision": "include",
+      "reason": "Empirical qualitative study of a city Twitter brand community identifying collaborative practices that generate collective value."
+    },
+    {
+      "title": "Partnerships and the Good-Governance Agenda: Improving Service Delivery Through State-NGO Collaborations",
+      "journal": "VOLUNTAS",
+      "idx": 5,
+      "decision": "include",
+      "reason": "Empirical study of state-NGO partnership arrangements and their effects on service delivery and government practices, directly addressing collaboration for public value."
+    },
+    {
+      "title": "Strengthening public service production, administrative problem solving, and political leadership through co-creation of innovative public value outcomes?",
+      "journal": "Innovation Journal",
+      "idx": 6,
+      "decision": "include",
+      "reason": "Comparative empirical study of co-creation in Scandinavian municipalities examining how collaborative use supports innovation, leadership, and local democracy."
+    },
+    {
+      "title": "Stakeholder salience in public sector value co-creation",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 7,
+      "decision": "include",
+      "reason": "Empirical multi-stage study of stakeholder salience in an inter-sector consortium and its impact on value co-creation across a network of actors."
+    },
+    {
+      "title": "Better public sector governance through partnership with the private sector and civil society: the case of Guatemala's forest administration",
+      "journal": "INTERNATIONAL REVIEW OF ADMINISTRATIVE SCIENCES",
+      "idx": 8,
+      "decision": "include",
+      "reason": "Empirical case analysis of a jointly managed public-private-civil society agency assessing partnership and delegation for public sector reform and value creation."
+    },
+    {
+      "title": "Mobilizing Change in Public Services: Insights from a Systems Leadership Development Intervention",
+      "journal": "International Journal of Public Administration",
+      "idx": 9,
+      "decision": "include",
+      "reason": "Empirical analysis of a systems leadership intervention for cross-sector partnerships, focusing on enablers that create adaptive spaces for joint action."
+    },
+    {
+      "title": "New Community Spaces: Regional Governance in the Public Interest in the Greater Toronto Area",
+      "journal": "URBAN AFFAIRS REVIEW",
+      "idx": 10,
+      "decision": "include",
+      "reason": "Empirical case study of a regional civic alliance examining institutionalized collaboration, democratic implications, and public value tensions."
+    },
+    {
+      "title": "Revitalizing the Global Alliances for Sustainable Development: Analyzing the Viability of Sustainable Development Goal 17-A Multi-Actor Governance Approach",
+      "journal": "SUSTAINABILITY",
+      "idx": 11,
+      "decision": "exclude",
+      "reason": "The abstract focuses on SDG 17 and stakeholder conflict in a case study, but does not clearly describe specific collaborative mechanisms for public value creation."
+    },
+    {
+      "title": "How does digital technology impact on the co-production of local services? Evidence from a childcare experience",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 12,
+      "decision": "include",
+      "reason": "Empirical case studies of digital platform design for co-production of childcare, explicitly examining technology-supported co-creation of public value."
+    },
+    {
+      "title": "Public Values and Public Participation: A Case of Collaborative Governance of a Planning Process",
+      "journal": "AMERICAN REVIEW OF PUBLIC ADMINISTRATION",
+      "idx": 13,
+      "decision": "include",
+      "reason": "Empirical collaborative policymaking study showing how public value frames and interorganizational power-sharing shape participation design."
+    },
+    {
+      "title": "Boundary-spanning in public value co-creation through the lens of multilevel governance",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 14,
+      "decision": "include",
+      "reason": "Empirical case study of boundary-spanning public value co-creation in a multilevel governance initiative."
+    },
+    {
+      "title": "Having it all: can collaborative governance be both legitimate and accountable?",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 15,
+      "decision": "include",
+      "reason": "Empirical comparative analysis of collaborative governance cases examining conditions under which legitimacy and accountability coexist."
+    },
+    {
+      "title": "Coproduction in the U.S. Department of Defense: Examining how the evolution of geographic information systems (GIS) expands non-traditional partner engagement",
+      "journal": "Policy and Internet",
+      "idx": 16,
+      "decision": "include",
+      "reason": "Empirical study of DoD collaboration with non-traditional partners and its implications for coproduced public value in a polycentric regime."
+    },
+    {
+      "title": "The role of soft skills to leverage co-creation in living labs: Insights from Spain",
+      "journal": "Innovation Journal",
+      "idx": 17,
+      "decision": "include",
+      "reason": "Empirical study of living labs in the public sector exploring employee skills and relational leadership as mechanisms for co-creation."
+    },
+    {
+      "title": "Living Labs as an Innovation Tool for Public Value Creation: Possibilities and Pitfalls",
+      "journal": "Innovation Journal",
+      "idx": 18,
+      "decision": "include",
+      "reason": "Empirical case studies of living labs in Danish local government examining how they enable democratic public value creation."
+    },
+    {
+      "title": "Public Value Co-Creation in Living Labs-Results from Three Case Studies",
+      "journal": "ADMINISTRATIVE SCIENCES",
+      "idx": 19,
+      "decision": "include",
+      "reason": "Empirical qualitative study of living labs in Germany and Austria analyzing organizational factors, outcomes, and public value co-creation processes."
+    },
+    {
+      "title": "Crowdfunding public projects: Collaborative governance for achieving citizen co-funding of public goods",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 20,
+      "decision": "include",
+      "reason": "Empirical study of philanthropic crowdfunding projects comparing public-private collaboration with private-only projects and its effect on fundraising success."
+    },
+    {
+      "title": "Realizing public values: enhancement or obstruction? Exploring value tensions and coping strategies in the co-production of social care",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 1,
+      "decision": "include",
+      "reason": "Empirical co-production case study explicitly examines collaboration practices, value tensions, and public value realization in public service delivery."
+    },
+    {
+      "title": "Does Co-Production Lead to the Creation of Public Value? Balancing the Dimensions of Public Value Creation in Urban Mobility Planning",
+      "journal": "ADMINISTRATION & SOCIETY",
+      "idx": 2,
+      "decision": "include",
+      "reason": "This empirical study of urban mobility co-production analyzes how co-producers handle public value tensions through specific coping and communication mechanisms."
+    },
+    {
+      "title": "The governance games of citizens and stakeholders' engagement: longitudinal narratives",
+      "journal": "LOCAL GOVERNMENT STUDIES",
+      "idx": 3,
+      "decision": "include",
+      "reason": "The abstract reports a longitudinal multi-actor empirical study of citizen and stakeholder engagement in city vision co-design, focusing on governance games as collaboration mechanisms affecting public value processes."
+    },
+    {
+      "title": "Knowledge Co-production in Contested Spaces: An Evaluation of the North Slope Borough-Shell Baseline Studies Program",
+      "journal": "ARCTIC",
+      "idx": 4,
+      "decision": "include",
+      "reason": "This empirical evaluation of a collaborative research agreement examines knowledge co-production indicators and how the partnership contributed to usable science and public value."
+    },
+    {
+      "title": "The collaborative realization of public values and business goals: Governance and infrastructure of public-private information platforms",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 5,
+      "decision": "exclude",
+      "reason": "Although it discusses platforms and stakeholder connection, the abstract is too general and does not present a clear empirical study of specific collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "Creating value through data collaboratives: Balancing innovation and control",
+      "journal": "Information Polity",
+      "idx": 6,
+      "decision": "include",
+      "reason": "The abstract presents an empirical longitudinal case of a data collaborative as a cross-sector partnership generating public value while managing tensions between partners."
+    },
+    {
+      "title": "Citizen Science in the Field: Co-experimentation at Pilot Scale for Sustainable Use of Natural Resources",
+      "journal": "SUSTAINABILITY",
+      "idx": 7,
+      "decision": "include",
+      "reason": "This empirical co-experimentation study with citizens examines collaborative rehabilitation practices and their contribution to actionable public value in land restoration."
+    },
+    {
+      "title": "Institutional design of public agencies and coproduction: A study of irrigation associations in Taiwan",
+      "journal": "WORLD DEVELOPMENT",
+      "idx": 8,
+      "decision": "include",
+      "reason": "The abstract offers empirical evidence on irrigation governance and institutional arrangements that sustain joint efforts between officials and citizen-users for public goods provision."
+    },
+    {
+      "title": "How does open government data driven co-creation occur? Six factors and a 'perfect storm'; insights from Chicago's food inspection forecasting model",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 9,
+      "decision": "include",
+      "reason": "This exploratory case study empirically examines OGD-driven co-created public services and the collaboration mechanisms involved in producing public value."
+    },
+    {
+      "title": "Catalyzing Transformational Partnerships for the SDGs: Effectiveness and Impact of the Multi-Stakeholder InitiativeEl dia despues",
+      "journal": "SUSTAINABILITY",
+      "idx": 10,
+      "decision": "include",
+      "reason": "The abstract describes a case study of a multi-stakeholder partnership and its formation process as an empirical example of collaboration for societal impact."
+    },
+    {
+      "title": "Feedback Loops and Facilitation: Catalyzing Transformational Multi-Stakeholder Refugee Response Partnerships",
+      "journal": "SUSTAINABILITY",
+      "idx": 11,
+      "decision": "include",
+      "reason": "This empirical paper explores how multi-stakeholder partnerships are created and developed to maximize collaboration for refugee response and service provision."
+    },
+    {
+      "title": "Integrative public leadership: Catalyzing collaboration to create public value",
+      "journal": "LEADERSHIP QUARTERLY",
+      "idx": 12,
+      "decision": "include",
+      "reason": "The abstract presents three empirical cases of multi-sector collaboration and identifies boundary organizations, boundary experiences, and boundary objects as mechanisms for public value creation."
+    },
+    {
+      "title": "Behavioral effects of public service motivation among citizens: testing the case of digital co-production",
+      "journal": "INTERNATIONAL PUBLIC MANAGEMENT JOURNAL",
+      "idx": 13,
+      "decision": "include",
+      "reason": "This empirical study examines citizen engagement in a digital co-production platform, directly addressing collaborative public service provision and behavioral participation mechanisms."
+    },
+    {
+      "title": "Leading the way: the integral role of local government within a multisector partnership delivering a large infrastructure project in an Australian growth region",
+      "journal": "LOCAL GOVERNMENT STUDIES",
+      "idx": 14,
+      "decision": "include",
+      "reason": "The abstract reports an empirical case study of a public-private partnership and the partnership practices associated with successful collaborative outcomes."
+    },
+    {
+      "title": "Strategic management as an enabler of co-creation in public services",
+      "journal": "POLICY AND POLITICS",
+      "idx": 15,
+      "decision": "exclude",
+      "reason": "The article is primarily theoretical and conceptual, using one illustration rather than offering empirical evidence on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "Sustaining Public-Private Partnerships for Public Service Provision Through Democratically Accountable Practices",
+      "journal": "ADMINISTRATION & SOCIETY",
+      "idx": 16,
+      "decision": "include",
+      "reason": "This in-depth qualitative case study empirically examines stakeholder-centered interventions in a PPP and their role in sustaining partnership operations and legitimacy."
+    },
+    {
+      "title": "Leading for public value in multi-agency collaboration",
+      "journal": "PUBLIC POLICY AND ADMINISTRATION",
+      "idx": 17,
+      "decision": "include",
+      "reason": "The abstract reports empirical research on leadership in a multi-agency service collaboration and its role in creating public value through political astuteness."
+    },
+    {
+      "title": "Local responses to global sustainability agendas: learning from experimenting with the urban sustainable development goal in Cape Town",
+      "journal": "SUSTAINABILITY SCIENCE",
+      "idx": 18,
+      "decision": "include",
+      "reason": "This empirical urban experiment examines partnership arrangements and governance reconfiguration needed for SDG-related public value creation."
+    },
+    {
+      "title": "Innovative Co-Creative Participatory Methodologies for a Dreamt-of Quality Education in Europe",
+      "journal": "SUSTAINABILITY",
+      "idx": 19,
+      "decision": "exclude",
+      "reason": "The abstract describes a participatory event and collaboration experience, but it is not clearly a public administration journal article focused on specific collaborative mechanisms for public value creation."
+    },
+    {
+      "title": "Applying Elinor Ostrom's Design Principles to Guide Co-Design in Health(care) Improvement: A Case Study with Citizens Returning to the Community from Jail in Los Angeles County",
+      "journal": "INTERNATIONAL JOURNAL OF INTEGRATED CARE",
+      "idx": 20,
+      "decision": "include",
+      "reason": "This empirical co-design study applies Ostrom's principles to collaborative healthcare improvement and identifies observed mechanisms related to democratic values and participation."
+    },
+    {
+      "title": "Co-production in digital transformation of public administration and public value creation: The case of Denmark",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 1,
+      "decision": "include",
+      "reason": "This empirical study examines co-production in digital strategy formulation and implementation and explicitly links stakeholder collaboration to multiple forms of public value creation."
+    },
+    {
+      "title": "Public services management and co-production in multi-level governance settings",
+      "journal": "INTERNATIONAL REVIEW OF ADMINISTRATIVE SCIENCES",
+      "idx": 2,
+      "decision": "include",
+      "reason": "The case study provides empirical evidence on inter-organizational arrangements and trust-building as collaboration mechanisms supporting co-production in multi-level governance."
+    },
+    {
+      "title": "Co-creating ambitious climate change mitigation goals: The Copenhagen experience",
+      "journal": "REGULATION & GOVERNANCE",
+      "idx": 3,
+      "decision": "include",
+      "reason": "This empirical article analyzes co-creation processes among public, private, and civil society actors and their role in producing public value outcomes in climate governance."
+    },
+    {
+      "title": "Establishing and implementing data collaborations for public good: A critical factor analysis to scale up the practice",
+      "journal": "Information Polity",
+      "idx": 4,
+      "decision": "borderline",
+      "reason": "The paper empirically studies data collaboratives and success factors for forming and implementing them, but the abstract does not clearly connect the collaboration mechanisms to public value creation in a public administration context."
+    },
+    {
+      "title": "Neoliberal governing through social enterprise: Exploring the neglected roles of deviance and ignorance in public value creation",
+      "journal": "PUBLIC ADMINISTRATION",
+      "idx": 5,
+      "decision": "include",
+      "reason": "Using longitudinal qualitative data, the article empirically shows how informal collaboration between government officials and civil society practitioners shapes public value creation."
+    },
+    {
+      "title": "Constructing a Joint University‒Municipality Platform for Networked Co-creation of Innovative Urban Solutions: A Norwegian Experience",
+      "journal": "Innovation Journal",
+      "idx": 6,
+      "decision": "include",
+      "reason": "This empirical case study examines the formation and operation of joint co-creation platforms and the drivers and barriers of collaboration among public and knowledge institutions."
+    },
+    {
+      "title": "Cross-Sector Partnerships for Sustainability: How Mission-Driven Conveners Drive Change in National Coffee Platforms",
+      "journal": "SUSTAINABILITY",
+      "idx": 7,
+      "decision": "borderline",
+      "reason": "The study empirically examines cross-sector partnerships and convening by nonprofits, but the abstract does not clearly specify public value creation outcomes in the public administration sense."
+    },
+    {
+      "title": "The co-production of public value in community development: can street-level professionals make a difference?",
+      "journal": "INTERNATIONAL REVIEW OF ADMINISTRATIVE SCIENCES",
+      "idx": 8,
+      "decision": "include",
+      "reason": "The qualitative case study directly investigates how street-level professionals use specific role combinations in a co-productive project to contribute to public value creation."
+    },
+    {
+      "title": "Paradoxes of collaborative governance: investigating the real-life dynamics of multi-agency collaborations using a quasi-experimental action-research approach",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 9,
+      "decision": "exclude",
+      "reason": "Although empirical, the abstract focuses on collaboration challenges and paradox management in crime-fighting collaborations without explicit public value creation."
+    },
+    {
+      "title": "Co-production, governance and practice: The dynamics and effects of User Voice Prison Councils",
+      "journal": "SOCIAL POLICY & ADMINISTRATION",
+      "idx": 10,
+      "decision": "include",
+      "reason": "This empirical study of Prison Councils examines participatory governance practices and the mechanisms of trust-building through collaboration that reshape public governance."
+    },
+    {
+      "title": "Neighbourhood governance during the COVID-19 lockdown in Hangzhou: coproduction based on digital technologies",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 11,
+      "decision": "include",
+      "reason": "The case study empirically analyzes how digital technologies support coproduction in neighbourhood governance and how this collaboration creates public value."
+    },
+    {
+      "title": "A Decision Theory Perspective on Wicked Problems, SDGs and Stakeholders: The Case of Deforestation",
+      "journal": "Journal of Business Ethics",
+      "idx": 12,
+      "decision": "exclude",
+      "reason": "The abstract is primarily about SDGs, reporting, and decision theory rather than specific collaborative mechanisms for public value creation in public administration."
+    },
+    {
+      "title": "Organizational maturity for co-creation: Towards a multi-attribute decision support model for public organizations",
+      "journal": "Government Information Quarterly",
+      "idx": 13,
+      "decision": "exclude",
+      "reason": "This paper develops a maturity assessment model from literature review and case studies, but it does not empirically examine collaboration mechanisms for public value creation in action."
+    },
+    {
+      "title": "Achieving Sustainable Development Goals Through Collaborative Innovation: Evidence from Four European Initiatives",
+      "journal": "Journal of Business Ethics",
+      "idx": 14,
+      "decision": "include",
+      "reason": "The empirical study of sustainability-oriented innovation initiatives examines roles and mechanisms enacted by collaborating actors and links them to value creation."
+    },
+    {
+      "title": "Paradox and collaboration in network management",
+      "journal": "Administration and Society",
+      "idx": 15,
+      "decision": "exclude",
+      "reason": "The article studies leadership practices in action networks, but the abstract does not focus on public value creation or specific public value mechanisms."
+    },
+    {
+      "title": "Ambidexterity in Cross-Sector Collaborations Involving Public Organizations",
+      "journal": "Public Performance and Management Review",
+      "idx": 16,
+      "decision": "include",
+      "reason": "This empirical case study investigates how a cross-sector collaboration explores and exploits knowledge to innovate in addressing public problems, fitting collaboration for public value creation."
+    },
+    {
+      "title": "Coping with Value Conflicts in Interorganizational Collaborations",
+      "journal": "Perspectives on Public Management and Governance",
+      "idx": 17,
+      "decision": "include",
+      "reason": "The longitudinal case study analyzes value conflicts and coping mechanisms in collaboration, directly addressing how collaborations manage public value-related tensions."
+    },
+    {
+      "title": "Community Foundations as Network Conveners: Structuring Collective Agency for Child Education and Development System Impact",
+      "journal": "Journal of Public Administration Research and Theory",
+      "idx": 18,
+      "decision": "include",
+      "reason": "Using longitudinal mixed methods action research, the article empirically examines how a community foundation convenes a network to forge collective agency through collaboration."
+    },
+    {
+      "title": "Co-initiation of Collaborative Innovation in Urban Spaces",
+      "journal": "Urban Affairs Review",
+      "idx": 19,
+      "decision": "include",
+      "reason": "This empirical comparative case study analyzes co-initiated public innovations, including the conditions, phases, and impacts of collaboration in urban public innovation."
+    }
+  ],
+  "known_excluded": [
+    {
+      "title": "Building Cross-Sector Collaboration to Improve Community Health",
+      "journal": "Journal of Health and Human Services Administration",
+      "idx": 1,
+      "decision": "include",
+      "reason": "The abstract reports an empirical participatory action research collaboration across sectors that led to sanitation policy change and public health value creation."
+    },
+    {
+      "title": "Citizen participation and the redistribution of public goods",
+      "journal": "PUBLIC ADMINISTRATION",
+      "idx": 2,
+      "decision": "include",
+      "reason": "This empirical study examines citizen participation in budgeting and its effects on redistributive public outcomes, directly addressing collaborative public value creation."
+    },
+    {
+      "title": "COLLABORATIVE CITIZEN PARTICIPATION AND THE VALUES OF PUBLIC ADMINISTRATION",
+      "journal": "REVISTA DE GESTION PUBLICA",
+      "idx": 3,
+      "decision": "borderline",
+      "reason": "The abstract discusses collaborative citizen participation and civic apps in public administration, but it is largely conceptual and does not clearly present empirical evidence on specific collaboration mechanisms."
+    },
+    {
+      "title": "The Research of Tripartite Collaborative Governance on Disorderly Parking of Shared Bicycles Based on the Theory of Planned Behavior and Motivation Theories-A Case of Beijing, China",
+      "journal": "SUSTAINABILITY",
+      "idx": 4,
+      "decision": "include",
+      "reason": "The abstract describes an empirical tripartite collaborative governance arrangement among users, government, and enterprise to manage shared bicycle parking and improve urban order."
+    },
+    {
+      "title": "Co-creating public value in e-government: A case study of Korean municipal government websites",
+      "journal": "International Journal of Electronic Government Research",
+      "idx": 5,
+      "decision": "include",
+      "reason": "This mixed-methods study empirically examines e-government development as contextualized public value co-creation, which fits collaboration for public value creation."
+    },
+    {
+      "title": "Co-commissioning of public services and outcomes in the UK: Bringing co-production into the strategic commissioning cycle",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 6,
+      "decision": "include",
+      "reason": "The abstract presents a public value-based mapping of how commissioners can co-commission with citizens, indicating empirical or practice-based evidence on collaboration mechanisms."
+    },
+    {
+      "title": "From marketing to public value: towards a theory of public service ecosystems",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 7,
+      "decision": "exclude",
+      "reason": "The abstract is primarily theoretical and conceptual, focusing on service ecosystems and public service logic without empirical evidence of collaboration mechanisms."
+    },
+    {
+      "title": "Harnessing Local and Transnational Communities in the Global Protection of Underwater Cultural Heritage",
+      "journal": "TRANSNATIONAL ENVIRONMENTAL LAW",
+      "idx": 8,
+      "decision": "exclude",
+      "reason": "The abstract is theoretical and discusses community governance of heritage protection without empirical evidence of collaboration for public value creation."
+    },
+    {
+      "title": "SDG Platforms as Strategic Innovation Through Partnerships",
+      "journal": "JOURNAL OF BUSINESS ETHICS",
+      "idx": 9,
+      "decision": "include",
+      "reason": "This empirical study examines why organizations join multi-stakeholder SDG platforms, which are cross-sector collaborations aimed at public value creation."
+    },
+    {
+      "title": "Collaborative Governance: Integrating Management, Politics, and Law",
+      "journal": "PUBLIC ADMINISTRATION REVIEW",
+      "idx": 10,
+      "decision": "exclude",
+      "reason": "The abstract is mainly a legal and theoretical overview of collaborative governance rather than empirical evidence about collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "Concluding discussion: key themes in the (possible) move to co-production and co-creation in public management",
+      "journal": "POLICY AND POLITICS",
+      "idx": 11,
+      "decision": "exclude",
+      "reason": "The abstract is a conceptual special-issue synthesis on co-creation and strategic management, not an empirical study of collaboration mechanisms."
+    },
+    {
+      "title": "Public Choice Theory and the Reform of Local Government in Britain: From Government to Governance",
+      "journal": "Public Policy and Administration",
+      "idx": 12,
+      "decision": "exclude",
+      "reason": "The abstract discusses local government reform and networked service provision in a general policy framework without empirical analysis of specific collaboration mechanisms for public value."
+    },
+    {
+      "title": "Anti-social behaviour and its surveillant interassemblage in New South Wales, Australia",
+      "journal": "Surveillance and Society",
+      "idx": 13,
+      "decision": "exclude",
+      "reason": "Although it describes a multi-agency surveillance initiative, the abstract is framed as a discourse analysis of risk governance rather than empirical evidence of collaboration for public value creation."
+    },
+    {
+      "title": "The Developer's Role in Coprovision, Cofinancing, and Coproduction of Urban Infrastructure and Services",
+      "journal": "Nonprofit and Voluntary Sector Quarterly",
+      "idx": 14,
+      "decision": "exclude",
+      "reason": "The abstract focuses on developer-government exactions and analogies to coproduction, but it does not present empirical evidence on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "Promotion of Social Innovation through Fab Labs. The Case of ProteinLab UTEM in Chile",
+      "journal": "SUSTAINABILITY",
+      "idx": 15,
+      "decision": "include",
+      "reason": "This mixed-methods case study empirically examines a Fab Lab model linking multiple actors to promote social innovation and public value-related outcomes."
+    },
+    {
+      "title": "Public service innovation: a typology",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 16,
+      "decision": "exclude",
+      "reason": "The abstract proposes a typology of public service innovation and is primarily classificatory and conceptual rather than empirical evidence on collaboration mechanisms."
+    },
+    {
+      "title": "Creating Public Value in a Westminster Context: The Case of the Australian Department of Prime Minister and Cabinet's Indigenous Regional Network, 2013-2018",
+      "journal": "INTERNATIONAL JOURNAL OF PUBLIC ADMINISTRATION",
+      "idx": 17,
+      "decision": "include",
+      "reason": "The abstract reports an empirical investigation of policy implementation in Indigenous community support, highlighting co-production among stakeholders and implications for public value."
+    },
+    {
+      "title": "Collaborative governance for the Sustainable Development Goals",
+      "journal": "ASIA & THE PACIFIC POLICY STUDIES",
+      "idx": 18,
+      "decision": "include",
+      "reason": "This paper empirically explores cross-sector collaborations and partnerships for development and how they create public and private value."
+    },
+    {
+      "title": "Enhancing Urban Brownfield Regeneration to Pursue Sustainable Community Outcomes through Dynamic Performance Governance",
+      "journal": "INTERNATIONAL JOURNAL OF PUBLIC ADMINISTRATION",
+      "idx": 19,
+      "decision": "include",
+      "reason": "The abstract presents a case study of urban regeneration through policy networks and private-sector involvement, offering empirical evidence on collaborative governance for community outcomes."
+    },
+    {
+      "title": "The Usability of Scenario Studies: the Case of the EUruralis from the Users' Perspective",
+      "journal": "POLISH SOCIOLOGICAL REVIEW",
+      "idx": 20,
+      "decision": "include",
+      "reason": "This case study empirically analyzes a science-policy collaboration using coproduction and boundary object concepts to support planning and decision making."
+    },
+    {
+      "title": "Cultural and Creative Industries as Innovation and Sustainable Transition Brokers in the Baltic Sea Region: A Strong Tribute to Sustainable Macro-Regional Development",
+      "journal": "SUSTAINABILITY",
+      "idx": 1,
+      "decision": "include",
+      "reason": "The abstract reports an empirical case study of EU projects involving SMEs and collaboration for sustainable development/public value creation."
+    },
+    {
+      "title": "Environmental Co-governance, Legitimacy, and the Quest for Compliance: When and Why Is Stakeholder Participation Desirable?",
+      "journal": "JOURNAL OF ENVIRONMENTAL POLICY & PLANNING",
+      "idx": 2,
+      "decision": "exclude",
+      "reason": "This is a conceptual and normative article without empirical evidence on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "What is co-creation and how does it create public value?",
+      "journal": "International Review of Public Administration",
+      "idx": 3,
+      "decision": "include",
+      "reason": "The abstract examines organizations using co-creation, co-design, and co-production in their search for public value, indicating relevant collaborative mechanisms."
+    },
+    {
+      "title": "The rise of GovTech: Trojan horse or blessing in disguise? A research agenda",
+      "journal": "GOVERNMENT INFORMATION QUARTERLY",
+      "idx": 4,
+      "decision": "exclude",
+      "reason": "The abstract is about GovTech solutions and digital transformation, but does not present empirical evidence on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "CO-GOVERNING PUBLIC VALUE IN LOCAL AUTHORITIES",
+      "journal": "PUBLIC VALUE MANAGEMENT, MEASUREMENT AND REPORTING",
+      "idx": 5,
+      "decision": "include",
+      "reason": "This empirical study of Italian municipalities examines co-governance and participatory governance tools as mechanisms for public value creation."
+    },
+    {
+      "title": "Participatory democracy in dynamic contexts: A review of regional transmission organization governance in the United States",
+      "journal": "Energy Research and Social Science",
+      "idx": 6,
+      "decision": "include",
+      "reason": "The abstract presents a comparative empirical analysis of regional transmission organizations and their participatory governance structures."
+    },
+    {
+      "title": "Participatory budgeting: A comparative study of Croatia, Poland and Slovakia",
+      "journal": "Nispacee Journal of Public Administration and Policy",
+      "idx": 7,
+      "decision": "include",
+      "reason": "This comparative qualitative study of participatory budgeting in multiple countries addresses co-production and governance as collaborative public value mechanisms."
+    },
+    {
+      "title": "Taming the snake in paradise: combining institutional design and leadership to enhance collaborative innovation",
+      "journal": "POLICY AND SOCIETY",
+      "idx": 8,
+      "decision": "exclude",
+      "reason": "Although it discusses collaborative innovation conceptually, the abstract does not indicate empirical evidence in the provided text."
+    },
+    {
+      "title": "REGULATORY MONITORS: POLICING FIRMS IN THE COMPLIANCE ERA",
+      "journal": "COLUMBIA LAW REVIEW",
+      "idx": 9,
+      "decision": "exclude",
+      "reason": "The article focuses on regulatory monitors and administrative power, not on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "Beyond Model UN: Simulating Multi-Level, Multi-Actor Diplomacy Using the Millennium Development Goals",
+      "journal": "INTERNATIONAL STUDIES PERSPECTIVES",
+      "idx": 10,
+      "decision": "exclude",
+      "reason": "This is a teaching/simulation paper about Model United Nations rather than empirical research on collaboration for public value creation."
+    },
+    {
+      "title": "Towards measuring societal impact of research: Insights from an Irish case study",
+      "journal": "Irish Journal of Sociology",
+      "idx": 11,
+      "decision": "exclude",
+      "reason": "The abstract concerns research impact assessment and public engagement seminars, not specific collaborative mechanisms for public value creation."
+    },
+    {
+      "title": "Serious gaming for climate adaptation—assessing the potential and challenges of a digital serious game for urban climate adaptation",
+      "journal": "Sustainability Switzerland",
+      "idx": 12,
+      "decision": "include",
+      "reason": "The paper presents the design and evaluation of a serious game used for knowledge co-creation and dialogue around climate adaptation."
+    },
+    {
+      "title": "Dreaming is not enough. Audiovisual methodologies, social inclusion, and new forms of youth biopolitical resistance",
+      "journal": "FRONTIERS IN SOCIOLOGY",
+      "idx": 13,
+      "decision": "include",
+      "reason": "This empirical arts-based and youth-led participatory research intervention involves collaboration among actors to address social inclusion and public value."
+    },
+    {
+      "title": "Engagement Motivations in Professional Associations",
+      "journal": "NONPROFIT AND VOLUNTARY SECTOR QUARTERLY",
+      "idx": 14,
+      "decision": "exclude",
+      "reason": "The study examines incentives for association membership and engagement, not collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "The Sedimentation of Public Values: How a Variety of Governance Perspectives Guide the Practical Actions of Civil Servants",
+      "journal": "REVIEW OF PUBLIC PERSONNEL ADMINISTRATION",
+      "idx": 15,
+      "decision": "exclude",
+      "reason": "The abstract is a conceptual discussion of civil servant values and does not provide empirical evidence on collaboration."
+    },
+    {
+      "title": "A citizen participation model for co-creation of public value in a smart city",
+      "journal": "JOURNAL OF URBAN AFFAIRS",
+      "idx": 16,
+      "decision": "include",
+      "reason": "The paper explores how social media and IoT-based participation enhances government-citizen interaction for public value co-creation."
+    },
+    {
+      "title": "How to Measure Wellbeing in Outcomes-based Commissioning?",
+      "journal": "LEX LOCALIS-JOURNAL OF LOCAL SELF-GOVERNMENT",
+      "idx": 17,
+      "decision": "include",
+      "reason": "This case study uses interviews and workshop data to examine outcomes-based commissioning as a collaborative public value creation process."
+    },
+    {
+      "title": "Are partnerships in nonprofit organizations being governed for sustainability? A partnering life cycle assessment",
+      "journal": "PLOS ONE",
+      "idx": 18,
+      "decision": "include",
+      "reason": "The abstract reports an empirical analysis of partnership governance across many NPO partnerships, directly relevant to collaboration mechanisms."
+    },
+    {
+      "title": "CO-PRODUCTION, INTERDEPENDENCE AND PUBLICNESS Extending public servicedominant logic",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 19,
+      "decision": "exclude",
+      "reason": "This is a theoretical reconceptualization of public service-dominant logic without empirical evidence on collaboration mechanisms."
+    },
+    {
+      "title": "Unlocking the Prisoner's Dilemma of Corporate Water Stewardship in South Africa-Exploring Corporate Power and Legitimacy of Engagement in Water Management and Governance",
+      "journal": "SUSTAINABILITY",
+      "idx": 20,
+      "decision": "include",
+      "reason": "The case study of corporate water stewardship examines when and how collaborative governance initiatives are legitimate and operate in practice."
+    },
+    {
+      "title": "The social impact of advice during disability welfare reform: from social return on investment to evidencing public value through realism and complexity",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 1,
+      "decision": "include",
+      "reason": "The abstract reports empirical qualitative evidence on advice services advocating for clients within welfare reform, showing a collaborative service mechanism contributing to public value."
+    },
+    {
+      "title": "Partnerships for development. Assessing the impact potential of cross-sector partnerships",
+      "journal": "WORLD DEVELOPMENT",
+      "idx": 2,
+      "decision": "include",
+      "reason": "This empirical study of a North-South business-NGO partnership examines cross-sector collaboration and its societal impact/public value in development."
+    },
+    {
+      "title": "Samples Are Precious: Value Formations in the Potentiality and Practices of Biobanking in Singapore",
+      "journal": "SCIENCE TECHNOLOGY & HUMAN VALUES",
+      "idx": 3,
+      "decision": "exclude",
+      "reason": "The abstract focuses on biobanking value formation and extraction in scientific practice, not on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "The production of scientific and societal value in research evaluation: A review of societal impact assessment methods",
+      "journal": "Research Evaluation",
+      "idx": 4,
+      "decision": "exclude",
+      "reason": "This is a conceptual review of methods for evaluating societal impact of research and does not present empirical evidence on collaboration mechanisms."
+    },
+    {
+      "title": "'SIB': what does it really mean? A theoretical approach to understanding social impact bonds",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 5,
+      "decision": "borderline",
+      "reason": "The abstract concerns Social Impact Bonds as collaborative arrangements for co-creating value, but it appears primarily conceptual and provides no clear empirical findings in the abstract."
+    },
+    {
+      "title": "Public value creation and appropriation mechanisms in public-private partnerships: How does it play a role?",
+      "journal": "PUBLIC ADMINISTRATION",
+      "idx": 6,
+      "decision": "exclude",
+      "reason": "This is a conceptual article on public value mechanisms in PPPs rather than empirical evidence of collaboration in action."
+    },
+    {
+      "title": "Constituency Groups of Alternative Action Organizations During Hard Times: A Comparison at the Solidarity Orientation and Country Levels",
+      "journal": "AMERICAN BEHAVIORAL SCIENTIST",
+      "idx": 7,
+      "decision": "exclude",
+      "reason": "The study describes constituency groups in alternative action organizations, but the abstract does not focus on specific collaborative mechanisms for public value creation."
+    },
+    {
+      "title": "Creating public value in regional policy. Bringing citizens back in",
+      "journal": "PUBLIC MANAGEMENT REVIEW",
+      "idx": 8,
+      "decision": "include",
+      "reason": "This empirical study uses citizen focus groups to analyze public value creation and co-creation processes in regional policy."
+    },
+    {
+      "title": "Encouraging Writing on the White Walls: Co-production in Museums and the Influence of Professional Bodies",
+      "journal": "AUSTRALIAN JOURNAL OF PUBLIC ADMINISTRATION",
+      "idx": 9,
+      "decision": "include",
+      "reason": "The abstract reports empirical research on museum co-production with communities and the institutional factors shaping this collaborative public value practice."
+    },
+    {
+      "title": "Rethinking co-creation: the fluid and relational process of value co-creation in public service organizations",
+      "journal": "PUBLIC MONEY & MANAGEMENT",
+      "idx": 10,
+      "decision": "include",
+      "reason": "This paper draws on a practical service redesign case to empirically examine value co-creation in integrated health and social care services."
+    },
+    {
+      "title": "Silence and Voice in Nigeria's Hybrid Urban Water Markets: Implications for Local Governance of Public Goods",
+      "journal": "INTERNATIONAL JOURNAL OF URBAN AND REGIONAL RESEARCH",
+      "idx": 11,
+      "decision": "exclude",
+      "reason": "The abstract studies household strategies and water governance, but not a specific collaborative mechanism for public value creation."
+    },
+    {
+      "title": "Open government data (OGD) in six Middle East countries: an evaluation of the national open data portals",
+      "journal": "Digital Policy Regulation and Governance",
+      "idx": 12,
+      "decision": "exclude",
+      "reason": "This is a descriptive overview of open government data frameworks and barriers, not empirical evidence on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "Neither Market nor Sate Domain: Nonprofits From the Ostroms' Theoretical Perspective",
+      "journal": "NONPROFIT AND VOLUNTARY SECTOR QUARTERLY",
+      "idx": 13,
+      "decision": "exclude",
+      "reason": "The abstract is a theoretical exploration of Ostroms' perspective and coproduction, without empirical evidence on collaboration mechanisms."
+    },
+    {
+      "title": "Policy Design and Achieving Social Outcomes: A Comparative Analysis of Social Enterprise Policy",
+      "journal": "PUBLIC ADMINISTRATION REVIEW",
+      "idx": 14,
+      "decision": "exclude",
+      "reason": "This comparative policy analysis of social enterprise policy is not focused on collaboration mechanisms for public value creation in action."
+    },
+    {
+      "title": "Knowledge Translation and Its Interrelation with Usability and Accessibility. Biocultural Diversity Translated by Means of Technology and Language-The Case of Citizen Science Contributing to the Sustainable Development Goals",
+      "journal": "SUSTAINABILITY",
+      "idx": 15,
+      "decision": "exclude",
+      "reason": "The abstract is conceptual and links citizen science, knowledge translation, and SDGs without empirical evidence on collaboration mechanisms."
+    },
+    {
+      "title": "Co-experience, co-production and co-governance: an ecosystem approach to the analysis of value creation",
+      "journal": "POLICY AND POLITICS",
+      "idx": 16,
+      "decision": "include",
+      "reason": "This contextual case study empirically examines participation of service users and third sector organizations and how these collaborative processes enable value creation."
+    },
+    {
+      "title": "Practical prescriptions for governing fragmented governments",
+      "journal": "POLICY AND POLITICS",
+      "idx": 17,
+      "decision": "exclude",
+      "reason": "The article is a theoretical/institutional discussion of collective action dilemmas and does not present empirical evidence on collaboration mechanisms for public value creation."
+    },
+    {
+      "title": "Integrating scientific and local knowledge to address conservation conflicts: Towards a practical framework based on lessons learned from a Scottish case study",
+      "journal": "ENVIRONMENTAL SCIENCE & POLICY",
+      "idx": 18,
+      "decision": "include",
+      "reason": "This mixed-methods study empirically examines stakeholder collaboration, power sharing, and knowledge co-production in environmental conflict transformation."
+    },
+    {
+      "title": "Beyond the Shadow State: The Public-Private Food Assistance System as Networked Governance",
+      "journal": "URBAN AFFAIRS REVIEW",
+      "idx": 19,
+      "decision": "include",
+      "reason": "The abstract presents an empirical analysis of a multiactor public-private food assistance system and how public and private actors collaborate to provide social welfare."
+    }
+  ]
+}

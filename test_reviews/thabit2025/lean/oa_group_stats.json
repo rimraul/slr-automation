@@ -1,0 +1,1606 @@
+{
+  "known_included": [
+    {
+      "id": "wos-212c4fe1e566d8b5a503",
+      "title": "The role of universities in SDGs solution co-creation and implementation: a human-centered design and shared-action learning process",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-8fcb08b1e94473e0f784",
+      "title": "Value conflicts in co-production: governing public values in multi-actor settings",
+      "is_open_access": false
+    },
+    {
+      "id": "wos-a68c119c736bcff07ab0",
+      "title": "Co-Designing a Citizen Science Program for Malaria Control in Rwanda",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-a34282efbad6298b4376",
+      "title": "Brand Innovation and Value-Creating Practices of the City of Johannesburg’s Twitter Community",
+      "is_open_access": false
+    },
+    {
+      "id": "wos-6d6a21fb3ba9962d3f27",
+      "title": "Partnerships and the Good-Governance Agenda: Improving Service Delivery Through State-NGO Collaborations",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-dc17d8605d7876fa48a7",
+      "title": "Strengthening public service production, administrative problem solving, and political leadership through co-creation of innovative public value outcomes?",
+      "is_open_access": false
+    },
+    {
+      "id": "wos-2dbac6562e9fa94dcbe7",
+      "title": "Stakeholder salience in public sector value co-creation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-1ffd249a5460754982e8",
+      "title": "Better public sector governance through partnership with the private sector and civil society: the case of Guatemala's forest administration",
+      "is_open_access": null
+    },
+    {
+      "id": "scopus-64dbaf11f106d34bcb2b",
+      "title": "Mobilizing Change in Public Services: Insights from a Systems Leadership Development Intervention",
+      "is_open_access": false
+    },
+    {
+      "id": "wos-2c0e5021e480adcc3f1e",
+      "title": "New Community Spaces: Regional Governance in the Public Interest in the Greater Toronto Area",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-15de79f98e1e4757cf96",
+      "title": "Revitalizing the Global Alliances for Sustainable Development: Analyzing the Viability of Sustainable Development Goal 17-A Multi-Actor Governance Approach",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-87c0cfb23ca2ebea04cb",
+      "title": "How does digital technology impact on the co-production of local services? Evidence from a childcare experience",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-671b8f85a7bb5a7151b7",
+      "title": "Public Values and Public Participation: A Case of Collaborative Governance of a Planning Process",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-9655e735d397be84e9dc",
+      "title": "Boundary-spanning in public value co-creation through the lens of multilevel governance",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-984ad627558f727ca755",
+      "title": "Having it all: can collaborative governance be both legitimate and accountable?",
+      "is_open_access": null
+    },
+    {
+      "id": "scopus-16bb2b01f20b256efca9",
+      "title": "Coproduction in the U.S. Department of Defense: Examining how the evolution of geographic information systems (GIS) expands non-traditional partner engagement",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-0bdb0713807c249958b3",
+      "title": "The role of soft skills to leverage co-creation in living labs: Insights from Spain",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-d7fe332dd1f6bdc1c738",
+      "title": "Living Labs as an Innovation Tool for Public Value Creation: Possibilities and Pitfalls",
+      "is_open_access": false
+    },
+    {
+      "id": "wos-93a6e9f90f555e17a764",
+      "title": "Public Value Co-Creation in Living Labs-Results from Three Case Studies",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-57c079d4b5d128a2a4ec",
+      "title": "Crowdfunding public projects: Collaborative governance for achieving citizen co-funding of public goods",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-92b0efcd6c4d07e481a1",
+      "title": "Realizing public values: enhancement or obstruction? Exploring value tensions and coping strategies in the co-production of social care",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-3464b4bbabc830e25e42",
+      "title": "Does Co-Production Lead to the Creation of Public Value? Balancing the Dimensions of Public Value Creation in Urban Mobility Planning",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-bf461222426f19d94360",
+      "title": "The governance games of citizens and stakeholders' engagement: longitudinal narratives",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-bf96026a0505e6a05592",
+      "title": "Knowledge Co-production in Contested Spaces: An Evaluation of the North Slope Borough-Shell Baseline Studies Program",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7973a5b9611545ed0342",
+      "title": "The collaborative realization of public values and business goals: Governance and infrastructure of public-private information platforms",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-73753bfd8fb296528420",
+      "title": "Creating value through data collaboratives: Balancing innovation and control",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-e29e351fdb85248c9347",
+      "title": "Citizen Science in the Field: Co-experimentation at Pilot Scale for Sustainable Use of Natural Resources",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a388a20df7e02b5db270",
+      "title": "Institutional design of public agencies and coproduction: A study of irrigation associations in Taiwan",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-263b99e67655744ddb76",
+      "title": "How does open government data driven co-creation occur? Six factors and a 'perfect storm'; insights from Chicago's food inspection forecasting model",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-64cc983fce2e1a345f75",
+      "title": "Catalyzing Transformational Partnerships for the SDGs: Effectiveness and Impact of the Multi-Stakeholder InitiativeEl dia despues",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-e0f56b2db6326657a6f1",
+      "title": "Feedback Loops and Facilitation: Catalyzing Transformational Multi-Stakeholder Refugee Response Partnerships",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-41ce3a5dffaabd271cf5",
+      "title": "Integrative public leadership: Catalyzing collaboration to create public value",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-b1f9c990eddfb649bee8",
+      "title": "Behavioral effects of public service motivation among citizens: testing the case of digital co-production",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-c5bee1c979c990680096",
+      "title": "Leading the way: the integral role of local government within a multisector partnership delivering a large infrastructure project in an Australian growth region",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-ad006b30c8ef6fbe8a84",
+      "title": "Strategic management as an enabler of co-creation in public services",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-b1db8d1123755a488b64",
+      "title": "Sustaining Public-Private Partnerships for Public Service Provision Through Democratically Accountable Practices",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-553431b20bbbf9b271a1",
+      "title": "Leading for public value in multi-agency collaboration",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f9b8a5c9c1c4d353c975",
+      "title": "Local responses to global sustainability agendas: learning from experimenting with the urban sustainable development goal in Cape Town",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a159f93cd244636d67d7",
+      "title": "Innovative Co-Creative Participatory Methodologies for a Dreamt-of Quality Education in Europe",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7be34b4f2950ced24e28",
+      "title": "Applying Elinor Ostrom's Design Principles to Guide Co-Design in Health(care) Improvement: A Case Study with Citizens Returning to the Community from Jail in Los Angeles County",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a799cafa17fa9259a377",
+      "title": "Co-production in digital transformation of public administration and public value creation: The case of Denmark",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-59f4ddd683897e31b82b",
+      "title": "Public services management and co-production in multi-level governance settings",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-bcb939bfd7e82553f533",
+      "title": "Co-creating ambitious climate change mitigation goals: The Copenhagen experience",
+      "is_open_access": null
+    },
+    {
+      "id": "scopus-7e735e2354b591a72b9b",
+      "title": "Establishing and implementing data collaborations for public good: A critical factor analysis to scale up the practice",
+      "is_open_access": false
+    },
+    {
+      "id": "wos-df2c53ff13c61a259287",
+      "title": "Neoliberal governing through social enterprise: Exploring the neglected roles of deviance and ignorance in public value creation",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-cb24e70e51c57b5bee30",
+      "title": "Constructing a Joint University‒Municipality Platform for Networked Co-creation of Innovative Urban Solutions: A Norwegian Experience",
+      "is_open_access": false
+    },
+    {
+      "id": "wos-49026a51414640723fc7",
+      "title": "Cross-Sector Partnerships for Sustainability: How Mission-Driven Conveners Drive Change in National Coffee Platforms",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-279ed2cc045c6930d23e",
+      "title": "The co-production of public value in community development: can street-level professionals make a difference?",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-1e158b40efa0486eb5ef",
+      "title": "Paradoxes of collaborative governance: investigating the real-life dynamics of multi-agency collaborations using a quasi-experimental action-research approach",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-fa649626c7c093051ed1",
+      "title": "Co-production, governance and practice: The dynamics and effects of User Voice Prison Councils",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-c9bce42b17d0988d3dbb",
+      "title": "Neighbourhood governance during the COVID-19 lockdown in Hangzhou: coproduction based on digital technologies",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "A Decision Theory Perspective on Wicked Problems, SDGs and Stakeholders: The Case of Deforestation",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "Organizational maturity for co-creation: Towards a multi-attribute decision support model for public organizations",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "Achieving Sustainable Development Goals Through Collaborative Innovation: Evidence from Four European Initiatives",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "Paradox and collaboration in network management",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "Ambidexterity in Cross-Sector Collaborations Involving Public Organizations",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "Coping with Value Conflicts in Interorganizational Collaborations",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "Community Foundations as Network Conveners: Structuring Collective Agency for Child Education and Development System Impact",
+      "is_open_access": null
+    },
+    {
+      "id": null,
+      "title": "Co-initiation of Collaborative Innovation in Urban Spaces",
+      "is_open_access": null
+    }
+  ],
+  "known_excluded_rest": [
+    {
+      "id": "wos-a758ade01bd506aaaf30",
+      "title": "Evaluation of Policy Transfer Interventions: Lessons from a Dutch-Romanian Planning Project",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-155328f5d49afc80a1bd",
+      "title": "Health equity and wellbeing among older people's caregivers in New Zealand during COVID-19: Protocol for a qualitative study",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-515f00e252726894d760",
+      "title": "Sustainability project partnerships in times of crisis: conceptual framework and implications for stakeholder integration",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-f514bc8b76acdd4ee807",
+      "title": "Scientist and stakeholder perspectives of transdisciplinary research: Early attitudes, expectations, and tensions",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-11c24a71d228ce4482b0",
+      "title": "Exploring the Influence of Attitudes and Experience on Valuation of State Forest Lands via Contingent Valuation",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-aed5c402109dc8a36181",
+      "title": "PUBLIC VALUE CREATION BY CROSS-SECTOR COLLABORATIONS: A FRAMEWORK AND CHALLENGES OF ASSESSMENT",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-cdd9904730b961cfad88",
+      "title": "Public value creation through collaborative innovation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-46743582a5f3964a3159",
+      "title": "Towards a multi-actor theory of public value co-creation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f816431372c5aa3a4525",
+      "title": "New development: Expanding public service value to include dis/value",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-9140e6832d04f557e051",
+      "title": "Government as a platform, orchestration, and public value creation: The Italian case",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-4a55b34569ce9adf059f",
+      "title": "A typology of dis/value in public service delivery",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-0be9828c8c8318cd9b72",
+      "title": "How public leaders can promote public value through co-creation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-1ef340205ce06dcc2f0a",
+      "title": "Strategic alignment, process improvements and public value in public-private IT outsourcing in Mexico",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-1ddf637b43ed5e81074c",
+      "title": "Public Value and Citizen-Driven Digital Innovation: A Cryptocurrency Study",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-4c02e8cc1371acea260b",
+      "title": "Realizing public values in the co-production of public services: the effect of efficacy and trust on coping with public values conflicts",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-44038cc45d26a088c37d",
+      "title": "New development: Mitigating disvalue through a material understanding of public value co-creation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-59776d5b9c12d33217b9",
+      "title": "Knowledge Construction in Public Administration: A Discourse Analysis of Public Value",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-7aea0c653ae8a78e4a0c",
+      "title": "Disclosing Public Values: Citizens' Perspectives Based on Group Model Building",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-9a60d331a413571d627a",
+      "title": "PUBLIC VALUE THEORY IN THE CONTEXT OF PUBLIC SECTOR MODERNIZATION",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-3cbd21e0ff6fa5e58f63",
+      "title": "A Conceptual Model for Individual Coping with Value Conflicts",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-93ccd5a938bd1f2ce9ab",
+      "title": "Digital platforms for the co-creation of public value",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-563f2ca84e8bbb617a88",
+      "title": "Why leadership of public leadership research matters: and what to do about it",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-d4d47c69429b9f922974",
+      "title": "From co-creation to public value through collaborative platforms-the case of Norwegian kindergartens",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-4b2c7bda1fe37a616de3",
+      "title": "Discovering Collaborative Advantage: The Contributions of Goal Categories and Visual Strategy Mapping",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f29b7ab5b3419ace832f",
+      "title": "Enhancing value-in-use in the FinTech innovation context",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-ba3ad1a3d6f89280180e",
+      "title": "Government accounting literacy as an attribute of smart citizenship",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-b3843a0e8907dd041672",
+      "title": "Politically-driven public administration or co-creation? On the possibility of modernizing public services in rural Hungary",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-9fce03b8e108dabaed6f",
+      "title": "Navigating tensions in co-production: A missing link in leadership for public value",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-dd10fdbfe2d6a6c915da",
+      "title": "Leading co-creation for the green shift",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-b513cb00045780d7c762",
+      "title": "A Knowledge-Based Approach to Public Value Management: A Case Study of Change Implementation in Disability Services in Western Australia",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-0b6969a0276eb9a0e1e0",
+      "title": "Public harm or public value? Towards coproduction in research with communities",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-31c4ec298571b7fe729b",
+      "title": "Individual, Group, and Collective Co-production: The Role of Public Value Conceptions in Shaping Co-production Practices",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-432e61ed47c61c4599f4",
+      "title": "(CO)CONTAMINATION AS THE DARK SIDE OF CO-PRODUCTION Public value failures in co-production processes",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-a4cb22d7486395e7c4b7",
+      "title": "The muse with a wandering eye: the influence of public value on coproduction in museums",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-3db2d07332201e847e20",
+      "title": "Decentralized identity (DID): new technology adoption and diffusion in South Korea",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-51e7b75492be1e8108dd",
+      "title": "The role of collaborative housing initiatives in public value co-creation - a case study of Freiburg, Germany",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-604477a3f2f2a4cc9f5f",
+      "title": "How Practices of Managing Partnerships Contributes to the Value CreationPublic-Social Partnership Perspective",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-9f14f225253546b91ac5",
+      "title": "ADMINISTRATIVE NORMS AND THE COPRODUCTION OF MUNICIPAL SERVICES",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-0539a8b514ecedf898da",
+      "title": "The reflection of public values in twitter use of metropolitan municipalities: A content analysis employing the analytic hierarchy process",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-1d8f28fa77d24829df84",
+      "title": "Performance Regimes Amidst Governance Complexity",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-1a29994c4f45a2b78369",
+      "title": "Modular Interorganizational Network Governance: A Conceptual Framework for Addressing Complex Social Problems",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7d541e492b0c51d1638d",
+      "title": "Public value governance meets social commons: community anchor organisations as catalysts for public service reform and social change?",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-db13d4556a8262e48a73",
+      "title": "From Engagement to Co-production: The Contribution of Users and Communities to Outcomes and Public Value",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-e1c7c712a4b3dc651e9b",
+      "title": "Dis/value in co-production, co-design and co-innovation for individuals, groups and society",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-d773acfaa50a95aac77f",
+      "title": "Stimulating the social and environmental benefits of agriculture and forestry: An EU-based comparative analysis",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-d71ef1aad9bf5b2420e7",
+      "title": "Social sanctions and informal accountability: Evidence from a laboratory experiment",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-5325c6abba6602a29adf",
+      "title": "COPRODUCING CLEAN COLLABORATIVE GOVERNANCE Examples from the United States and China",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-7883cf623877d48524cf",
+      "title": "New development: Mitigating and negotiating the co-creation of dis/value-Elinor Ostrom's design principles and co-creating public value",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6c15290d8b2b905119b0",
+      "title": "Elected MPs, Traditional Chiefs, and Local Public Goods: Evidence on the Role of Leaders in Co-Production From Rural Zambia",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-5b6b5b843a0b3562782b",
+      "title": "Turning Open Government Data into Public Value: Testing the COPS Framework for the Co-creation of OGD-Driven Public Services",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-5e53f3dd54def86685dd",
+      "title": "Makeni City Council and the Politics of Co-production in Post-conflict Sierra Leone",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-79786f47102313de8ba4",
+      "title": "Multi-stakeholder Engagement for the Sustainable Development Goals: Introduction to the Special Issue",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7b01a7df51d464204c6d",
+      "title": "Decolonial Journalism: New Notes on Ubuntu and the Public Interest",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-562b733503a5a5537e8c",
+      "title": "Might less accountability be more? INGO-volunteer relationships in the European refugee response",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-90194cd73c3eac53d55b",
+      "title": "The Precarious Politics of Public Innovation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-c1d4095f15b74c359338",
+      "title": "Friends or Foes? Nonstate Public Goods Providers and Local State Authorities in Nondemocratic and Transitional Systems",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-2741ec2b8de72f1a2020",
+      "title": "Collaborative governance and innovation in public services settings",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-9b5ee7916958c094e9fc",
+      "title": "Organizing for Commons-Enabling Decision-Making Under Conflicting Institutional Logics in Social Entrepreneurship",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-79b915b302f8e794f9e5",
+      "title": "Collaboration, Co-Production, Networks: Convergence of theories",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-0e88c0f355696421dcea",
+      "title": "Local Powers and the Co-delivery of Public Goods in Niger",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f7375d13fb3b7c875af6",
+      "title": "Public Service Logic: An Appropriate Recipe for Improving Serviceness in the Public Sector?",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-5cb016a2e20bf531d638",
+      "title": "Multiparty Alliances and Systemic Change: The Role of Beneficiaries and Their Capacity for Collective Action",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-c99c265d877884de8bd2",
+      "title": "Collective Remittances and Transnational Coproduction: the 3 x 1 Program for Migrants and Household Access to Public Goods in Mexico",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-d02908a43cfd326b63ab",
+      "title": "Is a more transparent, connected, and engaged city a smarter investment? A study of the relationship between 311 systems and credit ratings in American cities",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-793e5ec44ec520609f13",
+      "title": "Value processes and lifecycles in networks for public service innovation",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-b7bd4c93b129054c1a05",
+      "title": "Negotiating the Moral Aspects of Purpose in Single and Cross-Sectoral Collaborations",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-516b346a28ac2141ee8f",
+      "title": "Co-Production of Digital Public Services in Austrian Public Administrations",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-cd194bc63ecb1863c66f",
+      "title": "Outcome Insights: Applying an NPG Lens to Examine a Capacity Building Initiative Among the Government and its Partner",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-8bc774aba5274d0e5c35",
+      "title": "The Multiple Facets of Co-Production: Building on the work of Elinor Ostrom",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-7e0d42cf469f0157ff53",
+      "title": "A processual approach to friction in quadruple helix collaborations",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a909b717d38cbff19960",
+      "title": "Smart Cities Governance: The Need for a Holistic Approach to Assessing Urban Participatory Policy Making",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-f757095c8d765d942bf6",
+      "title": "Participation and Local Governance Outcomes: Evidence from Ukraine",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-1c3954526d8f4827e563",
+      "title": "CO-PRODUCTION AND THE CO-CREATION OF VALUE IN PUBLIC SERVICES A suitable case for treatment?",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6f16f49f61c16e602616",
+      "title": "Re-imagining public service",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-53ec18ba065f6814d541",
+      "title": "Digital Governance: An Assessment of Performance and Best Practices",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-c78e037dc711688b8b25",
+      "title": "Civic Integration through Commissioned Communities: On the Cross-Sector Co-Production of Conditioned and Clientised Participation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-523a971e71126f04ba91",
+      "title": "Beyond patient-centred care: a conceptual framework of co-production mechanisms with vulnerable groups in health and social service settings",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-fc54e6fca19fcbb06173",
+      "title": "Does Coproduction of Public Services Support Government's Social Equity Goals? The Case of US State Parks",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a04b571d632b3d77416d",
+      "title": "Creating Broader Research Impacts through Boundary Organizations",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-80a24e864bf6c6c1be41",
+      "title": "A leadership framework for cross-sector collaboration",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-8e795242bd098a0e3526",
+      "title": "The Service-Dominant Logic of Marketing and Marketing Ethics",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-3b01bc3d8d164401a588",
+      "title": "New development: Reconnecting public service ethos and multi-agency collaboration. What are the possibilities and prospects for new local collaborative environments?",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-0c2dd6f0f916f1a721c5",
+      "title": "E-governance innovation: Barriers and strategies",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f23c5fe08ee1f647bc73",
+      "title": "Towards Decentralized IT Governance in the Public Sector: A Capability-oriented Approach",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-cf4c58057386c94e9d0e",
+      "title": "No funeral bells: Public reason in a post-truth' age",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-71c8418a126c8af69a19",
+      "title": "The community philanthropic foundation: A new form of independent public service provider for China?",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-64421fc430c1a841a473",
+      "title": "From Bureaucrats to Entrepreneurs to Networkers, Advocates, and Empaths: Reappraising Human Resources Management Ideals and Practices in Public Administration",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-2e5e9db812eb79f294a1",
+      "title": "Public Innovation and Living Labs in Action: A Comparative Analysis in post-New Public Management Contexts",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-52d47f9e4b3717fdc4b7",
+      "title": "Migrant Transnational Participation: How Citizen Inclusion and Government Engagement Matter for Local Democratic Development in Mexico",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-e1339b7cfb5ed1303d70",
+      "title": "Representative Bureaucracy, Organizational Integrity, and Citizen Coproduction: Does an Increase in Police Ethnic Representativeness Reduce Crime?",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-2dd9390ea331e3390606",
+      "title": "Unpacking value destruction at the intersection between public and private value",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-5ead787c74e7dcf1b69f",
+      "title": "Social media engagement forms in government: A structure-content framework",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-e55483efd9b6ff763bbf",
+      "title": "The problem and promise of coproduction: Politics, history, and autonomy",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-8a5bd0e162191d33ada1",
+      "title": "Joint Production of Public Services in Shrinking Rural Areas in Germany: Results of Exploratory Research",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-7e3ca895dac2ec91cee7",
+      "title": "Governing Value Creation in a Major Infrastructure Project Client Organization: The Case of Beijing Daxing International Airport",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-ce3a8304a2ce44f35bfe",
+      "title": "Preventing crises in the midst of a global pandemic: responsiveness, participation and equity in policing and public health partnerships during Covid-19",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a7caa6bb6e2f808825d6",
+      "title": "'You can't Google everything': the voluntary sector and the leadership of communities of place",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-9fb1a27bea7160b305ef",
+      "title": "The state and the reconstruction of civil society",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-5d9445515f376a293ddf",
+      "title": "Co-Production of Public Services in Australia: The Roles of Government Organisations and Co-Producers",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-dc6ea01e54f802ca9393",
+      "title": "Digital government and public management research: finding the crossroads",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f217e411da6e03e1e00e",
+      "title": "Inside the black box of collaboration: a process-tracing study of collaborative flood risk governance in the Netherlands",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-d63b2a0a54884d42f185",
+      "title": "Reflections on Public Administrative Theory and the Separation of Powers",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-ed71940a6a4bec234afb",
+      "title": "Social value cocreation: a mode of value cocreation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-28e55887d4b3c6475c1c",
+      "title": "Analyzing smart cities' reporting: do they report smart?",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-01a3c19ef8d7194d07cf",
+      "title": "Co-producing accountability? Drawing conclusions from non-profit child care services in Manitoba",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-0746ea0672a40e017415",
+      "title": "Frontline bureaucrats in wildlife management: Caught in the dilemma between effectiveness and responsiveness",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-9e70042acf3bf23e3e45",
+      "title": "Evaluation capacity building in response to the agricultural research impact agenda: Emerging insights from Ireland, Catalonia (Spain), New Zealand, and Uruguay",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-2d2727e53ced2e8c63c1",
+      "title": "Coproduction of community public service: evidence from china's community foundations",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-9a52cb778963e6a4b488",
+      "title": "Strategic rebels: a spatial econometric approach to rebel fighting durations in civil wars",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-29070e56a72e19b40428",
+      "title": "Signalling Responsibility? Applying Signalling Theory to the ISO 26000 Standard for Social Responsibility",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f0fb9deea5c200b2af03",
+      "title": "Using government websites to enhance democratic E-governance: A conceptual model for evaluation",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-ba4854be476276fda6fc",
+      "title": "REFLECTIONS ON WATER SHORTAGE IN SOME BRAZILIAN REGIONS AND CO-PRODUCTION IN PUBLIC MANAGEMENT: TOWARDS A MORE EFFECTIVE WATER MANAGEMENT",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-20eee26b3a359f445b02",
+      "title": "A Deficit Model of Collaborative Governance: Government-Nonprofit Fiscal Relations in the Provision of Child Welfare Services",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-25194a4f6770aae3e019",
+      "title": "Community science: A typology and its implications for governance of social-ecological systems",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7f0706867e90dd7915d0",
+      "title": "Citizen participation and the neighborhood context: A new look at the coproduction of local public goods",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-a4c56093f65098196bb2",
+      "title": "Corporate Foundations as Partnership Brokers in Supporting the United Nations' Sustainable Development Goals (SDGs)",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-c1cc202c1064327bc479",
+      "title": "Stakeholder Mapping to Co-Create Nature-Based Solutions: Who Is on Board?",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-fec32d575e26c3153c8f",
+      "title": "Marketization reforms and co-production: Does ownership of service delivery structures and customer language matter?",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-d1c539304b3676224bbd",
+      "title": "Coproducing Rural Public Schools in Brazil: Contestation, Clientelism, and the Landless Workers' Movement",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-b819f01215901882ed2e",
+      "title": "Aligning vertical structures and horizontal relationships: collaborative leadership and accountability mechanisms to enhance economic growth in England",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a84a884e7482995fb852",
+      "title": "Collaborative governance in the making: Implementation of a new forest management regime in an old-growth conflict region of British Columbia, Canada",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-c8e1360086d73a4cc8d1",
+      "title": "Are Equity and Sustainability a Likely Outcome When Foxes and Chickens Share the Same Coop? Critiquing the Concept of Multistakeholder Governance of Food Security",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-659bd9bdd42337bbc34d",
+      "title": "Understanding Participatory Governance: An Analysis of Participants' Motives for Participation",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-bbb4cb141ba21b3e21d2",
+      "title": "Social Identification and Redistribution in Heterogeneous Federations: Evidence From Germany and Belgium",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a0c5560843c8920f5fee",
+      "title": "Streamlining non-governmental organizations' programs towards achieving the sustainable development goals: A conceptual framework",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-e71c61d56b91f0e3a0b2",
+      "title": "Partnering for Impact: A Grand Challenge and Design for Co-Creating a Just, Resilient and Flourishing Society",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-cec34c02e61af2251dba",
+      "title": "Retaining Critical Human Capital: Volunteer Firefighters in the Commonwealth of Pennsylvania",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-0e9565804823323baf5e",
+      "title": "Principles for supporting city-citizen commoning for climate adaptation: From adaptation governance to sustainable transformation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-b323d20cb3950cbc0268",
+      "title": "Data protection for the common good: Developing a framework for a data protection-focused data commons",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-648f3eadd96966a4817b",
+      "title": "Public sector, open innovation, and collaborative governance in lockdown times. A research of Spanish cases during the COVID-19 crisis",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-73f886a6a4b2b529f8e4",
+      "title": "Reframing strategic spatial planning by using a coproduction perspective",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-5749d6b324117b9d5f56",
+      "title": "The Government and Civil Society Collaboration against COVID-19 in South Korea: A Single or Multiple Actor Play?",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-d6051f01c8787c75735c",
+      "title": "Cost-effectiveness analysis and joint public production of outputs for development: a preliminary framework",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6755c13f4e0099dfbadd",
+      "title": "The Race toward Caraqueno Citizenship: Negotiating Race, Class, and Participatory Democracy",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-fcbf08e6d55f29c68270",
+      "title": "Partners in crime: Transnational television's role in the emergence and distribution of narratives of European solidarity",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-44837030424b3807faaf",
+      "title": "Hijacking the Narrative: The First World Forum on Natural Capital, #natcap13, and Radical Dissent",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6fb176b7c1ae27715781",
+      "title": "The inclusion of the non-European world in international society, 1870s-1920s: evidence from global networks",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-30f08fe1ac14ff905be9",
+      "title": "Changing roles of universities in the era of SDGs: rising up to the global challenge through institutionalising partnerships with governments and communities",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-03c7b876d4adc89d8a18",
+      "title": "The frontiers of participatory public engagement",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-3477f83673b0f068b51b",
+      "title": "Can innovative business models overcome resistance to electric vehicles? Better Place and battery electric cars in Denmark",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-2459061c90526eebe243",
+      "title": "Shaping Digital Ecosystems for Sustainable Production: Assessing the Policy Impact of the 2030 Vision for Industrie 4.0",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-0e5e5a2f17916a2d5909",
+      "title": "Prefiguring Sustainability through Participatory Action Research Experiences for Undergraduates: Reflections and Recommendations for Student Development",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a422d32b313103751377",
+      "title": "Design Choices for Libraries in the Digital-Plus Era",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-8f4fdc552d23937ee32e",
+      "title": "Knowledge users' perspectives and advice on how to improve knowledge exchange and mobilization in the case of a co-managed fishery",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-23a85a986854d2b505bd",
+      "title": "Working with Complexity in the Context of the United Nations Sustainable Development Goals: A Case Study of Global Health Partnerships",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-dce53f1ea9fdb3c3f81b",
+      "title": "Approaching sustainable development goals: Inspirations from the Arts and Crafts movement to reshape production and consumption patterns",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-3b33a4851a2670e6bd40",
+      "title": "An Inclusive Approach to Partnerships for the SDGs: Using a Relationship Lens to Explore the Potential for Transformational Collaboration",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-c71081512b13970d0e67",
+      "title": "Meso Evaluation for SDGs' Complexity and Ethics",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-4a2ab33062ff5e77f6dc",
+      "title": "Monitoring Sustainable Development Goals 3: Assessing the Readiness of Low- and Middle-Income Countries",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7ca0f596477ae5bbbc92",
+      "title": "SDGs, Foreign Ministries and the Art of Partnering with the Private Sector",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-b7ff0e3389f2cba0210b",
+      "title": "Discursive claims to knowledge: The challenge of delivering public policy objectives through new environmental governance arrangements",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-b87ee58b5ad021c34b00",
+      "title": "Innovation Ecosystem framework directed to Sustainable Development Goal #17 partnerships implementation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-e6a831bb05e61af93a5d",
+      "title": "A Systematic Literature Review of Partnership Development at the University-Industry-Government Nexus",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7aaf5ccd073a344a8a24",
+      "title": "Mapping and Analysis of Sustainability-Oriented Partnerships in Non-Profit Organizations: The Case of Saudi Arabia",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-37c5b99ee1282cd0b6cc",
+      "title": "Responsible Leadership and the Reflective CEO: Resolving Stakeholder Conflict by Imagining What Could be done",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-ef7b9918d14c20a3c18d",
+      "title": "100 key research questions for the post-2015 development agenda",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-2aff1a7adb54add27b4b",
+      "title": "Can Pay-As-You-Go, Digitally Enabled Business Models Support Sustainability Transformations in Developing Countries? Outstanding Questions and a Theoretical Basis for Future Research",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-35355488f635972fdd30",
+      "title": "Developing and testing the Urban Sustainable Development Goal's targets and indicators - a five-city study",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-0f888db5e55e745a4278",
+      "title": "Issues of context, capacity and scale: Essential conditions and missing links for a sustainable blue economy",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-ed2c94431bddf133756b",
+      "title": "Mainstreaming climate change mitigation actions in Nepal: Influencing factors and processes",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-bb8829a00b8cd55b1269",
+      "title": "Exploring the dynamics of fishing footprints in the Gulf of Guinea and Congo Basin region: Current status and future perspectives",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-d0bce4ac3b39949064c7",
+      "title": "Innovation Mode and Effective Ways of Realizing Rural Public Management under Accurate Poverty Alleviation",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-0b02bb5bd381ddc54210",
+      "title": "Citizen Science and the Sustainable Development Goals in Low and Middle Income Country Cities",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-5f86bc438abfe5521da0",
+      "title": "Urban equality and the SDGs: three provocations for a relational agenda",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-dafdb2ae0a23e1a1071f",
+      "title": "Tensions between Formal and Informal Water Providers: Receptivity toward Mechanised Boreholes in the Sunyani West District, Ghana",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-5d8d1c5c184045b80bc1",
+      "title": "Applying the Q-method to identify primary motivation factors and barriers to communities in achieving decarbonisation goals",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-cca2136d3905411926a4",
+      "title": "Public participation in environmental governance in the Philippines: The challenge of consolidation in engaging the state",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-d723b85108eeb8716964",
+      "title": "Accounting for what and to whom? Accountability tensions in collaborations addressing long-term unemployment",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-38cd896005f960bb9a07",
+      "title": "Climate change and the water-energy-food nexus: insights from policy and practice in Tanzania",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-ca398efdc5f154dbef44",
+      "title": "Grassroots waste picker organizations addressing the UN sustainable development goals",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-4c4676ff15f4565978f3",
+      "title": "Methodology to Improve the Acceptance and Adoption of Circular and Social Economy: A Longitudinal Case Study of a Biodiesel Cooperative",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-5d437745e031ea38b7db",
+      "title": "Embeddedness, social capital and learning in rural areas: The case of producer cooperatives",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6ecd118bdf14819afb4b",
+      "title": "Future proofing the principle of no significant harm",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-fec1c62862aa9a3d5c1f",
+      "title": "Towards More Balanced Territorial Relations-The Role (and Limitations) of Spatial Planning as a Governance Approach",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f5614bc3cab602ab1fa4",
+      "title": "Social Economy and Home Care Services in Quebec: Co-Production or Co-Construction?",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-f3db34b637672b5cad52",
+      "title": "Transformative outcomes: assessing and reorienting experimentation with transformative innovation policy",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-ec21ce6d3bee8fb2e4c6",
+      "title": "Structured Collaboration Across a Transformative Knowledge Network-Learning Across Disciplines, Cultures and Contexts?",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-f407ff4bd6fd55b3c9a2",
+      "title": "Transforming the capacity of impact assessment to address persistent global problems",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a5c3ec9861dfe04540cc",
+      "title": "Enabling health technology innovation in Canada: Barriers and facilitators in policy and regulatory processes",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-cf474aeba22edb683f4c",
+      "title": "A Collaborative Transformation beyond Coal and Cars? Co-Creation and Corporatism in the German Energy and Mobility Transitions",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-392a2e8194f542a46a5e",
+      "title": "Flexibility & structure: Community engagement on climate action & large infrastructure delivery",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-2930f62f5b26fc3eaed5",
+      "title": "The Ecosystem Approach in Addressing Sustainable Development Goals through Citizen Science in Lithuania",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-d79319438611db851227",
+      "title": "Pathways, contextual and cross-scale dynamics of science-policy-society interactions in transdisciplinary research in African cities",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-87ee50f9d3cae297d4b4",
+      "title": "Infant feeding practices and diarrhoea in sub-Saharan African countries with high diarrhoea mortality",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-45b2c4f43de9f280de18",
+      "title": "Calculative Practices in International Environmental Governance: In (Partial) Defence of Indicators",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-2700cbbac9552942d91d",
+      "title": "TIME to Change: Rethinking Humanitarian Energy Access",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6f36070007b64e615a09",
+      "title": "Internalizing Sustainability into Research Practices of Higher Education Institutions: Case of a Research University in Taiwan",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-8588577960b63b48765e",
+      "title": "Politics of success stories in the path towards Universal Health Coverage: The case of Turkey",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-023bba16c3c5d655adec",
+      "title": "Policy Processes in Multisectoral Tobacco Control in India: The Role of Institutional Architecture, Political Engagement and Legal Interventions",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-a6c95c7d8dd400b380b9",
+      "title": "The Knowledge for Change Consortium: a decolonising approach to international collaboration in capacity-building in community-based participatory research",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-dc3533fdbfcfeb8919f1",
+      "title": "Transatlantic Divergencies in the Regulation of Uncertain Risks: Co-Production, Normative Frames and Ideal Evidence-Based and Socially Acceptable Risk Approaches",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-8d7db893940a795359dd",
+      "title": "One World, Two Ideas and Three Adaptations: Innovation Intermediaries Enabling Sustainable Open Innovation in University-Industry Collaboration in Finland, Mexico and Nicaragua",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-1aad0c11c2fb74b23a44",
+      "title": "Social process in grizzly bear management: lessons for collaborative governance and natural resource policy",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-3dea6dc2bd8a6d8ea1e2",
+      "title": "South Africa's charter approach to post-apartheid economic transformation: Collaborative governance or hardball bargaining?",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-0632f200e3c5effaacc5",
+      "title": "Co-producing knowledge: A demand-led, prosperity-focused, research agenda with forest and farm producer organisations",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-137520f975fa16953d88",
+      "title": "A Dialogical Approach to Readiness for Change towards Sustainability in Higher Education Institutions: The Case of the SDGs Seminars at the Universidad Politecnica de Madrid",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-69909038ac1682abef9f",
+      "title": "The Trajectories of Institutionalisation of the Social and Solidarity Economy in France and Korea: When Social Innovation Renews Public Action and Contributes to the Objectives of Sustainable Development",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6d0ef8946fcfcaa71b68",
+      "title": "Small Rural Enterprises and Innovative Business Models: A Case Study of the Turin Area",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-0139c5bd9b7a07e6101c",
+      "title": "Is sustainable tourism a goal that came true? The Italian experience of the Cilento and Vallo di Diano National Park",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-a1f222ae0a8b8fc825ec",
+      "title": "Experts' Perception of the Key Drivers of Land-Use/Land-Cover Changes in Serbia from 1990 to 2012",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6aed6d94bc9abe87b2f1",
+      "title": "New Methods in Creating Transdisciplinary Science Policy Research Agendas: The Case of Legislative Science Advice",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-45c5f9ed9b1a0d09f011",
+      "title": "A Societal Metabolism Approach to Effectively Analyze the Water-Energy-Food Nexus in an Agricultural Transboundary River Basin",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-7afe9953036cc2cbf498",
+      "title": "Oceans of Conflict: Pathways to an Ocean Sustainability PACT",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-09cd08e54c1edd6b9d73",
+      "title": "Creativity as a Key Constituent for Smart Specialization Strategies (S3), What Is in It for Peripheral Regions? Co-creating Sustainable and Resilient Tourism with Cultural and Creative Industries",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-3a7cfa458624e3458f3b",
+      "title": "Economic Governance Building: Assessing the Securities Exchange Regime from a Co-Production Perspective in 2021 Pre-Coup Myanmar",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-92b31abe99df4818e3b6",
+      "title": "'Walking along with development': Climate resilient pathways for political resource curses",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-6a6b1960e18c1f977a8e",
+      "title": "Scale and intensity of collaboration as determinants of performance management gaps in polycentric governance networks: evidence from a national survey of metropolitan planning organisations",
+      "is_open_access": null
+    },
+    {
+      "id": "wos-cc7c4dd7cf803af75530",
+      "title": "Strengthening Lithuanian-Latvian Cross-Border Cooperation in the Context of International Trade",
+      "is_open_access": true
+    },
+    {
+      "id": "wos-75847bd30df3dc8333f4",
+      "title": "Linking political and bureaucratic representation: Does minority representation on city councils affect the outcomes of street-level service?",
+      "is_open_access": null
+    },
+    {
+      "id": "scopus-49a1a5e450e783f75b8f",
+      "title": "Rallying together—The rationale for and structure of collaborative practice in England",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-4da0ffe5c75980899365",
+      "title": "Accountability, Public Values, and Participatory Budgeting in Poland",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-4b5df00d073060fe6f6a",
+      "title": "Risk governance and sustainability: A scientometric analysis and literature review",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-93e0874211904c0204c8",
+      "title": "Community health workers at the dawn of a new era: 2. Planning, coordination, and partnerships",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-db82e9a4c4084cf3b691",
+      "title": "Analyzing Citizen Participation and Engagement in European Smart Cities",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-0762ed7537ee53ac9e4f",
+      "title": "Scalability in the application of geodesign in brazil: Expanding the use of the brazilian geodesign platform to metropolitan regions in transformative-learning planning",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-d7c383333452496b6d20",
+      "title": "Living labs for public sector innovation: An integrative literature review",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-69c2efa00691f3e1dde9",
+      "title": "A theoretical framework for studying the co-creation of innovative solutions and public value",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-ea2c682a3c226ef6fbe4",
+      "title": "Co-production: fostering greater inclusion or reproducing existing exclusion? An analysis of co-commissioning and resident participation on a South London housing estate",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-5367bdb534d05d26f62f",
+      "title": "MUNICIPAL PUBLIC POLICY: THE VIABILITY OF ITS INSTITUTIONS AND SUBJECTS (The Cases of Kostroma and Yaroslavl)",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-ac5f3735ffe016908275",
+      "title": "Creating Value in Public Services: The Struggle between Private and Public Interests?",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-cbc800105df0bb299bfb",
+      "title": "Everyday citizenship and COVID-19: “Staying at home” while homeless",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-423f39dc3df04be3529e",
+      "title": "Collaborating for transformation: applying the Co-Laboratorio approach to bridge research, pedagogy and practice",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-c79d1a9f6f2b3f5abc89",
+      "title": "Building Bridges between Municipal Government and Urban Slums",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-22fb61d52b5d4ecf915d",
+      "title": "Evaluation of the Cochrane Consumers and Communication Group's systematic review priority-setting project",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-a01fd71032b222050616",
+      "title": "Sustainability accounting and reporting in the public sector: Towards public value co-creation?",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-7ee2acbda4ac27a89ede",
+      "title": "A threefold perspective: conditions for collaborative governance",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-800ceb4648be9550705a",
+      "title": "Communication for coproduction: a systematic review and research agenda",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-acec7987d684c51d46c8",
+      "title": "The potential for coproducing food security in public housing communities",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-f15e336f57e66c6fa7ba",
+      "title": "Exploring the drivers of ethnic and religious exclusion from public services in Nigeria: implications for sustainable development goal 10",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-1ec92326b4e4245f13df",
+      "title": "Collaborative governance in Portugal? A critical perspective based on an empirical survey",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-9e1f80fcaca05dc6ed60",
+      "title": "Inclusion by co-production of social housing: The slovak experience",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-972cb702a4fcbc14dd49",
+      "title": "Public value co-creation: A pedagogical approach to preparing future public administrators for collaboration",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-2d9cb6f9a6bfef07de38",
+      "title": "Interactive political leadership in theory and practice: how elected politicians may benefit from co-creating public value outcomes",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-51c9308d1636a736c3cd",
+      "title": "Creating public value through smart technologies and strategies: From digital services to artificial intelligence and beyond",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-9fca7a00edeff1f703ba",
+      "title": "Community-based Tourism Stakeholder Conflicts and the Co-creation Approach: A Case Study of Longji Terrace Fields, PRC",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-0cae7e1161b7373103b4",
+      "title": "Transnational organised crime at sea as a threat to the sustainable development goals: Taking direction from piracy and counter-piracy in the Western Indian Ocean",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-5d3149589b7e9e42af08",
+      "title": "Planning for regional sustainability and justice: The role of collective impact",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-9d08c74b534e0c6eada1",
+      "title": "The redefinition and co-production of public services by Urban movements: The Can Batllo social innovation in Barcelona",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-b31520800eaec0aecb2f",
+      "title": "China’s Commitment to the Sustainable Development Goals: An Analysis of Push and Pull Factors and Implementation Challenges",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-1a74b0e8e989f0083012",
+      "title": "University-community Partnerships: Demystifying the Process of Engagement",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-8133b08e026a4e406e10",
+      "title": "Network governance in the heritage ecology",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-95fa3be66026d96f6030",
+      "title": "Child injuries in Ethiopia: A review of the current situation with projections",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-cea340b9d60122e5633f",
+      "title": "‘Learning’ Development",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-71c670ecd7ea69dcf9a9",
+      "title": "Coproducing urban governance",
+      "is_open_access": true
+    },
+    {
+      "id": "scopus-8330ca394fb616059306",
+      "title": "Indo-Pacific Diplomacy: A View from the Pacific Islands",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-cfa73ecdabce28a40602",
+      "title": "Collaborative public management and systems thinking",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-3cdb6573f7018938f5a6",
+      "title": "Governing the smart city: a review of the literature on smart urban governance",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-618860cfe76369ae71cd",
+      "title": "Co-production of public space: Policy translations from New York City to the Netherlands",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-00a567687ef89a050927",
+      "title": "(Re)Defining the Disarticulated Municipality: Budget Accountability for Networked Governance",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-cb3a20a449d8cb0e9500",
+      "title": "Crafting Spaces: Strategies for Managing Public Needs Agendas",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-cddd9a05ca570b95d297",
+      "title": "Ideas in Public Management Reform for the 2010s. Digitalization, Value Creation and Involvement",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-d341cd6870ed26c7c5fd",
+      "title": "Reflections on participatory budgeting in New York City",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-647c0e410dd32fb6a836",
+      "title": "Building leadership capacity in the involving network state",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-92e8425649a9913acdeb",
+      "title": "A Tangled Web of Principals and Agents: Examining the Deepwater Horizon Oil Spill through a Principal-Agent Lens",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-d86af32110b1b8d635b2",
+      "title": "Bill gibson and the art of leading across boundaries",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-c1c8d6c7ee7be03dc254",
+      "title": "Creating the public in order to create public value?",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-6c14481da4b9db8cddd1",
+      "title": "Not Your Father’s Public Administration",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-f5b8638fc1f97b62a1bd",
+      "title": "Perceptions of Bystander Willingness to Intervene on Behalf of Victims of Criminal Assaults: Implications for the Development of Coproductive Strategies",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-8db8e98987b464abd874",
+      "title": "The Community and Departmental Contexts of Volunteer Use by Police",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-16e43b4e50bab8b94232",
+      "title": "Coproduction and Privatization: Exploring the Relationship and its Implications",
+      "is_open_access": false
+    },
+    {
+      "id": "scopus-611b9b4ef5d369983345",
+      "title": "Local coproduction of services and the analysis of municipal productivity",
+      "is_open_access": false
+    }
+  ]
+}

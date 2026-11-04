@@ -1,0 +1,90 @@
+[
+  {
+    "abstract": "We present an MBSE framework, implemented in SysML, that models the emergency medical response system for a network of rural clinics coordinating during a regional flood disaster.",
+    "authors": [
+      "A. Okafor",
+      "B. Lindqvist"
+    ],
+    "cited_by": 4,
+    "doi": null,
+    "id": "fx-0009",
+    "journal": "Journal of Rural Health Systems Engineering",
+    "native_key": "NK-fx-0009",
+    "title": "A model-based systems engineering framework for rural emergency medical response",
+    "url": "https://example-fixture.invalid/fx-0009",
+    "year": 2021
+  },
+  {
+    "abstract": "This study applies gradient-boosted machine learning models to sensor data from manufacturing equipment to predict mechanical failures before they occur, reducing unplanned downtime in urban factories.",
+    "authors": [
+      "C. Reyes"
+    ],
+    "cited_by": 11,
+    "doi": null,
+    "id": "fx-0001",
+    "journal": "International Journal of Industrial Analytics",
+    "native_key": "NK-fx-0001",
+    "title": "Machine learning for predictive maintenance in industrial manufacturing plants",
+    "url": "https://example-fixture.invalid/fx-0001",
+    "year": 2022
+  },
+  {
+    "abstract": "A retrospective analysis of emergency department overcrowding metrics at metropolitan hospitals during three influenza seasons, examining triage delays and resource allocation in a large urban health system.",
+    "authors": [
+      "D. Marchetti",
+      "E. Huang"
+    ],
+    "cited_by": 7,
+    "doi": null,
+    "id": "fx-0003",
+    "journal": "Urban Health Services Quarterly",
+    "native_key": "NK-fx-0003",
+    "title": "Urban emergency department overcrowding during seasonal influenza outbreaks",
+    "url": "https://example-fixture.invalid/fx-0003",
+    "year": 2019
+  },
+  {
+    "abstract": "Semi-structured interviews with 24 disaster relief coordinators in three coastal megacities explore organisational barriers to inter-agency coordination during flood response, without any computational modelling component.",
+    "authors": [
+      "F. Adeyemi"
+    ],
+    "cited_by": 3,
+    "doi": null,
+    "id": "fx-0004",
+    "journal": "Disaster Coordination Studies",
+    "native_key": "NK-fx-0004",
+    "title": "Qualitative interviews with disaster relief coordinators in coastal megacities",
+    "url": "https://example-fixture.invalid/fx-0004",
+    "year": 2020
+  },
+  {
+    "abstract": "An economic evaluation compares telemedicine-based triage against in-person triage for non-emergency complaints in remote mining communities, focusing on cost per consultation rather than disaster response.",
+    "authors": [
+      "G. Novak",
+      "H. Petrov"
+    ],
+    "cited_by": 9,
+    "doi": null,
+    "id": "fx-0006",
+    "journal": "Journal of Remote Health Economics",
+    "native_key": "NK-fx-0006",
+    "title": "Cost-effectiveness of telemedicine triage in remote mining communities",
+    "url": "https://example-fixture.invalid/fx-0006",
+    "year": 2018
+  },
+  {
+    "abstract": "Duplicate listing of fx-0003 as re-indexed by the source database; content identical.",
+    "authors": [
+      "D. Marchetti",
+      "E. Huang"
+    ],
+    "cited_by": 7,
+    "doi": null,
+    "id": "fx-0007",
+    "journal": "Urban Health Services Quarterly",
+    "native_key": "NK-fx-0007",
+    "title": "urban emergency department overcrowding during  seasonal influenza  outbreaks",
+    "url": "https://example-fixture.invalid/fx-0007",
+    "year": 2019
+  }
+]

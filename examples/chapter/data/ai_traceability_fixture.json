@@ -1,0 +1,53 @@
+{
+  "review_run_id": "demo-run-01",
+  "stages": {
+    "dedup": {
+      "instrumentation_status": "instrumented",
+      "event_count": 1,
+      "by_call_status": {"success": 1},
+      "by_tool_kind": {"non_llm_tool": 1},
+      "models": ["all-MiniLM-L6-v2"],
+      "oversight_mode": "automation_unreviewed",
+      "automation_origin": "rule_based_automation",
+      "notable_events": []
+    },
+    "title_abstract_screening": {
+      "instrumentation_status": "instrumented",
+      "event_count": 3,
+      "by_call_status": {"success": 3},
+      "by_tool_kind": {"llm": 3},
+      "models": ["gpt-5.4-mini"],
+      "oversight_mode": "human_resolved",
+      "automation_origin": "ai",
+      "notable_events": []
+    },
+    "full_text_eligibility": {
+      "instrumentation_status": "instrumented",
+      "event_count": 0,
+      "by_call_status": {},
+      "by_tool_kind": {},
+      "models": [],
+      "oversight_mode": "automation_unreviewed",
+      "automation_origin": "ai",
+      "notable_events": []
+    },
+    "quality_appraisal": {
+      "instrumentation_status": "not_instrumented",
+      "not_instrumented_reason": "quality_appraisal_node emits zero AIUseEvents as of this base commit -- deferred to a follow-up phase.",
+      "event_count": 0,
+      "by_call_status": {},
+      "by_tool_kind": {},
+      "models": [],
+      "oversight_mode": null,
+      "automation_origin": null,
+      "notable_events": []
+    }
+  },
+  "events": [
+    {"event_id": "evt-001", "stage": "dedup_embedding", "call_status": "success", "tool_kind": "non_llm_tool", "model": "all-MiniLM-L6-v2"},
+    {"event_id": "evt-002", "stage": "title_abstract_screening", "call_status": "success", "tool_kind": "llm", "model": "gpt-5.4-mini"},
+    {"event_id": "evt-003", "stage": "title_abstract_screening", "call_status": "success", "tool_kind": "llm", "model": "gpt-5.4-mini"},
+    {"event_id": "evt-004", "stage": "title_abstract_screening", "call_status": "success", "tool_kind": "llm", "model": "gpt-5.4-mini"},
+    {"event_id": "evt-005", "stage": "screening_qc_second_rater", "call_status": "success", "tool_kind": "llm", "model": "gpt-5.4-mini"}
+  ]
+}

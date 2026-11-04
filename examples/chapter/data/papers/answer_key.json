@@ -1,0 +1,62 @@
+{
+  "relevant": {
+    "doi": "10.3000/paper.relevant",
+    "s08": "include",
+    "s09": {
+      "objective_stated": {
+        "answer": "yes",
+        "evidence_quote": "The objective of this study was to measure whether a large language model can replace one of two human screeners"
+      },
+      "eligibility_criteria_prespecified": {
+        "answer": "yes",
+        "evidence_quote": "Eligibility criteria were fixed in advance and recorded in a protocol before any data were seen."
+      },
+      "search_reproducible": {
+        "answer": "yes",
+        "evidence_quote": "The full search string and the date of each database query are reported in Appendix A"
+      },
+      "dual_independent_screening": {
+        "answer": "no",
+        "evidence_quote": "Only a single human reviewer screened each record in the present study, so we could not measure inter-rater reliability between two humans"
+      },
+      "limitations_discussed": {
+        "answer": "yes",
+        "evidence_quote": "Several limitations temper these results."
+      },
+      "conflicts_of_interest_declared": {
+        "answer": "unclear",
+        "evidence_quote": "The authors declare no competing interests, though funding sources are not itemised in the original grant records."
+      }
+    },
+    "s10": {
+      "study_design": {
+        "value": "retrospective evaluation study",
+        "evidence_quote": "We conducted a retrospective evaluation study using four previously completed systematic reviews as reference standards."
+      },
+      "sample_size": {
+        "value": 4,
+        "evidence_quote": "four previously completed systematic reviews as reference standards"
+      },
+      "country": {
+        "value": "Lithuania",
+        "evidence_quote": "All screening was performed at a single centre in Lithuania."
+      },
+      "main_finding": {
+        "value": "The model reproduced the human inclusion decisions with 0.96 recall while halving screening time",
+        "evidence_quote": "The model reproduced the human inclusion decisions with 0.96 recall while halving screening time."
+      }
+    }
+  },
+  "wrong_population": {
+    "doi": "10.3000/paper.wrongpop",
+    "s08": "exclude"
+  },
+  "editorial": {
+    "doi": "10.3000/paper.editorial",
+    "s08": "exclude"
+  },
+  "ambiguous": {
+    "doi": "10.3000/paper.ambiguous",
+    "s08": "needs_review"
+  }
+}

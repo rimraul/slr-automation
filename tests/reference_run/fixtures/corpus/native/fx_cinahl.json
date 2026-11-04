@@ -1,0 +1,61 @@
+[
+  {
+    "abstract": "A discrete-event simulation of the mass-casualty triage pathway at a single rural community hospital is used to test staffing configurations against a simulated multi-vehicle accident and a simulated tornado strike.",
+    "authors": [
+      "O. Dubois",
+      "P. Nakamura"
+    ],
+    "cited_by": 2,
+    "doi": null,
+    "id": "fx-0013",
+    "journal": "Rural Emergency Care Simulation",
+    "native_key": "NK-fx-0013",
+    "title": "Discrete-event simulation of a rural community's mass-casualty triage pathway",
+    "url": "https://example-fixture.invalid/fx-0013",
+    "year": 2023
+  },
+  {
+    "abstract": "A pre-post evaluation of a nutrition education programme delivered to elderly residents across six rural care homes, unrelated to simulation methods or disaster response.",
+    "authors": [
+      "Q. Ibrahim"
+    ],
+    "cited_by": 6,
+    "doi": null,
+    "id": "fx-0014",
+    "journal": "Rural Gerontology Nutrition",
+    "native_key": "NK-fx-0014",
+    "title": "Nutrition education programmes for elderly residents of rural care homes",
+    "url": "https://example-fixture.invalid/fx-0014",
+    "year": 2018
+  },
+  {
+    "abstract": "An observational study of nurse staffing ratios and patient outcomes across a network of rural critical-access hospitals, with no simulation or disaster-response component.",
+    "authors": [
+      "R. Svensson",
+      "S. Delgado"
+    ],
+    "cited_by": 10,
+    "doi": null,
+    "id": "fx-0015",
+    "journal": "Rural Nursing Outcomes",
+    "native_key": "NK-fx-0015",
+    "title": "Nurse staffing ratios and patient outcomes in rural critical access hospitals",
+    "url": "https://example-fixture.invalid/fx-0015",
+    "year": 2021
+  },
+  {
+    "abstract": "Duplicate listing of fx-0009, indexed by this database in lower case with a double space.",
+    "authors": [
+      "A. Okafor",
+      "B. Lindqvist"
+    ],
+    "cited_by": 4,
+    "doi": null,
+    "id": "fx-0016",
+    "journal": "Journal of Rural Health Systems Engineering",
+    "native_key": "NK-fx-0016",
+    "title": "a model-based systems engineering  framework for rural emergency medical response",
+    "url": "https://example-fixture.invalid/fx-0016",
+    "year": 2021
+  }
+]

@@ -1,0 +1,234 @@
+{
+  "listings": [
+    {
+      "id": "s04-expand",
+      "source": "examples/chapter/s04_query_expansion/solution.py",
+      "symbol": "expand_query",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s04_query_expansion/test_s04_query_expansion.py::test_expand_query_returns_at_least_three_concepts"
+      ]
+    },
+    {
+      "id": "s04-translate",
+      "source": "examples/chapter/s04_query_expansion/solution.py",
+      "symbol": "translate_for_database",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s04_query_expansion/test_s04_query_expansion.py::test_pubmed_translation_has_field_tags_absent_from_openalex"
+      ]
+    },
+    {
+      "id": "s05-fixture-adapter",
+      "source": "examples/chapter/s05_multi_db_search/solution.py",
+      "symbol": "FixtureAdapter",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s05_multi_db_search/test_s05_multi_db_search.py::test_fetch_returns_raw_body_text"
+      ]
+    },
+    {
+      "id": "s05-normalise",
+      "source": "examples/chapter/s05_multi_db_search/solution.py",
+      "symbol": "normalise",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s05_multi_db_search/test_s05_multi_db_search.py::test_every_normalised_record_has_the_exact_g1_shape"
+      ]
+    },
+    {
+      "id": "s05-run-search",
+      "source": "examples/chapter/s05_multi_db_search/solution.py",
+      "symbol": "run_search",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s05_multi_db_search/test_s05_multi_db_search.py::test_run_search_merges_all_four_sources"
+      ]
+    },
+    {
+      "id": "s06-normalise-doi",
+      "source": "examples/chapter/s06_deduplication/solution.py",
+      "symbol": "normalise_doi",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s06_deduplication/test_s06_deduplication.py::test_normalise_doi_strips_prefix_and_lowercases"
+      ]
+    },
+    {
+      "id": "s06-dedupe",
+      "source": "examples/chapter/s06_deduplication/solution.py",
+      "symbol": "dedupe",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s06_deduplication/test_s06_deduplication.py::test_dedupe_counts"
+      ]
+    },
+    {
+      "id": "s07-screen-batch",
+      "source": "examples/chapter/s07_screening/solution.py",
+      "symbol": "screen_batch",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s07_screening/test_s07_screening.py::test_screen_batch_reproduces_expected_screening"
+      ]
+    },
+    {
+      "id": "s07-partition",
+      "source": "examples/chapter/s07_screening/solution.py",
+      "symbol": "partition",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s07_screening/test_s07_screening.py::test_partition_sends_every_borderline_to_the_human_queue"
+      ]
+    },
+    {
+      "id": "s07-irr",
+      "source": "examples/chapter/s07_screening/solution.py",
+      "symbol": "inter_rater_reliability",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s07_screening/test_s07_screening.py::test_inter_rater_reliability_band"
+      ]
+    },
+    {
+      "id": "s08-discover",
+      "source": "examples/chapter/s08_fulltext/solution.py",
+      "symbol": "discover",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s08_fulltext/test_s08_fulltext.py::test_discover_none_is_no_doi"
+      ]
+    },
+    {
+      "id": "s08-download",
+      "source": "examples/chapter/s08_fulltext/solution.py",
+      "symbol": "download",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s08_fulltext/test_s08_fulltext.py::test_download_returns_the_right_paper_per_url"
+      ]
+    },
+    {
+      "id": "s08-looks-like-stub",
+      "source": "examples/chapter/s08_fulltext/solution.py",
+      "symbol": "looks_like_stub",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s08_fulltext/test_s08_fulltext.py::test_looks_like_stub_catches_truncated_text"
+      ]
+    },
+    {
+      "id": "s08-screen-fulltext",
+      "source": "examples/chapter/s08_fulltext/solution.py",
+      "symbol": "screen_fulltext",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s08_fulltext/test_s08_fulltext.py::test_screen_fulltext_reproduces_answer_key_for_all_four_papers"
+      ]
+    },
+    {
+      "id": "s09-checklist",
+      "source": "examples/chapter/s09_quality_appraisal/solution.py",
+      "symbol": "build_teaching_checklist",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s09_quality_appraisal/test_s09_quality_appraisal.py::test_checklist_shape"
+      ]
+    },
+    {
+      "id": "s09-appraise",
+      "source": "examples/chapter/s09_quality_appraisal/solution.py",
+      "symbol": "appraise",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s09_quality_appraisal/test_s09_quality_appraisal.py::test_appraise_reproduces_answer_key_exactly"
+      ]
+    },
+    {
+      "id": "s10-schema",
+      "source": "examples/chapter/s10_extraction/solution.py",
+      "symbol": "ExtractionSchema",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s10_extraction/test_s10_extraction.py::test_schema_is_strict_about_int"
+      ]
+    },
+    {
+      "id": "s10-extract",
+      "source": "examples/chapter/s10_extraction/solution.py",
+      "symbol": "extract",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s10_extraction/test_s10_extraction.py::test_extract_reproduces_answer_key"
+      ]
+    },
+    {
+      "id": "s11-run-topics",
+      "source": "examples/chapter/s11_synthesis_topics/solution.py",
+      "symbol": "run_topics",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s11_synthesis_topics/test_s11_synthesis_topics.py::test_bertopic_offline_deterministic"
+      ]
+    },
+    {
+      "id": "s11-map-study",
+      "source": "examples/chapter/s11_synthesis_topics/solution.py",
+      "symbol": "map_study",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s11_synthesis_topics/test_s11_synthesis_topics.py::test_map_study_binds_id_from_the_parameter"
+      ]
+    },
+    {
+      "id": "s11-refine",
+      "source": "examples/chapter/s11_synthesis_topics/solution.py",
+      "symbol": "refine_synthesis",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s11_synthesis_topics/test_s11_synthesis_topics.py::test_map_then_refine_covers_every_study_and_surfaces_the_contradiction"
+      ]
+    },
+    {
+      "id": "s12-prisma-flow",
+      "source": "examples/chapter/s12_reporting/solution.py",
+      "symbol": "prisma_flow",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s12_reporting/test_s12_reporting.py::test_prisma_flow_known_correct"
+      ]
+    },
+    {
+      "id": "s12-classify",
+      "source": "examples/chapter/s12_reporting/solution.py",
+      "symbol": "classify_stage_oversight",
+      "fragment": false,
+      "dedent": true,
+      "test_node_ids": [
+        "examples/chapter/s12_reporting/test_s12_reporting.py::test_classify_stage_oversight_dimensions"
+      ]
+    }
+  ]
+}

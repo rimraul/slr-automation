@@ -1,0 +1,17 @@
+{
+  "note": "12 synthetic abstracts, 3 latent themes by design: docs 0-3 title/abstract screening, docs 4-7 search and query tooling, docs 8-11 structured data extraction and charting.",
+  "documents": [
+    "A language model screened titles and abstracts against the review criteria and reached recall above 0.95 while cutting reviewer screening workload by half.",
+    "We compare active-learning screening classifiers that rank records by predicted relevance so reviewers can stop screening once a recall target is reached.",
+    "Inter-rater reliability between a model screener and a human screener was measured with Cohen's kappa on the title and abstract screening decisions of three reviews.",
+    "A calibration study of confidence scores from a title and abstract screening model, showing that low-confidence records account for most missed includes.",
+    "A large language model expands a seed search query with synonyms and MeSH terms, improving the recall of a gold-standard reference set at a small precision cost.",
+    "We automatically translate a single Boolean search strategy into the database-specific query syntax of PubMed, Scopus, and Embase.",
+    "Backward and forward citation searching tools were benchmarked for their ability to find studies that the Boolean database search had missed.",
+    "A federated search client sends one query to several bibliographic database APIs in parallel and merges the heterogeneous search results into one record list.",
+    "A structured data extraction pipeline reads trial reports and returns the population, intervention, and outcome fields, each with a verbatim supporting quote.",
+    "We compare form-based data charting templates for scoping reviews and measure how often two extractors record the same charted value for each field.",
+    "An automated charting tool links every extracted data item back to the exact sentence in the source document that the value was taken from.",
+    "Field-level accuracy of automated data extraction from methods sections was measured against a double-extracted reference standard for each data item."
+  ]
+}

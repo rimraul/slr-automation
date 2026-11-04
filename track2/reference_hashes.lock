@@ -1,0 +1,12 @@
+targets = {
+    'cassette_sha256': {'path': 'tests\\reference_run\\fixtures\\corpus\\replay_cassette.json', 'sha256': '6be58ee50a242445fce2b718724f82f96a370a4bd96b43a6f0b9de1a8e72096a'},
+    'corpus_oracle_pdf_sha256': {'path': 'tests\\reference_run\\fixtures\\corpus\\CORPUS_ORACLE.json', 'sha256': '11dcccefa8fd6c0c1ab580a5876afe437f82610b3793a80b287a41dc6e3d22d4'},
+    'extraction_model_config_sha256': {'path': 'tests\\reference_run\\fixtures\\spec\\extraction_model_config.json', 'sha256': '50b214908f88020272f2255dfcb4730dbf34150700a0662ce934148917c607ad'},
+    'extraction_schema_sha256': {'path': 'tests\\reference_run\\fixtures\\spec\\extraction_schema.json', 'sha256': 'a016b2630cc0ee854bbc10f998672c3d03987ed24913f023558d1902d2863bf7'},
+    'fixture_corpus_digest': {'path': "<computed digest -- see fixture_corpus_digest's own generator>", 'sha256': '5bfb63df58963d976a8679dda4bd6f28082d536b24395b560fddc536e4c8c841'},
+    'ft_screening_config_sha256': {'path': 'tests\\reference_run\\fixtures\\spec\\ft_screening_config.json', 'sha256': '0fd529a3f00a93d01b8e939e75798ffcc40ef598b7a73ae9614abb72cea257d4'},
+    'prisma_scr_matrix_sha256': {'path': 'tests\\reference_run\\fixtures\\prisma_scr_matrix.json', 'sha256': '74231d264840b3c0f0086b1b69e2786f58c682fd6fa06eb162c6411a44c5ab62'},
+    'protocol_sha256': {'path': 'track2\\readiness_protocol.md', 'sha256': 'c256cfc9c4e1ad6c48bdee4814d9404021fa2ab1df17b82e5437b30b6215bd09'},
+    'reference_reporting_context_sha256': {'path': 'tests\\reference_run\\fixtures\\spec\\reference_reporting_context.json', 'sha256': '2577a8f94b434a00dea612ad7f9341cde19c938793decb02e011f96647fa19f8'},
+    'reference_spec_sha256': {'path': 'tests\\reference_run\\fixtures\\spec\\reference_spec.json', 'sha256': '3ae0ed89297d8a8733b7852b401aaa903dee986f07eb3437813c69162824617c'},
+}

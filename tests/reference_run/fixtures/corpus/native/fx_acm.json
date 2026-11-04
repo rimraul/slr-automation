@@ -1,0 +1,58 @@
+[
+  {
+    "abstract": "This paper describes the design and classroom evaluation of a serious game intended to teach Boolean logic concepts to undergraduate computer science students, unconnected to healthcare or disaster response.",
+    "authors": [
+      "Z. Herrera"
+    ],
+    "cited_by": 3,
+    "doi": null,
+    "id": "fx-0022",
+    "journal": "Proceedings of Serious Games in CS Education",
+    "native_key": "NK-fx-0022",
+    "title": "A serious game for teaching Boolean logic to undergraduate computer science students",
+    "url": "https://example-fixture.invalid/fx-0022",
+    "year": 2022
+  },
+  {
+    "abstract": "Duplicate listing of fx-0008, indexed by this database in all-caps formatting.",
+    "authors": [
+      "K. Yilmaz"
+    ],
+    "cited_by": 5,
+    "doi": null,
+    "id": "fx-0023",
+    "journal": "Journal of Humanitarian Logistics Technology",
+    "native_key": "NK-fx-0023",
+    "title": "BLOCKCHAIN-BASED SUPPLY CHAIN TRACEABILITY FOR DISASTER RELIEF DONATIONS",
+    "url": "https://example-fixture.invalid/fx-0023",
+    "year": 2021
+  },
+  {
+    "abstract": "This viewpoint article argues for wider adoption of model-based systems engineering to design disaster-resilient rural health systems, drawing on the authors' consulting experience rather than a specific empirical case or named simulation method.",
+    "authors": [
+      "AA. Larsson"
+    ],
+    "cited_by": 1,
+    "doi": null,
+    "id": "fx-0024",
+    "journal": "Viewpoints in Health Systems Engineering",
+    "native_key": "NK-fx-0024",
+    "title": "A viewpoint on model-based systems engineering for disaster-resilient rural health systems",
+    "url": "https://example-fixture.invalid/fx-0024",
+    "year": 2023
+  },
+  {
+    "abstract": "A technical paper on procedural terrain-generation algorithms for open-world video game engines, with no connection whatsoever to healthcare, disaster response, or systems engineering.",
+    "authors": [
+      "AB. Costa"
+    ],
+    "cited_by": 9,
+    "doi": null,
+    "id": "fx-0025",
+    "journal": "Proceedings of Procedural Content Generation",
+    "native_key": "NK-fx-0025",
+    "title": "Procedurally generated terrain for open-world video games",
+    "url": "https://example-fixture.invalid/fx-0025",
+    "year": 2020
+  }
+]

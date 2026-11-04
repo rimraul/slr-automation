@@ -1,0 +1,55 @@
+=== known_excluded: mini wrong, strong right (mini over-includes false positives) ===
+- Building Cross-Sector Collaboration to Improve Communit
+  mini=include: The abstract reports an empirical participatory action research collaboration among stakeholders in a public health/sanitation context that 
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- The Research of Tripartite Collaborative Governance on 
+  mini=borderline: The abstract describes a concrete tripartite governance arrangement for shared bicycles, but the disciplinary fit to public administration i
+  mini_checklist={'field_fit': 'unclear', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Co-creating public value in e-government: A case study 
+  mini=borderline: The study is about public value co-creation in e-government and uses mixed methods, but the abstract does not clearly specify the collaborat
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'unclear', 'empirical_evidence': 'yes'}
+- Co-commissioning of public services and outcomes in the
+  mini=borderline: The abstract clearly concerns commissioning and co-commissioning with citizens in public services, but the empirical basis is not explicit e
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'unclear'}
+- Collaborative Governance: Integrating Management, Polit
+  mini=borderline: The abstract is about collaborative governance in public administration and legal frameworks, but it is unclear whether the paper reports em
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'unclear'}
+- Public Choice Theory and the Reform of Local Government
+  mini=include: The abstract empirically examines British local government reforms toward horizontally coordinated multi-agency service provision, which is 
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- The Developer's Role in Coprovision, Cofinancing, and C
+  mini=include: The abstract empirically analyzes conjoint arrangements between municipalities and private developers as coproduction/cofinancing mechanisms
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Public service innovation: a typology
+  mini=include: The abstract presents an empirical typology of public service innovation that explicitly includes external collaboration and public value cr
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Creating Public Value in a Westminster Context: The Cas
+  mini=include: This empirical study in public administration examines implementation of a top-down policy through stakeholder co-production in Indigenous c
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Enhancing Urban Brownfield Regeneration to Pursue Susta
+  mini=borderline: The abstract describes a policy-network governance case with private-sector involvement and trade-offs, but the public-administration orient
+  mini_checklist={'field_fit': 'unclear', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- A citizen participation model for co-creation of public
+  mini=include: The abstract presents an empirical model of social media and IoT-enabled citizen participation as a mechanism for public value co-creation i
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- The social impact of advice during disability welfare r
+  mini=include: The abstract is in public value/public service terms, uses qualitative interviews with clients and evidence synthesis, and describes advice 
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Partnerships for development. Assessing the impact pote
+  mini=borderline: The abstract reports an empirical analysis of a North-South business-NGO partnership, but the disciplinary orientation is not clearly public
+  mini_checklist={'field_fit': 'unclear', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- 'SIB': what does it really mean? A theoretical approach
+  mini=borderline: The abstract is framed in public management and SIBs, but it is unclear from the abstract alone whether the paper reports empirical evidence
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'unclear'}
+- Creating public value in regional policy. Bringing citi
+  mini=include: The abstract uses citizen focus groups to analyze public values in regional policy and explicitly discusses communication, co-creation, capa
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Encouraging Writing on the White Walls: Co-production i
+  mini=include: This empirical study of Australian museums examines co-production with communities and the role of professional bodies in enabling or inhibi
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Policy Design and Achieving Social Outcomes: A Comparat
+  mini=include: The abstract compares social enterprise policies across countries and empirically shows how government regulations, subsidies, and procureme
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}
+- Co-experience, co-production and co-governance: an ecos
+  mini=include: The abstract presents a contextual case study of a public agency and third sector organizations, describing participatory processes and acto
+  mini_checklist={'field_fit': 'yes', 'mechanism_specificity': 'yes', 'empirical_evidence': 'yes'}

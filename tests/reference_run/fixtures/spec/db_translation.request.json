@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "content": "Return only valid JSON.",
+      "role": "system"
+    },
+    {
+      "content": "You are adapting a PubMed literature search query for use with multiple databases.\n\nOriginal PubMed query:\n((rural OR non-urban OR frontier) AND (healthcare OR \"health care\") AND (disaster OR pandemic OR epidemic) AND (simulation OR \"agent based model\" OR \"system dynamics\" OR \"machine learning\" OR \"artificial intelligence\"))\n\nFor each database listed below, produce an adapted search query that:\n- Preserves the search intent and key concepts\n- Uses only syntax the database supports (see descriptions)\n- For APIs without field tags: use plain Boolean (AND, OR, NOT) with quoted phrases\n\nDatabases:\n- acm: keyword search\n- business_source_complete: keyword search\n- cinahl: keyword search\n- engineering_village: keyword search\n- pubmed: PubMed Entrez API (full PubMed Boolean syntax including [Title], [MeSH] etc.)\n- scopus: keyword search\n- web_of_science: keyword search\n\nReturn a JSON object with one key per database name:\n{\n  \"pubmed\": \"...\",\n  \"openalex\": \"...\",\n  \"semantic_scholar\": \"...\",\n  \"arxiv\": \"...\",\n  \"crossref\": \"...\",\n  \"springer\": \"...\",\n  \"ieee\": \"...\"\n}\n\nInclude only databases listed above. Keep queries concise but complete.\n",
+      "role": "user"
+    }
+  ],
+  "model": "gpt-5.4-mini",
+  "response_format": {
+    "type": "json_object"
+  },
+  "temperature": 0.0
+}

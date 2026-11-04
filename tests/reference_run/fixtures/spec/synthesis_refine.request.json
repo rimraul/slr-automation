@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "content": "You are drafting the synthesis section of a systematic literature review, one batch of new per-study evidence at a time. You will see the CURRENT set of claim candidates (their own index, current text, and current supporting evidence) and a NEW batch of per-study answers, each with its own answer_id. For each new answer, decide whether it extends an EXISTING claim -- cite its claim_index and restate that claim's text plus its COMPLETE final list of supporting answer_ids, drawn only from that claim's own previously-shown supporting answer_ids plus this batch's own new answer_ids -- or starts a NEW claim (claim_index null, final_support_answer_ids drawn only from this batch's own new answer_ids). You do not need to update every existing claim, and may respond with an empty claim_updates list if this batch's evidence does not warrant any claim change. Respond with a JSON object of exactly this shape: {\"claim_updates\": [{\"claim_index\": an integer or null, \"claim_text\": a string, \"final_support_answer_ids\": a list of answer_id strings}, ...]} (claim_updates may be empty).",
+      "role": "system"
+    },
+    {
+      "content": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and response for rural healthcare systems?\n\nCurrent claim candidates:\n<<RECORD-DEPENDENT>>",
+      "role": "user"
+    }
+  ],
+  "model": "gpt-4o",
+  "response_format": {
+    "type": "json_object"
+  },
+  "temperature": 0.2
+}

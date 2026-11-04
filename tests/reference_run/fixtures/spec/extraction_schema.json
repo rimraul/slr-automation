@@ -1,0 +1,123 @@
+{
+  "fields": [
+    {
+      "allowed_values": null,
+      "cardinality": "single",
+      "description": "The country or countries where the study's data collection took place (the study SITE, not the authors' institutional affiliation when the two differ). Report exactly what the paper states; do not infer a country from an author's affiliation or language alone.",
+      "field_id": "country",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "In which country or countries was the study conducted?",
+      "value_kind": "text"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "single",
+      "description": "The methodological design or type of study reported (e.g. randomised controlled trial, qualitative case study, cross-sectional survey, systematic review, conceptual/discussion paper). Use the paper's own stated design/terminology where given; do not infer a design category the paper never names.",
+      "field_id": "study_design",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What is the study's design or type?",
+      "value_kind": "text"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "single",
+      "description": "The Population element of the review's PCC framework: who or what the study is about (e.g. participant characteristics, sample size, inclusion criteria for participants) as stated in the paper.",
+      "field_id": "population",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What population or sample does the study describe?",
+      "value_kind": "text"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "single",
+      "description": "The Concept element of the review's PCC framework: the core idea, intervention, phenomenon, or practice the study investigates, as the paper itself frames it.",
+      "field_id": "concept",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What is the key concept the study addresses?",
+      "value_kind": "text"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "single",
+      "description": "The Context element of the review's PCC framework: the setting in which the study/intervention/phenomenon took place (e.g. clinical, educational, organisational, cultural, geographic setting), as stated in the paper.",
+      "field_id": "context",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What setting or context does the study describe?",
+      "value_kind": "text"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "single",
+      "description": "Limitations the study's AUTHORS themselves state (typically in a Limitations/Discussion section) -- never a reviewer's own critique of the study; only limitations explicitly acknowledged in the paper's own text.",
+      "field_id": "limitations",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What limitations does the study's own text state?",
+      "value_kind": "text"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "multiple",
+      "description": "The study's own key findings/results, reported as separate, atomic statements -- one finding per list entry, each independently traceable to its own quoted, page-located evidence, rather than one unverifiable free-text paragraph. Report only findings the paper's Results/Findings/Discussion text actually states, not a reviewer's interpretation of their relevance.",
+      "field_id": "key_findings",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What are the study's key findings?",
+      "value_kind": "text_list"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "multiple",
+      "description": "The named funders of the study, exactly as the paper states them (typically in a Funding, Acknowledgements, or Declarations section). If the paper explicitly states there was no external funding, return the single item \"No external funding\". Report only what the paper's own text states.",
+      "field_id": "funding_sources",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What are the study's sources of funding?",
+      "value_kind": "text_list"
+    },
+    {
+      "allowed_values": null,
+      "cardinality": "single",
+      "description": "The funder's stated role in the study design, conduct, analysis, or reporting. If the paper states the funder had no such role, return \"The funder had no role in the study.\" Report only what the paper states.",
+      "field_id": "funder_role",
+      "provenance": {
+        "origin": "theory_derived",
+        "rationale": "PRISMA-ScR / PCC charting convention plus PRISMA-ScR item 22 funding items; see the Track-2 pipeline-readiness plan.",
+        "version": "1"
+      },
+      "question": "What role did the funder(s) play in the study?",
+      "value_kind": "text"
+    }
+  ],
+  "schema_id": "reference-charting-v1",
+  "version": "1"
+}

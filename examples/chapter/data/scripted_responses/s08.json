@@ -1,0 +1,14 @@
+{
+  "papers": {
+    "relevant": "{\"decision\": \"include\", \"per_criterion\": {\"names_a_review_step\": \"met\", \"automation_is_the_subject\": \"met\", \"method_detail_sufficient\": \"met\"}, \"rationale\": \"A retrospective evaluation of an LLM as a second screener; the automated review step and its assessment are described in full.\"}",
+    "wrong_population": "{\"decision\": \"exclude\", \"per_criterion\": {\"names_a_review_step\": \"not_met\", \"automation_is_the_subject\": \"not_met\", \"method_detail_sufficient\": \"met\"}, \"rationale\": \"The automation targets trial registry records, not any step of a literature review.\"}",
+    "editorial": "{\"decision\": \"exclude\", \"per_criterion\": {\"names_a_review_step\": \"met\", \"automation_is_the_subject\": \"met\", \"method_detail_sufficient\": \"not_met\"}, \"rationale\": \"An opinion piece with no method and no data; an evaluation is required.\"}",
+    "ambiguous": "{\"decision\": \"needs_review\", \"per_criterion\": {\"names_a_review_step\": \"met\", \"automation_is_the_subject\": \"met\", \"method_detail_sufficient\": \"unclear\"}, \"rationale\": \"A single-site experience report with no comparator and no recall estimate; reasonable reviewers could disagree on whether it counts as evidence about screening.\"}"
+  },
+  "_bad": {
+    "malformed_eligibility_json": "{\"decision\": \"include\", \"per_criterion\": {",
+    "unknown_decision": "{\"decision\": \"probably\", \"per_criterion\": {\"names_a_review_step\": \"met\", \"automation_is_the_subject\": \"met\", \"method_detail_sufficient\": \"met\"}, \"rationale\": \"not a valid decision value\"}",
+    "incomplete_criteria": "{\"decision\": \"include\", \"per_criterion\": {\"names_a_review_step\": \"met\"}, \"rationale\": \"missing two criteria\"}",
+    "bad_criterion_value": "{\"decision\": \"include\", \"per_criterion\": {\"names_a_review_step\": \"maybe\", \"automation_is_the_subject\": \"met\", \"method_detail_sufficient\": \"met\"}, \"rationale\": \"maybe is not an allowed value\"}"
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.env
+my_api_keys.py
+*.pem
+.claude/settings.local.json
+
+docling-assets-v1.tar
+assets/models/track2-docling-cache/

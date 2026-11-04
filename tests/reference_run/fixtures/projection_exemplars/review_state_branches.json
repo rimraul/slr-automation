@@ -1,0 +1,603 @@
+{
+  "ai_traceability_json_path": "/data/out/exemplar/ai_traceability.json",
+  "ai_traceability_md_path": "/data/out/exemplar/ai_traceability.md",
+  "automation_origin": {
+    "dedup": "rule_based_automation",
+    "full_text_eligibility": "mixed",
+    "title_abstract_screening": "ai"
+  },
+  "charted_data": [
+    {
+      "charting_method": "extraction_engine",
+      "evidence_items": [],
+      "raw_extraction": {
+        "population": "adults with diabetes"
+      },
+      "record_id": "rec-0003",
+      "section_classifications": {},
+      "validated": true,
+      "validation_errors": []
+    }
+  ],
+  "config": {
+    "as_of_date": "2026-01-01",
+    "output_dir": "/data/out/exemplar",
+    "review_type": "scoping"
+  },
+  "deduplicated_records": [
+    {
+      "abstract": "A2",
+      "authors": [
+        "Roe, K."
+      ],
+      "cited_by": 1,
+      "doi": "10.1000/dup",
+      "duplicate_of": "rec-0001",
+      "full_text_path": null,
+      "full_text_source": null,
+      "full_text_status": "not_attempted",
+      "id": "rec-0002",
+      "is_duplicate": true,
+      "journal": "J2",
+      "keywords": [
+        "diabetes"
+      ],
+      "screening_confidence": null,
+      "screening_decision": null,
+      "screening_reason": null,
+      "screening_relevant_topics": [],
+      "second_rater_decision": null,
+      "source": "scopus",
+      "source_id": "sc-2",
+      "title": "T2 (duplicate)",
+      "url": "https://example.org/2",
+      "year": 2024
+    }
+  ],
+  "evidence_map_csv_path": "/data/out/exemplar/evidence_map.csv",
+  "export_manifest_path": "/data/out/exemplar/export_manifest.json",
+  "extraction_artifact_paths": {
+    "checkpoints_dir": "/data/out/exemplar/extraction/extraction-run-exemplar-a/checkpoints",
+    "manifest_path": "/data/out/exemplar/extraction/extraction-run-exemplar-a/manifest.json",
+    "run_dir": "/data/out/exemplar/extraction/extraction-run-exemplar-a"
+  },
+  "extraction_manifest_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "extraction_manifest_path": "/data/out/exemplar/extraction/extraction-run-exemplar-a/manifest.json",
+  "extraction_results": [
+    {
+      "batch_executions": [
+        {
+          "batch_index": 0,
+          "chunk_ids": [
+            "chunk-1"
+          ],
+          "completion_tokens": 64,
+          "error": null,
+          "invalid_value_count": 0,
+          "prompt_tokens": 512,
+          "provider_model": "gpt-4o-mini",
+          "rejected_evidence_count": 0,
+          "status": "success",
+          "total_tokens": 576
+        }
+      ],
+      "document_id": "rec-0003",
+      "fields": [
+        {
+          "confidence": 0.9,
+          "field_id": "population",
+          "invalid_value_count": 0,
+          "invalid_values": [],
+          "provisional_values": [],
+          "rationale": "explicit in methods",
+          "rejected_evidence_count": 0,
+          "requires_human_review": false,
+          "review_evidence": [],
+          "status": "extracted",
+          "values": [
+            "adults with diabetes"
+          ]
+        }
+      ],
+      "planned_chunk_ids_by_batch": {
+        "0": [
+          "chunk-1"
+        ]
+      }
+    }
+  ],
+  "extraction_review_queue": [
+    {
+      "field_id": "intervention",
+      "field_result": {
+        "confidence": 0.4,
+        "field_id": "intervention",
+        "invalid_value_count": 0,
+        "invalid_values": [],
+        "provisional_values": [],
+        "rationale": "conflicting mentions",
+        "rejected_evidence_count": 1,
+        "requires_human_review": true,
+        "review_evidence": [],
+        "status": "unclear",
+        "values": []
+      },
+      "record_id": "rec-0003",
+      "status": "unclear"
+    }
+  ],
+  "extraction_review_resolutions": [
+    {
+      "field_id": "intervention",
+      "note": "confirmed telehealth",
+      "outcome": "extracted",
+      "record_id": "rec-0003",
+      "resolved_at": "2026-01-02T01:00:00Z",
+      "reviewer": "bob"
+    }
+  ],
+  "extraction_run_id": "extraction-run-exemplar-a",
+  "extraction_schema_hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "ft_screening_artifact_paths": {
+    "item_results_jsonl": "/data/out/exemplar/ft_screening/ft-run-exemplar-a/item_results.jsonl",
+    "ledger_jsonl": "/data/out/exemplar/ft_screening/ft-run-exemplar-a/ledger.jsonl",
+    "run_result_json": "/data/out/exemplar/ft_screening/ft-run-exemplar-a/run_result.json"
+  },
+  "ft_screening_execution_fingerprint": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "ft_screening_run_id": "ft-run-exemplar-a",
+  "full_text_records": [
+    {
+      "abstract": "A3",
+      "authors": [
+        "Doe, A."
+      ],
+      "cited_by": 2,
+      "doi": "10.1000/xyz",
+      "duplicate_of": null,
+      "full_text_path": "/data/pdfs/rec-0003.pdf",
+      "full_text_source": "oa",
+      "full_text_status": "confirmed",
+      "id": "rec-0003",
+      "is_duplicate": false,
+      "journal": "J3",
+      "keywords": [
+        "diabetes"
+      ],
+      "screening_confidence": 0.85,
+      "screening_decision": "include",
+      "screening_reason": "on-topic",
+      "screening_relevant_topics": [
+        "diabetes"
+      ],
+      "second_rater_decision": "include",
+      "source": "pubmed",
+      "source_id": "pm-3",
+      "title": "T3",
+      "url": "https://example.org/3",
+      "year": 2023
+    }
+  ],
+  "full_text_review_queue": [
+    {
+      "item_result": {
+        "outcome": "needs_human_review",
+        "rationale": "ambiguous population"
+      },
+      "reason": "needs_human_review",
+      "record_id": "rec-0004",
+      "stage": "ft_screening"
+    }
+  ],
+  "full_text_review_resolutions": [
+    {
+      "note": "confirmed exclude",
+      "reason": "wrong population",
+      "record_id": "rec-0004",
+      "resolved_at": "2026-01-02T00:00:00Z",
+      "reviewer": "alice"
+    }
+  ],
+  "human_feedback": "reviewer requested re-check of rec-0004",
+  "included_records": [
+    {
+      "abstract": "A1",
+      "authors": [
+        "Smith, J."
+      ],
+      "cited_by": 0,
+      "doi": null,
+      "duplicate_of": null,
+      "full_text_path": null,
+      "full_text_source": null,
+      "full_text_status": "not_attempted",
+      "id": "rec-0001",
+      "is_duplicate": false,
+      "journal": "J1",
+      "keywords": [
+        "diabetes"
+      ],
+      "screening_confidence": 0.9,
+      "screening_decision": "include",
+      "screening_reason": "on-topic",
+      "screening_relevant_topics": [
+        "diabetes"
+      ],
+      "second_rater_decision": null,
+      "source": "pubmed",
+      "source_id": "pm-1",
+      "title": "T1",
+      "url": "https://example.org/1",
+      "year": 2024
+    }
+  ],
+  "manual_worklist_path": "/data/out/exemplar/manual_worklist.csv",
+  "methods_text": "Records were identified via PubMed on 2026-01-01...",
+  "oversight_mode": {
+    "dedup": "automation_unreviewed",
+    "full_text_eligibility": "human_resolved",
+    "title_abstract_screening": "automation_human_verified"
+  },
+  "pipeline_errors": [
+    "dedup_node: 1 record skipped due to malformed DOI"
+  ],
+  "prisma_counts": {
+    "identified": 10,
+    "included": 1,
+    "screened": 8
+  },
+  "prisma_diagram_path": "/data/out/exemplar/prisma.png",
+  "prisma_scr_conformance": {
+    "items": [
+      {
+        "item_id": 10,
+        "locator": "slr://reporting/artifact/ai_traceability_json",
+        "status": "reported"
+      },
+      {
+        "item_id": 12,
+        "rationale": "Critical appraisal of individual sources is optional for scoping reviews (PRISMA-ScR items 12 and 16) and was not performed in this pipeline-readiness run.",
+        "status": "optional_not_conducted"
+      }
+    ],
+    "prisma_scr_conformance_version": "1",
+    "prisma_scr_version": "2018"
+  },
+  "prisma_scr_conformance_sha256": "0df76c2e12896e4fef3b0e1e8746b51ebf81546370a81f8c321619ee4b91e1db",
+  "prisma_scr_report_md": "# PRISMA-ScR Checklist Report (PRISMA-ScR 2018)\n\n## 1. Identify as a scoping review\n<a id=\"title\"></a>\n\n**Title:** Exemplar scoping review",
+  "prisma_scr_report_sha256": "4069b8bab01a50c6f17e56cbe2eb591f89930aa8a9850acc1b6cf29e4ad4ca8a",
+  "protocol": {
+    "research_questions": [
+      "RQ1: which populations are studied?"
+    ]
+  },
+  "quality_appraisal_artifact_paths": {
+    "manifest_path": "/data/out/exemplar/quality_appraisal/qa-run-exemplar-a/manifest.json",
+    "run_dir": "/data/out/exemplar/quality_appraisal/qa-run-exemplar-a"
+  },
+  "quality_appraisal_confirmations": [
+    {
+      "confirmed_at": "2026-01-02T02:30:00Z",
+      "leaf": "attrition_bias.q1",
+      "record_id": "rec-0003",
+      "reviewer": "carol"
+    }
+  ],
+  "quality_appraisal_csv_path": "/data/out/exemplar/quality_appraisal.csv",
+  "quality_appraisal_json_path": "/data/out/exemplar/quality_appraisal.json",
+  "quality_appraisal_manifest_hash": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  "quality_appraisal_manifest_path": "/data/out/exemplar/quality_appraisal/qa-run-exemplar-a/manifest.json",
+  "quality_appraisal_provisional_ledger": [
+    {
+      "answer": "high_risk",
+      "leaf": "reporting_bias.q1",
+      "policy": "allow_provisional_ai_only",
+      "record_id": "rec-0003"
+    }
+  ],
+  "quality_appraisal_resolutions": [
+    {
+      "leaf": "selection_bias.q1",
+      "note": "low risk",
+      "record_id": "rec-0003",
+      "resolved_at": "2026-01-02T02:00:00Z",
+      "reviewer": "carol"
+    }
+  ],
+  "quality_appraisal_results": [
+    {
+      "document_id": "rec-0003",
+      "domains": [
+        {
+          "domain_id": "selection_bias",
+          "questions": []
+        }
+      ],
+      "manifest_hash": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "run_id": "qa-run-exemplar-a"
+    }
+  ],
+  "quality_appraisal_review_queue": [
+    {
+      "leaf": "selection_bias.q1",
+      "queue_kind": "resolution",
+      "record_id": "rec-0003",
+      "status": "unclear"
+    }
+  ],
+  "quality_appraisal_run_id": "qa-run-exemplar-a",
+  "raw_records": [
+    {
+      "abstract": "A1",
+      "authors": [
+        "Smith, J."
+      ],
+      "cited_by": 0,
+      "doi": null,
+      "duplicate_of": null,
+      "full_text_path": null,
+      "full_text_source": null,
+      "full_text_status": "not_attempted",
+      "id": "rec-0001",
+      "is_duplicate": false,
+      "journal": "J1",
+      "keywords": [
+        "diabetes"
+      ],
+      "screening_confidence": 0.9,
+      "screening_decision": "include",
+      "screening_reason": "on-topic",
+      "screening_relevant_topics": [
+        "diabetes"
+      ],
+      "second_rater_decision": null,
+      "source": "pubmed",
+      "source_id": "pm-1",
+      "title": "T1",
+      "url": "https://example.org/1",
+      "year": 2024
+    }
+  ],
+  "requires_human_review": true,
+  "review_run_id": "review-run-exemplar-a",
+  "review_type": "scoping",
+  "screened_records_full": [
+    {
+      "abstract": "A3",
+      "authors": [
+        "Doe, A."
+      ],
+      "cited_by": 2,
+      "doi": "10.1000/xyz",
+      "duplicate_of": null,
+      "full_text_path": "/data/pdfs/rec-0003.pdf",
+      "full_text_source": "oa",
+      "full_text_status": "confirmed",
+      "id": "rec-0003",
+      "is_duplicate": false,
+      "journal": "J3",
+      "keywords": [
+        "diabetes"
+      ],
+      "screening_confidence": 0.85,
+      "screening_decision": "include",
+      "screening_reason": "on-topic",
+      "screening_relevant_topics": [
+        "diabetes"
+      ],
+      "second_rater_decision": "include",
+      "source": "pubmed",
+      "source_id": "pm-3",
+      "title": "T3",
+      "url": "https://example.org/3",
+      "year": 2023
+    }
+  ],
+  "screening_qc": {
+    "irr": {
+      "kappa": 0.81,
+      "producing_event_ids": [
+        "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744"
+      ],
+      "sampled_record_ids": [
+        "rec-0001"
+      ]
+    },
+    "saturation": {
+      "calibration_seed": 42,
+      "seen_new_topic_rate": [
+        0.5,
+        0.2,
+        0.05
+      ]
+    }
+  },
+  "screening_review_resolutions": [
+    {
+      "decision": "exclude",
+      "note": "off-topic",
+      "record_id": "rec-0002",
+      "resolution_id": "f8a8179b-628b-455b-8cdf-15028c1d6e78",
+      "resolved_at": "2026-01-02T03:00:00Z",
+      "reviewed_baseline_decision_id": "f6c33beb-678c-4d19-989d-84db647f77db",
+      "reviewer": "dave"
+    }
+  ],
+  "search_log": {
+    "entries": [
+      {
+        "adapter_config_version": "v1",
+        "database": "pubmed",
+        "date": "2026-01-01",
+        "execution_adapter": "pubmed_adapter",
+        "failure_detail": null,
+        "hits": 12,
+        "query": "diabetes[Title]",
+        "requested": 10,
+        "retrieval_status": "success",
+        "retrieved": 10,
+        "schema_version": 2,
+        "skipped_malformed": 0,
+        "unsupported_filter_deviations": []
+      }
+    ]
+  },
+  "search_strategy": {
+    "backend": "llm",
+    "concepts": [
+      "diabetes",
+      "digital health"
+    ],
+    "db_queries": {
+      "pubmed": "diabetes[Title] AND digital health[Title]"
+    },
+    "expanded_query": "diabetes AND (digital health OR telehealth)",
+    "llm_model": "gpt-4o-mini",
+    "notes": "seed expanded via LLM",
+    "producing_event_ids": [
+      "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744"
+    ],
+    "seed_query": "diabetes AND digital health"
+  },
+  "selection_decision_ledger_dir": "/data/out/exemplar/selection_decisions/review-run-exemplar-a",
+  "synthesis": {
+    "bertopic_excluded_empty_evidence_count": 0,
+    "claim_construction_coverage": [
+      {
+        "failed_answers": 0,
+        "incorporated_answers": 1,
+        "no_evidence_answers": 0,
+        "rejected_answers": 0,
+        "rq_or_section": "RQ1",
+        "total_answers": 1,
+        "unincorporated_answer_ids": []
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "claim-34487d8880514754736aeedc7da7d2e1da9e951d355405caaa79fd9dfe60f144",
+        "claim_text": "Most included studies enrolled adults with diabetes.",
+        "producing_event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+        "references": [
+          {
+            "artifact_kind": "extraction",
+            "artifact_run_id": "extraction-run-exemplar-a",
+            "evidence_id": "evidence-4fa9d2150611b8a2f9cfb9b9c722a8d5b5a562f63e661dc495ae9c6d0baba3d0",
+            "field_id": "population",
+            "record_id": "rec-0003"
+          }
+        ],
+        "rq_or_section": "RQ1",
+        "supporting_answer_ids": [
+          "answer-031d431e773df69181bc347acefc1bd7e52e15a725e52dba007aa0ada4ed2a87"
+        ]
+      }
+    ],
+    "evidence_map": {},
+    "extraction_run_id": "extraction-run-exemplar-a",
+    "imrad_claim_sections": [],
+    "imrad_narrative_failures": [],
+    "imrad_narrative_sections": {},
+    "imrad_section_outcomes": [
+      {
+        "failure_detail": null,
+        "outcome": "generated",
+        "producing_event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+        "section": "results"
+      }
+    ],
+    "map_answers": [
+      {
+        "answer_id": "answer-031d431e773df69181bc347acefc1bd7e52e15a725e52dba007aa0ada4ed2a87",
+        "answer_text": "Adults with diabetes were included.",
+        "evidence_references": [
+          {
+            "artifact_kind": "extraction",
+            "artifact_run_id": "extraction-run-exemplar-a",
+            "evidence_id": "evidence-4fa9d2150611b8a2f9cfb9b9c722a8d5b5a562f63e661dc495ae9c6d0baba3d0",
+            "field_id": "population",
+            "record_id": "rec-0003"
+          }
+        ],
+        "producing_event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+        "record_id": "rec-0003",
+        "rq_or_section": "RQ1",
+        "selectors": [
+          {
+            "artifact_kind": "extraction",
+            "field_id": "population"
+          }
+        ]
+      }
+    ],
+    "map_outcome_records": [
+      {
+        "hallucinated_selector": null,
+        "outcome": "answered",
+        "producing_event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+        "record_id": "rec-0003",
+        "rq_or_section": "RQ1"
+      }
+    ],
+    "quality_appraisal_run_id": "qa-run-exemplar-a",
+    "refine_batch_outcomes": [
+      {
+        "applied_updates": [
+          {
+            "claim_index": 0,
+            "claim_text": "Most included studies enrolled adults with diabetes.",
+            "final_support_answer_ids": [
+              "answer-031d431e773df69181bc347acefc1bd7e52e15a725e52dba007aa0ada4ed2a87"
+            ]
+          }
+        ],
+        "batch_answer_ids": [
+          "answer-031d431e773df69181bc347acefc1bd7e52e15a725e52dba007aa0ada4ed2a87"
+        ],
+        "batch_index": 0,
+        "is_no_op": false,
+        "outcome": "merged",
+        "pre_batch_claim_states": [
+          {
+            "claim_text": "Most included studies enrolled adults with diabetes.",
+            "producing_event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+            "supporting_answer_ids": [
+              "answer-031d431e773df69181bc347acefc1bd7e52e15a725e52dba007aa0ada4ed2a87"
+            ]
+          }
+        ],
+        "producing_event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+        "rq_or_section": "RQ1"
+      }
+    ],
+    "refine_batch_size": 5,
+    "rejected_targets": [],
+    "requested_targets": [
+      "RQ1"
+    ],
+    "rq_synthesis": {
+      "RQ1": "Most included studies enrolled adults with diabetes."
+    },
+    "sections": {
+      "RQ1": "Most included studies enrolled adults with diabetes."
+    },
+    "synthesis_record_ids": [
+      "rec-0003"
+    ],
+    "target_coverage": {
+      "RQ1": "covered"
+    },
+    "topics": [
+      {
+        "keywords": [
+          "diabetes",
+          "telehealth"
+        ],
+        "label": "diabetes management",
+        "topic_id": 0
+      }
+    ]
+  },
+  "synthesis_claims_json_path": "/data/out/exemplar/synthesis_claims.json",
+  "synthesis_json_path": "/data/out/exemplar/synthesis.json",
+  "synthesis_md_path": "/data/out/exemplar/synthesis.md"
+}

@@ -1,0 +1,20 @@
+{
+  "rec-01": "include",
+  "rec-02": "include",
+  "rec-03": "include",
+  "rec-04": "include",
+  "rec-05": "borderline",
+  "rec-06": "borderline",
+  "rec-07": "include",
+  "rec-08": "include",
+  "rec-09": "borderline",
+  "rec-10": "include",
+  "rec-11": "include",
+  "rec-12": "borderline",
+  "rec-13": "exclude",
+  "rec-14": "exclude",
+  "rec-15": "exclude",
+  "rec-16": "exclude",
+  "rec-17": "exclude",
+  "rec-18": "exclude"
+}

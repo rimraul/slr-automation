@@ -1,0 +1,43 @@
+{
+  "adjudicator_model": "gpt-5.6-terra",
+  "adjudicator_provider": "openai",
+  "aggregation_policy_version": "1",
+  "cache_mode": "use",
+  "chunker_version": "1",
+  "duplicate_content_policy": "error",
+  "item_error_policy": "continue",
+  "max_workers": 1,
+  "model_config_id": "slr-chapter-teaching-preset-v1",
+  "model_options": {
+    "initial_retry_delay_seconds": 1.0,
+    "max_completion_tokens": 4096,
+    "max_rationale_chars": 2000,
+    "max_retries": 2,
+    "max_retry_delay_seconds": 20.0,
+    "reasoning_effort": "medium",
+    "retry_backoff_multiplier": 2.0,
+    "timeout_seconds": 60.0
+  },
+  "output_schema_version": "adjudication-schema-2",
+  "parser_name": "docling",
+  "parser_options": {
+    "artifacts_manifest_digest": "01c0595530dbf24efca3bf08c0e5032ad67d71a5dd955b155341eea223d0afa3",
+    "do_ocr": true,
+    "do_table_structure": true
+  },
+  "parser_version": "2.61.2",
+  "prompt_template_version": "adjudication-prompt-6",
+  "retriever_config_version": "1",
+  "retriever_name": "lexical_bm25",
+  "retriever_options": {
+    "bm25_b": 0.75,
+    "bm25_k1": 1.5,
+    "full_document_fallback_max_chars": 20000,
+    "max_candidates": 100,
+    "max_evidence_chars": 20000,
+    "max_results": 5,
+    "min_results": 1,
+    "min_score": 0.0,
+    "section_match_bonus": 2.0
+  }
+}

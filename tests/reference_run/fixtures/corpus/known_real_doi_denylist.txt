@@ -1,0 +1,10 @@
+# known_real_doi_denylist.txt
+#
+# Real DOIs that must NEVER appear anywhere in this synthetic fixture
+# corpus. Berg2023's four real included-study DOIs (the other two
+# Berg2023 included studies have doi: null) plus every DOI referenced in
+# chapter_claim_sources.json (none found, checked 2026-09-03).
+10.1371/journal.pone.0237628
+10.2196/31337
+10.1055/s-0040-1714090
+10.1097/dmp.0000000000000192

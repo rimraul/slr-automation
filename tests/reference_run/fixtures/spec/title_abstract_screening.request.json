@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "content": "You are a systematic review screening assistant. Return only valid JSON \u2014 an array, one object per paper, in the same order as the input.",
+      "role": "system"
+    },
+    {
+      "content": "Screen the following 5 papers for inclusion in a systematic review.\n\nResearch questions:\n- What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and response for rural healthcare systems?\n- What MBSE methods, healthcare settings, disaster types, and contexts have been studied in rural healthcare disaster planning?\n\nInclusion criteria:\n- Studies addressing computer simulation or MBSE approaches applied to disaster preparedness or response\n- Studies focused on rural healthcare systems or rural healthcare settings\n- Studies relevant to disaster planning, preparedness, or response\n\nExclusion criteria:\n- Studies not involving rural healthcare systems\n- Studies not using MBSE or computer simulation approaches\n- Studies not related to disaster preparedness or response\n\nPapers:\n<<RECORD-DEPENDENT>>\n\nReturn a JSON object with key \"items\" containing exactly 5 objects, one per paper, in input order:\n{\n  \"items\": [\n    {\n      \"idx\": <1-based integer matching the paper number>,\n      \"decision\": \"include\" | \"borderline\" | \"exclude\",\n      \"reason\": \"<one sentence>\",\n      \"relevant_topics\": [\"<topic>\"],\n      \"confidence\": <0.0-1.0>\n    },\n    ...\n  ]\n}\n",
+      "role": "user"
+    }
+  ],
+  "model": "gpt-5.4-mini",
+  "response_format": {
+    "type": "json_object"
+  },
+  "temperature": 0.0
+}

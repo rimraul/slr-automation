@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2024//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_240101.dtd">
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">40000001</PMID>
+      <Article PubModel="Print">
+        <Journal>
+          <Title>Journal of Research Synthesis Methods</Title>
+          <JournalIssue>
+            <PubDate>
+              <Year>2023</Year>
+              <Month>Jun</Month>
+            </PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>Screening automation with transformer models: a multi-review evaluation.</ArticleTitle>
+        <Abstract>
+          <AbstractText>Transformer-based classifiers were evaluated as title and abstract screeners across six completed reviews. Recall exceeded 0.95 in five of the six, with a mean workload reduction of 55 percent.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Kaz</LastName>
+            <ForeName>Elena</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Turner</LastName>
+            <ForeName>Mark</ForeName>
+          </Author>
+        </AuthorList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">40000001</ArticleId>
+        <ArticleId IdType="doi">10.2000/s5.001</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">40000002</PMID>
+      <Article PubModel="Print">
+        <Journal>
+          <Title>Systematic Reviews</Title>
+          <JournalIssue>
+            <PubDate>
+              <Year>2022</Year>
+            </PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>A crowd-plus-model pipeline for review screening.</ArticleTitle>
+        <Abstract>
+          <AbstractText>We combine non-expert crowd judgements with a machine-learning ranker to prioritise records for screening. The hybrid design matched expert recall at a third of the cost on two case-study reviews.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Novak</LastName>
+            <ForeName>Petra</ForeName>
+          </Author>
+        </AuthorList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">40000002</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">40000003</PMID>
+      <Article PubModel="Electronic">
+        <Journal>
+          <Title>Journal of Biomedical Informatics</Title>
+          <JournalIssue>
+            <PubDate>
+              <Year>2024</Year>
+              <Month>Feb</Month>
+            </PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>Query expansion for biomedical search using large language models.</ArticleTitle>
+        <Abstract>
+          <AbstractText>An LLM proposes synonyms and related MeSH concepts for a seed query. Expanded queries improved recall of a gold-standard reference set by 12 points at a modest precision cost.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Deng</LastName>
+            <ForeName>Wei</ForeName>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Salo</LastName>
+            <ForeName>Anni</ForeName>
+          </Author>
+        </AuthorList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">40000003</ArticleId>
+        <ArticleId IdType="doi">10.2000/s5.003</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">40000004</PMID>
+      <Article PubModel="Print-Electronic">
+        <Journal>
+          <Title>BMC Medical Research Methodology</Title>
+          <JournalIssue>
+            <PubDate>
+              <Year>2023</Year>
+              <Month>Nov</Month>
+            </PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>Automated risk-of-bias assessment: a validation study.</ArticleTitle>
+        <Abstract>
+          <AbstractText>A model was trained to answer RoB2 signalling questions from trial full texts. Agreement with consensus human judgements was moderate; the authors recommend the tool only as a second screener.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Ricci</LastName>
+            <ForeName>Marco</ForeName>
+          </Author>
+        </AuthorList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">40000004</ArticleId>
+        <ArticleId IdType="doi">10.2000/s5.004</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>

@@ -1,0 +1,74 @@
+[
+  {
+    "abstract": "We build a system-dynamics model of hospital surge capacity in three rural US counties during simulated hurricane evacuation scenarios, testing staffing and bed-allocation policies under demand shocks.",
+    "authors": [
+      "I. Sorensen",
+      "J. Whitfield"
+    ],
+    "cited_by": 6,
+    "doi": null,
+    "id": "fx-0002",
+    "journal": "Simulation in Rural Health Planning",
+    "native_key": "NK-fx-0002",
+    "title": "System dynamics simulation of surge capacity in rural disaster response",
+    "url": "https://example-fixture.invalid/fx-0002",
+    "year": 2022
+  },
+  {
+    "abstract": "This paper proposes a blockchain ledger architecture to trace in-kind donations through disaster relief supply chains, with a proof-of-concept deployment following an urban earthquake response.",
+    "authors": [
+      "K. Yilmaz"
+    ],
+    "cited_by": 5,
+    "doi": null,
+    "id": "fx-0008",
+    "journal": "Journal of Humanitarian Logistics Technology",
+    "native_key": "NK-fx-0008",
+    "title": "Blockchain-based supply chain traceability for disaster relief donations",
+    "url": "https://example-fixture.invalid/fx-0008",
+    "year": 2021
+  },
+  {
+    "abstract": "A clinical evaluation of a wearable continuous glucose monitoring sensor network in an outpatient diabetes clinic, with no relation to disaster planning or rural health systems.",
+    "authors": [
+      "L. Fontaine",
+      "M. Osei"
+    ],
+    "cited_by": 14,
+    "doi": null,
+    "id": "fx-0010",
+    "journal": "Wearable Clinical Sensors",
+    "native_key": "NK-fx-0010",
+    "title": "Wearable sensor networks for continuous glucose monitoring in diabetic patients",
+    "url": "https://example-fixture.invalid/fx-0010",
+    "year": 2020
+  },
+  {
+    "abstract": "Duplicate listing of fx-0004, indexed by this database under all-caps formatting.",
+    "authors": [
+      "F. Adeyemi"
+    ],
+    "cited_by": 3,
+    "doi": null,
+    "id": "fx-0011",
+    "journal": "Disaster Coordination Studies",
+    "native_key": "NK-fx-0011",
+    "title": "QUALITATIVE INTERVIEWS WITH DISASTER RELIEF COORDINATORS IN COASTAL MEGACITIES",
+    "url": "https://example-fixture.invalid/fx-0011",
+    "year": 2020
+  },
+  {
+    "abstract": "This study uses discrete-event simulation to optimise airport security-checkpoint staffing during holiday travel peaks, an application of simulation methods entirely outside the healthcare or disaster domain.",
+    "authors": [
+      "N. Kowalski"
+    ],
+    "cited_by": 8,
+    "doi": null,
+    "id": "fx-0012",
+    "journal": "Transportation Systems Simulation",
+    "native_key": "NK-fx-0012",
+    "title": "A discrete-event simulation of airport security queuing during holiday travel peaks",
+    "url": "https://example-fixture.invalid/fx-0012",
+    "year": 2019
+  }
+]

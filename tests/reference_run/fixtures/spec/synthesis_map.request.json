@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "content": "You are assisting a systematic literature review. You will be shown one study's own extracted or appraised data, labeled by field id, and a research question or synthesis target. Decide whether this study's own data provides evidence relevant to the target. Respond with a JSON object of exactly this shape: {\"relevant\": true or false, \"answer\": a 1-2 sentence string present if and only if relevant is true, \"supporting_selectors\": a list of {\"artifact_kind\": \"extraction\" or \"quality_appraisal\", \"field_id\": the exact field id string} objects, present if and only if relevant is true}. Cite ONLY field ids that were actually shown to you below -- never invent one. If the study's data does not bear on the target, respond with relevant=false and omit answer and supporting_selectors entirely.",
+      "role": "system"
+    },
+    {
+      "content": "Research question or synthesis target: What is the current body of evidence on the application of computer simulation based on model-based systems engineering approaches to disaster preparedness and response for rural healthcare systems?\n\nStudy data (field_id: value):\n<<RECORD-DEPENDENT>>",
+      "role": "user"
+    }
+  ],
+  "model": "gpt-4o",
+  "response_format": {
+    "type": "json_object"
+  },
+  "temperature": 0.0
+}

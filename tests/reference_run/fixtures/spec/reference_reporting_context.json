@@ -1,0 +1,66 @@
+{
+  "ai_use_prespecified": true,
+  "bertopic": "not_run",
+  "charting_verification_policy": "Every extracted value is evidence-verified against a quoted, page-located span; unclear/conflicting fields go to a human review queue (empty this run).",
+  "date_from_declaration": "No publication-date limit was applied.",
+  "date_to_declaration": "No publication-date limit was applied.",
+  "dedup_mode": "exact",
+  "extraction_field_items": [
+    {
+      "field_id": "country",
+      "question": "In which country or countries was the study conducted?"
+    },
+    {
+      "field_id": "study_design",
+      "question": "What is the study's design or type?"
+    },
+    {
+      "field_id": "population",
+      "question": "What population or sample does the study describe?"
+    },
+    {
+      "field_id": "concept",
+      "question": "What is the key concept the study addresses?"
+    },
+    {
+      "field_id": "context",
+      "question": "What setting or context does the study describe?"
+    },
+    {
+      "field_id": "limitations",
+      "question": "What limitations does the study's own text state?"
+    },
+    {
+      "field_id": "key_findings",
+      "question": "What are the study's key findings?"
+    },
+    {
+      "field_id": "funding_sources",
+      "question": "What are the study's sources of funding?"
+    },
+    {
+      "field_id": "funder_role",
+      "question": "What role did the funder(s) play in the study?"
+    }
+  ],
+  "extraction_model": "gpt-5.6-terra",
+  "extraction_reasoning_effort": "medium",
+  "extraction_schema_id": "reference-charting-v1",
+  "extraction_schema_version": "1",
+  "full_text_eligibility_provenance_note": "full_text_eligibility is instrumentation_status='instrumented' with event_count=0 (ai_traceability_report.py's _STAGE_EVENT_STAGES maps it to an empty AIUseEvent set) -- it is not one of the non_instrumented_stages above. Its evidence trail is FT_SCREENING's own byte-hashed ft_native_provenance block, not an AIUseEvent.",
+  "language_declaration": "No language restriction was applied.",
+  "llm_transport": "replay",
+  "non_instrumented_stages": [
+    "extraction",
+    "quality_appraisal",
+    "synthesis_bertopic"
+  ],
+  "protocol_registration_id": "TRACK2-READINESS-REHEARSAL-NONE",
+  "reference_reporting_context_version": "1",
+  "report_language": "en",
+  "review_funding_statement": "This pipeline-readiness rehearsal received no external funding.",
+  "review_rationale": "This run rehearses the chapter's end-to-end scoping-review automation pipeline on a synthetic corpus with replayed model calls, to demonstrate that every methodological artifact the chapter cites is produced and internally consistent before the audited Track-3 run on real data.",
+  "review_title": "Pipeline-readiness rehearsal: MBSE and computer-simulation methods for rural healthcare disaster preparedness (scoping review)",
+  "search_source": "fixture",
+  "synthetic_corpus_caveat": "This run used a synthetic corpus and replayed model calls; it demonstrates pipeline readiness, not a scientific finding. The audited run on real data is Track 3."
+}

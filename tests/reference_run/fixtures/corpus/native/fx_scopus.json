@@ -1,0 +1,74 @@
+[
+  {
+    "abstract": "An agent-based simulation models patient and staff evacuation logistics for a network of rural hospitals during hurricane landfall, comparing three staged-evacuation protocols under varying road-closure scenarios.",
+    "authors": [
+      "T. Andersen",
+      "U. Chowdhury"
+    ],
+    "cited_by": 5,
+    "doi": null,
+    "id": "fx-0005",
+    "journal": "Agent-Based Disaster Logistics",
+    "native_key": "NK-fx-0005",
+    "title": "Agent-based modelling of evacuation logistics for rural hospitals during hurricanes",
+    "url": "https://example-fixture.invalid/fx-0005",
+    "year": 2022
+  },
+  {
+    "abstract": "A survey of public perception of autonomous vehicle adoption in suburban transportation planning committees, with no connection to disaster response, rural healthcare, or simulation-based methods.",
+    "authors": [
+      "V. Moreau"
+    ],
+    "cited_by": 4,
+    "doi": null,
+    "id": "fx-0017",
+    "journal": "Transportation Planning Perceptions",
+    "native_key": "NK-fx-0017",
+    "title": "Public perception of autonomous vehicles in suburban transportation planning",
+    "url": "https://example-fixture.invalid/fx-0017",
+    "year": 2020
+  },
+  {
+    "abstract": "A technical audit of cybersecurity vulnerabilities in SCADA-controlled building systems at a sample of metropolitan hospitals, unrelated to disaster planning, rural health, or simulation methods.",
+    "authors": [
+      "W. Bakker",
+      "X. Papadopoulos"
+    ],
+    "cited_by": 12,
+    "doi": null,
+    "id": "fx-0019",
+    "journal": "Healthcare Cybersecurity Review",
+    "native_key": "NK-fx-0019",
+    "title": "Cybersecurity vulnerabilities in hospital SCADA systems",
+    "url": "https://example-fixture.invalid/fx-0019",
+    "year": 2021
+  },
+  {
+    "abstract": "A comparative statistical analysis of ambulance response times across three national health systems, using historical dispatch records rather than any simulation or systems-engineering method.",
+    "authors": [
+      "Y. Kristiansen"
+    ],
+    "cited_by": 7,
+    "doi": null,
+    "id": "fx-0020",
+    "journal": "Ambulance Systems Comparative Studies",
+    "native_key": "NK-fx-0020",
+    "title": "Comparative analysis of ambulance response times across three national health systems",
+    "url": "https://example-fixture.invalid/fx-0020",
+    "year": 2019
+  },
+  {
+    "abstract": "Duplicate listing of fx-0014, indexed by this database in title case with triple spacing.",
+    "authors": [
+      "Q. Ibrahim"
+    ],
+    "cited_by": 6,
+    "doi": null,
+    "id": "fx-0021",
+    "journal": "Rural Gerontology Nutrition",
+    "native_key": "NK-fx-0021",
+    "title": "Nutrition   Education Programmes For Elderly Residents Of Rural Care Homes",
+    "url": "https://example-fixture.invalid/fx-0021",
+    "year": 2018
+  }
+]

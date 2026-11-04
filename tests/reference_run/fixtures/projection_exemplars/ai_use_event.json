@@ -1,0 +1,35 @@
+{
+  "access_info": "https://api.openai.com/v1/chat/completions",
+  "attempt": 0,
+  "call_status": "success",
+  "component_versions": {
+    "slr_pipeline": "0.1.0"
+  },
+  "content_hash": "59fc40f9e0bdabf66bc6afc4611ee3d6421d5109a36d01955e0771e489b5a27b",
+  "event_id": "aiuse-1b8a17e43ecec6f819c59e7b9c0df9b58b30987516759744",
+  "failure_detail": null,
+  "input_artifact_refs": [
+    "record:rec-0001",
+    "record:rec-0002"
+  ],
+  "model": "gpt-4o-mini",
+  "model_config_id": "mc-1",
+  "output_artifact_refs": [
+    "screenbatch:screenbatch-exemplar"
+  ],
+  "prompt_parameters": {
+    "temperature": 0.0
+  },
+  "prompt_template_hash": "81770ff1dba1d82d4ec8c7e499adccb31da7c743f3f0178f367f6175e967241d",
+  "prompt_template_text": "Screen the following records: {{records}}",
+  "prompt_template_version": "v1",
+  "provider": "openai",
+  "rendered_prompt_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "review_run_id": "review-run-exemplar-a",
+  "semantic_hash": "b70f4acbeea265f6d09d3526420d500c7e17bd427332fa6b20123c3f6c14245b",
+  "stage": "title_abstract_screening",
+  "task_purpose": "screen title/abstract batch",
+  "timestamp": "2026-01-01T00:00:00Z",
+  "tool_kind": "llm",
+  "work_item_id": "title_abstract_screening:batchfp-0001"
+}

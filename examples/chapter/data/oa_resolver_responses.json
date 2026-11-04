@@ -1,0 +1,26 @@
+{
+  "10.3000/paper.relevant": {
+    "unpaywall": {"is_oa": true, "best_oa_location": {"url_for_pdf": "https://oa.example.org/unpaywall/relevant.pdf"}},
+    "semantic_scholar": {"openAccessPdf": {"url": "https://oa.example.org/s2/relevant.pdf"}}
+  },
+  "10.3000/paper.wrongpop": {
+    "unpaywall": {"is_oa": true, "best_oa_location": {"url_for_pdf": "https://oa.example.org/unpaywall/wrong_population.pdf"}},
+    "semantic_scholar": null
+  },
+  "10.3000/paper.editorial": {
+    "unpaywall": {"is_oa": false, "best_oa_location": null},
+    "semantic_scholar": {"openAccessPdf": {"url": "https://oa.example.org/s2/editorial.pdf"}}
+  },
+  "10.3000/paper.ambiguous": {
+    "unpaywall": {"is_oa": true, "best_oa_location": {"url_for_pdf": "https://oa.example.org/unpaywall/ambiguous.pdf"}},
+    "semantic_scholar": null
+  },
+  "10.1000/nooa.201": {
+    "unpaywall": null,
+    "semantic_scholar": null
+  },
+  "10.1000/nooa.202": {
+    "unpaywall": null,
+    "semantic_scholar": null
+  }
+}

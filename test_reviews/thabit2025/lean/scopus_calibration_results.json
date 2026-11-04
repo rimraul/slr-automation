@@ -1,0 +1,86 @@
+[
+  {
+    "py_cutoff": "1900-2021",
+    "dt_article": true,
+    "la_english": true,
+    "total": 579,
+    "diff": 15
+  },
+  {
+    "py_cutoff": "1900-2021",
+    "dt_article": true,
+    "la_english": false,
+    "total": 600,
+    "diff": 36
+  },
+  {
+    "py_cutoff": "1900-2022",
+    "dt_article": true,
+    "la_english": true,
+    "total": 674,
+    "diff": 110
+  },
+  {
+    "py_cutoff": "1900-2022",
+    "dt_article": true,
+    "la_english": false,
+    "total": 706,
+    "diff": 142
+  },
+  {
+    "py_cutoff": "1900-2021",
+    "dt_article": false,
+    "la_english": true,
+    "total": 830,
+    "diff": 266
+  },
+  {
+    "py_cutoff": "1900-2021",
+    "dt_article": false,
+    "la_english": false,
+    "total": 851,
+    "diff": 287
+  },
+  {
+    "py_cutoff": "1900-2022",
+    "dt_article": false,
+    "la_english": true,
+    "total": 966,
+    "diff": 402
+  },
+  {
+    "py_cutoff": "1900-2022",
+    "dt_article": false,
+    "la_english": false,
+    "total": 998,
+    "diff": 434
+  },
+  {
+    "py_cutoff": null,
+    "dt_article": true,
+    "la_english": true,
+    "total": 1588,
+    "diff": 1024
+  },
+  {
+    "py_cutoff": null,
+    "dt_article": true,
+    "la_english": false,
+    "total": 1669,
+    "diff": 1105
+  },
+  {
+    "py_cutoff": null,
+    "dt_article": false,
+    "la_english": true,
+    "total": 2214,
+    "diff": 1650
+  },
+  {
+    "py_cutoff": null,
+    "dt_article": false,
+    "la_english": false,
+    "total": 2296,
+    "diff": 1732
+  }
+]

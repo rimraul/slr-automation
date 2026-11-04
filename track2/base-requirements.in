@@ -1,0 +1,64 @@
+# track2/base-requirements.in -- Track 2 plan (track2_pipeline_readiness_plan_2026-08-30.md)
+# §5.1 item 2 / §13 step 5. The complete runtime + pinned test dependency
+# set, minus ft-screening itself (that wheel is installed separately,
+# --no-deps, per §5.2/§5.5, against this lock -- `uv pip check` then
+# asserts every one of its own runtime deps below is satisfied by this
+# file). Compiled by `scripts/compile_reference_locks.py base-requirements`
+# into `track2/base-requirements.lock`; never hand-edited.
+#
+# Exact pins throughout (no floors/ranges) -- same convention as
+# `track2/build-requirements.in` -- chosen to match the versions this
+# codebase was actually developed and tested against in the `lamai` conda
+# env (`c:/projects/CLAUDE.md`), confirmed via `pip freeze` on 2026-09-02.
+
+# --- slr_pipeline runtime (grep of `slr_pipeline/**` top-level imports) ---
+pydantic==2.12.4
+requests==2.32.5
+urllib3==2.7.0
+xmltodict==1.0.4
+langgraph==1.1.6
+langgraph-checkpoint-sqlite==3.1.1
+openai==2.7.2
+tiktoken==0.12.0
+docling==2.61.2
+docling-core==2.51.0
+pymupdf4llm==1.27.2.2
+numpy==2.3.5
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.7
+bertopic==0.17.4
+hdbscan==0.8.41
+sentence-transformers==5.2.0
+umap-learn==0.5.9.post2
+typing_extensions==4.15.0
+keyring==25.7.0
+
+# --- reference modules (§6.1's replay/signature.py -- rfc8785_jcs(),
+# authored at step 10; pinned here now per §5.1 item 2's forward
+# declaration so base-requirements.lock never needs a step-10 edit) ---
+rfc8785==0.1.4
+
+# --- FT_SCREENING's own runtime dependencies, copied from its pinned
+# licence commit's pyproject.toml (commit 77817733d4a66c0c810fe2ee12974
+# 522aa45ad1f, parent 9604dc7 -- code unchanged, licence-only commit), so
+# the wheel installed --no-deps against this lock has every dep satisfied
+# (`uv pip check`, §5.5) ---
+# docling, openai, pydantic already pinned above, all inside FT_SCREENING's
+# own declared ranges (docling>=2.61.2,<2.62; openai>=2.7.2,<2.8;
+# pydantic>=2.9).
+pymupdf==1.27.2.2
+
+# --- test-only: pytest itself plus the offline-contract plugin imported by
+# chapter_offline_contract_plugin.py during collection in both CI jobs ---
+pytest==8.3.4
+pytest-socket==0.8.1
+
+# --- build toolchain, pinned again here (round-19 finding) -- without this
+# pin, resolving this file alone pulls the newest setuptools (84.0.0 at
+# compile time) as some other package's transitive build dependency, and
+# `unit`/`acceptance` install this lock *after* track2/build-requirements.
+# lock (§5.5), silently upgrading the approved setuptools==77.0.3 --
+# the exact PEP 639 wheel-layout version -- before either wheel build
+# runs. Must always equal build-requirements.in's own setuptools pin.
+setuptools==77.0.3
