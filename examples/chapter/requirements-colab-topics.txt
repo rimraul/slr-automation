@@ -1,0 +1,4 @@
+# Tik S11 (temu modeliavimas; naudoja iš anksto apskaičiuotus įterpinius).
+bertopic>=0.17
+umap-learn>=0.5.9
+hdbscan>=0.8.40
